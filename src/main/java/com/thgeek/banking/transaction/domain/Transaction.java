@@ -1,9 +1,22 @@
 package com.thgeek.banking.transaction.domain;
 
+import com.thgeek.banking.transaction.constant.TransactionStatus;
+import com.thgeek.banking.transaction.constant.TransactionType;
+import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
+import jakarta.persistence.EnumType;
+import jakarta.persistence.Enumerated;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.Table;
+import jakarta.persistence.UniqueConstraint;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
+import lombok.NoArgsConstructor;
+import org.springframework.data.annotation.CreatedDate;
+import org.springframework.data.annotation.LastModifiedDate;
 
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
@@ -16,17 +29,38 @@ import java.time.LocalDateTime;
  * @since 2025/03/18 12:46
  */
 @Data
+@Builder
+@NoArgsConstructor
+@AllArgsConstructor
 @Entity
-@Table(name = "transaction")
+@Table(name = "transaction", uniqueConstraints = {@UniqueConstraint(columnNames = "trx_reference_no")})
 public class Transaction {
     @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    private String referenceNo;
+    @Column(name = "trx_reference_no", unique = true, nullable = false)
+    private String trxReferenceNo;
 
-    private String type;
-
+    @Column(nullable = false)
     private BigDecimal amount;
 
-    private LocalDateTime timestamp;
+    @Column(nullable = false)
+    @Enumerated(EnumType.STRING)
+    private TransactionStatus status;
+
+    @Column(nullable = false)
+    @Enumerated(EnumType.STRING)
+    private TransactionType type;
+
+    @Column(nullable = false, updatable = false)
+    @CreatedDate
+    private LocalDateTime createdAt;
+
+    @Column(nullable = false)
+    @LastModifiedDate
+    private LocalDateTime updatedAt;
+
+    @Column
+    private String description;
 }

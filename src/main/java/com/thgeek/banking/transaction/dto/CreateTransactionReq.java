@@ -1,9 +1,32 @@
 package com.thgeek.banking.transaction.dto;
 
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+import java.math.BigDecimal;
+
 /**
  * @author Tao Hong
  * @version 1.0
  * @since 2025/03/18 15:30
  */
+@Data
+@Builder
+@NoArgsConstructor
+@AllArgsConstructor
 public class CreateTransactionReq {
+    /**
+     * Transaction Reference Number (TRN) - the unique identifier for each transaction
+     */
+    private String trxReferenceNo;
+
+    private BigDecimal amount;
+
+    private String status;
+
+    private String type;
+
+    private String description;
 }
