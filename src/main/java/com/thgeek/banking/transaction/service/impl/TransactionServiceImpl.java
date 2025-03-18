@@ -12,6 +12,7 @@ import com.thgeek.banking.transaction.repository.TransactionRepository;
 import com.thgeek.banking.transaction.service.TransactionService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.cache.annotation.Cacheable;
 import org.springframework.data.domain.Example;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
@@ -40,6 +41,7 @@ public class TransactionServiceImpl implements TransactionService {
     }
 
     @Override
+    @Cacheable("transactions")
     public Page<Transaction> query(TransactionQuery query) {
         Transaction probe = Transaction.builder().trxReferenceNo(query.getTrxReferenceNo()).build();
         Example<Transaction> example = Example.of(probe);

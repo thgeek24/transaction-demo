@@ -1,5 +1,7 @@
 package com.thgeek.banking.transaction.dto;
 
+import jakarta.validation.constraints.NotBlank;
+import jakarta.validation.constraints.NotNull;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -20,12 +22,16 @@ public class CreateTransactionReq {
     /**
      * Transaction Reference Number (TRN) - the unique identifier for each transaction
      */
+    @NotBlank
     private String trxReferenceNo;
 
+    @NotNull
     private BigDecimal amount;
 
+    @NotBlank
     private String status;
 
+    @NotBlank
     private String type;
 
     private String description;
