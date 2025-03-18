@@ -56,6 +56,9 @@ public class Transaction {
     @Enumerated(EnumType.STRING)
     private TransactionType type;
 
+    @Column
+    private String description;
+
     @Column(nullable = false, updatable = false)
     @CreatedDate
     private LocalDateTime createdAt;
@@ -63,7 +66,4 @@ public class Transaction {
     @Column(nullable = false)
     @LastModifiedDate
     private LocalDateTime updatedAt;
-
-    @Column
-    private String description;
 }
