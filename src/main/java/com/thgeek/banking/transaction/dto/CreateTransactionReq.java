@@ -2,6 +2,7 @@ package com.thgeek.banking.transaction.dto;
 
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;
+import jakarta.validation.constraints.Size;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -34,5 +35,6 @@ public class CreateTransactionReq {
     @NotBlank
     private String type;
 
+    @Size(max = 255)
     private String description;
 }

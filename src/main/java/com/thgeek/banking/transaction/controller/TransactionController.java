@@ -44,7 +44,7 @@ public class TransactionController {
     }
 
     @PutMapping("/{id}")
-    public ResponseEntity<?> update(@PathVariable Long id, UpdateTransactionReq req) {
+    public ResponseEntity<?> update(@PathVariable Long id, @RequestBody @Valid UpdateTransactionReq req) {
         return ResponseEntity.ok(transactionService.update(id, req));
     }
 
