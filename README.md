@@ -83,7 +83,7 @@ mvn test
    
 ### Run specific test class:
 ```bash
-mvn test -Dtest=TransactionServiceImplTest
+mvn test -Dtest=TransactionServiceTest
 ```
 
 ## API Usage Guide
