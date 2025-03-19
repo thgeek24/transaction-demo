@@ -19,6 +19,12 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 public class TransactionQuery {
+    private String trxReferenceNo;
+
+    private String fromAccountNo;
+
+    private String toAccountNo;
+
     @Min(0)
     private Integer page;
 

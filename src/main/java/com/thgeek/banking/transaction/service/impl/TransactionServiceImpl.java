@@ -15,6 +15,7 @@ import com.thgeek.banking.transaction.service.TransactionAuditService;
 import com.thgeek.banking.transaction.service.TransactionService;
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.LockModeType;
+import jakarta.persistence.criteria.Predicate;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -24,9 +25,11 @@ import org.springframework.cache.annotation.Cacheable;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
+import org.springframework.data.jpa.domain.Specification;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
+import java.util.ArrayList;
 import java.util.Optional;
 
 /**
@@ -62,7 +65,23 @@ public class TransactionServiceImpl implements TransactionService {
         int page = query.getPage() == null ? 0 : query.getPage();
         int size = query.getSize() == null ? 20 : query.getSize();
         Pageable pageable = PageRequest.of(page, size);
-        return transactionRepository.findAll(pageable);
+
+        Specification<Transaction> spec = (root, criteriaQuery, criteriaBuilder) -> {
+            var predicates = new ArrayList<Predicate>();
+            if (StringUtils.isNotBlank(query.getTrxReferenceNo())) {
+                predicates.add(criteriaBuilder.equal(root.get("trxReferenceNo"), query.getTrxReferenceNo()));
+            }
+            if (StringUtils.isNotBlank(query.getFromAccountNo())) {
+                predicates.add(criteriaBuilder.equal(root.get("fromAccountNo"), query.getFromAccountNo()));
+            }
+            if (StringUtils.isNotBlank(query.getToAccountNo())) {
+                predicates.add(criteriaBuilder.equal(root.get("toAccountNo"), query.getToAccountNo()));
+            }
+
+            return predicates.isEmpty() ? null : criteriaBuilder.and(predicates.toArray(new Predicate[0]));
+        };
+
+        return transactionRepository.findAll(spec, pageable);
     }
 
     @Override
