@@ -96,7 +96,7 @@ public class TransactionServiceImpl implements TransactionService {
         } catch (Exception e) {
             transaction.setStatus(TransactionStatus.FAILED);
             transaction.setFailedReason(e.getMessage());
-            transactionRepository.save(transaction);
+            saveWithRequiresNew(transaction);
             log.error("Transaction with reference number {} failed: {}", req.getTrxReferenceNo(), e.getMessage());
             throw e;
         }
@@ -143,11 +143,11 @@ public class TransactionServiceImpl implements TransactionService {
     }
 
     private void updateBalanceOnTransfer(Transaction transaction) {
-        // Fetch accounts
+        // Fetch fromAccount and toAccount
         Account fromAccount = accountRepository.findByAccountNo(transaction.getFromAccountNo()).orElseThrow(() ->
                 new ResourceNotFoundException("From account not found"));
         Account toAccount = accountRepository.findByAccountNo(transaction.getToAccountNo()).orElseThrow(() ->
-                new RuntimeException("To account not found"));
+                new ResourceNotFoundException("To account not found"));
 
         // Lock accounts to prevent concurrent modifications
         Long fromAccountId = fromAccount.getId();
@@ -173,10 +173,33 @@ public class TransactionServiceImpl implements TransactionService {
     }
 
     private void updateBalanceOnWithdraw(Transaction transaction) {
+        // Fetch the fromAccount
+        Account fromAccount = accountRepository.findByAccountNo(transaction.getFromAccountNo()).orElseThrow(() ->
+                new ResourceNotFoundException("From account not found"));
 
+        // Lock the account using pessimistic locking
+        Account lockedFromAccount = entityManager.find(Account.class, fromAccount.getId(), LockModeType.PESSIMISTIC_WRITE);
+
+        // Check if the account has sufficient balance
+        if (lockedFromAccount.getBalance().compareTo(transaction.getAmount()) < 0) {
+            throw new IllegalArgumentException("Insufficient balance");
+        }
+
+        // Update the balance by subtracting the transaction amount
+        lockedFromAccount.setBalance(lockedFromAccount.getBalance().subtract(transaction.getAmount()));
+        accountRepository.save(lockedFromAccount);
     }
 
     private void updateBalanceOnDeposit(Transaction transaction) {
+        // Fetch the toAccount
+        Account toAccount = accountRepository.findByAccountNo(transaction.getToAccountNo()).orElseThrow(() ->
+                new ResourceNotFoundException("To account not found"));
 
+        // Lock the account using pessimistic locking
+        Account lockedToAccount = entityManager.find(Account.class, toAccount.getId(), LockModeType.PESSIMISTIC_WRITE);
+
+        // Update the balance by adding the transaction amount
+        lockedToAccount.setBalance(lockedToAccount.getBalance().add(transaction.getAmount()));
+        accountRepository.save(lockedToAccount);
     }
 }
