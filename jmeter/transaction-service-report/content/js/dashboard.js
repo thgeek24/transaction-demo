@@ -173,7 +173,7 @@ $(document).ready(function() {
     });
 
     // Creates APDEX table
-    createTable($("#apdexTable"), {"supportsControllersDiscrimination": true, "overall": {"data": [1.0, 500, 1500, "Total"], "isController": false}, "titles": ["Apdex", "T (Toleration threshold)", "F (Frustration threshold)", "Label"], "items": [{"data": [1.0, 500, 1500, "Query Transactions"], "isController": false}]}, function(index, item){
+    createTable($("#apdexTable"), {"supportsControllersDiscrimination": true, "overall": {"data": [1.0, 500, 1500, "Total"], "isController": false}, "titles": ["Apdex", "T (Toleration threshold)", "F (Frustration threshold)", "Label"], "items": [{"data": [1.0, 500, 1500, "Delete Transaction"], "isController": false}, {"data": [1.0, 500, 1500, "Create Transaction"], "isController": false}, {"data": [1.0, 500, 1500, "Update Transaction"], "isController": false}, {"data": [1.0, 500, 1500, "Query Transactions"], "isController": false}]}, function(index, item){
         switch(index){
             case 0:
                 item = item.toFixed(3);
@@ -187,7 +187,7 @@ $(document).ready(function() {
     }, [[0, 0]], 3);
 
     // Create statistics table
-    createTable($("#statisticsTable"), {"supportsControllersDiscrimination": true, "overall": {"data": ["Total", 250, 0, 0.0, 2.2639999999999993, 0, 24, 1.5, 4.0, 5.0, 24.0, 267.379679144385, 203.14588903743314, 100.78960561497325], "isController": false}, "titles": ["Label", "#Samples", "FAIL", "Error %", "Average", "Min", "Max", "Median", "90th pct", "95th pct", "99th pct", "Transactions/s", "Received", "Sent"], "items": [{"data": ["Query Transactions", 250, 0, 0.0, 2.2639999999999993, 0, 24, 1.5, 4.0, 5.0, 24.0, 267.379679144385, 203.14588903743314, 100.78960561497325], "isController": false}]}, function(index, item){
+    createTable($("#statisticsTable"), {"supportsControllersDiscrimination": true, "overall": {"data": ["Total", 1000, 0, 0.0, 1.5249999999999995, 0, 29, 1.0, 2.0, 3.0, 11.0, 1047.1204188481674, 644.9914103403141, 322.62352748691103], "isController": false}, "titles": ["Label", "#Samples", "FAIL", "Error %", "Average", "Min", "Max", "Median", "90th pct", "95th pct", "99th pct", "Transactions/s", "Received", "Sent"], "items": [{"data": ["Delete Transaction", 250, 0, 0.0, 1.02, 0, 16, 1.0, 2.0, 2.0, 9.980000000000018, 272.92576419213975, 67.69838291484716, 103.14674877183405], "isController": false}, {"data": ["Create Transaction", 250, 0, 0.0, 1.8760000000000001, 0, 17, 1.0, 3.0, 4.0, 11.0, 270.85590465872156, 77.76526950162513, 101.3064565276273], "isController": false}, {"data": ["Update Transaction", 250, 0, 0.0, 1.232, 0, 16, 1.0, 2.0, 2.4499999999999886, 7.4500000000000455, 272.0348204570185, 149.3003604461371, 79.69770130576714], "isController": false}, {"data": ["Query Transactions", 250, 0, 0.0, 1.972, 0, 29, 1.0, 3.0, 3.0, 29.0, 262.60504201680675, 362.36418395483196, 49.23844537815126], "isController": false}]}, function(index, item){
         switch(index){
             // Errors pct
             case 3:
@@ -228,7 +228,7 @@ $(document).ready(function() {
     }, [[1, 1]]);
 
         // Create top5 errors by sampler
-    createTable($("#top5ErrorsBySamplerTable"), {"supportsControllersDiscrimination": false, "overall": {"data": ["Total", 250, 0, "", "", "", "", "", "", "", "", "", ""], "isController": false}, "titles": ["Sample", "#Samples", "#Errors", "Error", "#Errors", "Error", "#Errors", "Error", "#Errors", "Error", "#Errors", "Error", "#Errors"], "items": [{"data": [], "isController": false}]}, function(index, item){
+    createTable($("#top5ErrorsBySamplerTable"), {"supportsControllersDiscrimination": false, "overall": {"data": ["Total", 1000, 0, "", "", "", "", "", "", "", "", "", ""], "isController": false}, "titles": ["Sample", "#Samples", "#Errors", "Error", "#Errors", "Error", "#Errors", "Error", "#Errors", "Error", "#Errors", "Error", "#Errors"], "items": [{"data": [], "isController": false}, {"data": [], "isController": false}, {"data": [], "isController": false}, {"data": [], "isController": false}]}, function(index, item){
         return item;
     }, [[0, 0]], 0);
 
