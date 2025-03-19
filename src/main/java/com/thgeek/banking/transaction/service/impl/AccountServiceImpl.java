@@ -37,7 +37,7 @@ public class AccountServiceImpl implements AccountService {
 
         Specification<Account> spec = (root, criteriaQuery, criteriaBuilder) -> {
             if (StringUtils.isNotBlank(query.getAccountNo())) {
-                return criteriaBuilder.like(root.get("accountNo"), "%" + query.getAccountNo() + "%");
+                return criteriaBuilder.equal(root.get("accountNo"), query.getAccountNo());
             }
             return null;
         };
