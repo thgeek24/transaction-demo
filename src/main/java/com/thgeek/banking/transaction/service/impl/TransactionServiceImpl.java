@@ -30,6 +30,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.util.ArrayList;
+import java.util.List;
 import java.util.Optional;
 
 /**
@@ -67,7 +68,10 @@ public class TransactionServiceImpl implements TransactionService {
         Pageable pageable = PageRequest.of(page, size);
 
         Specification<Transaction> spec = (root, criteriaQuery, criteriaBuilder) -> {
-            var predicates = new ArrayList<Predicate>();
+            List<Predicate> predicates = new ArrayList<>();
+            // filter out logically deleted transactions
+            predicates.add(criteriaBuilder.equal(root.get("deleted"), false));
+
             if (StringUtils.isNotBlank(query.getTrxReferenceNo())) {
                 predicates.add(criteriaBuilder.equal(root.get("trxReferenceNo"), query.getTrxReferenceNo()));
             }
@@ -78,7 +82,7 @@ public class TransactionServiceImpl implements TransactionService {
                 predicates.add(criteriaBuilder.equal(root.get("toAccountNo"), query.getToAccountNo()));
             }
 
-            return predicates.isEmpty() ? null : criteriaBuilder.and(predicates.toArray(new Predicate[0]));
+            return criteriaBuilder.and(predicates.toArray(new Predicate[0]));
         };
 
         return transactionRepository.findAll(spec, pageable);
