@@ -8,17 +8,19 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 /**
- * Query DTO for transactions
+ * Query DTO for accounts
  *
  * @author Tao Hong
  * @version 1.0
- * @since 2025/03/18 15:23
+ * @since 2025/03/19 15:32
  */
 @Data
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-public class TransactionQuery {
+public class AccountQuery {
+    private String accountNo;
+
     @Min(0)
     private Integer page;
 

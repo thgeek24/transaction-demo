@@ -14,6 +14,8 @@ import lombok.NoArgsConstructor;
 import java.math.BigDecimal;
 
 /**
+ * Request DTO for creating a transaction
+ *
  * @author Tao Hong
  * @version 1.0
  * @since 2025/03/18 15:30
