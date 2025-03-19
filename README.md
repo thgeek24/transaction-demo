@@ -107,18 +107,28 @@ mvn test -Dtest=TransactionServiceTest
 #### Example Response:
 ```json
 {
-  "id": 1,
-  "trxReferenceNo": "trx111",
-  "amount": 1,
-  "fromAccountNo": "ACC001",
-  "toAccountNo": "ACC002",
-  "status": "COMPLETED",
-  "type": "TRANSFER",
-  "description": "Sample transaction",
-  "failedReason": null,
-  "deleted": false,
-  "createdAt": "2025-03-19T17:37:46.168815",
-  "updatedAt": "2025-03-19T17:37:46.209181"
+   "code": 0,
+   "msg": "Operation successful",
+   "content": {
+      "count": 1,
+      "limit": 1,
+      "data": [
+         {
+            "id": 6,
+            "trxReferenceNo": "trx111",
+            "amount": 1,
+            "fromAccountNo": "ACC001",
+            "toAccountNo": "ACC002",
+            "status": "COMPLETED",
+            "type": "TRANSFER",
+            "description": "Sample transaction",
+            "failedReason": null,
+            "deleted": false,
+            "createdAt": "2025-03-20T02:05:42.91099",
+            "updatedAt": "2025-03-20T02:05:42.954588"
+         }
+      ]
+   }
 }
 ```
 
