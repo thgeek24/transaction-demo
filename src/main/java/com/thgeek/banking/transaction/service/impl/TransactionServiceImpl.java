@@ -136,8 +136,12 @@ public class TransactionServiceImpl implements TransactionService {
     @CacheEvict(allEntries = true)
     public Transaction update(Long id, UpdateTransactionReq req) {
         log.info("Updating transaction with id: {}", id);
-        Transaction transaction = transactionRepository.findById(id).orElseThrow(() ->
-                new ResourceNotFoundException("Transaction not found with id: " + id));
+        Optional<Transaction> existingTrx = transactionRepository.findById(id);
+        if (existingTrx.isEmpty() || existingTrx.get().isDeleted()) {
+            throw new ResourceNotFoundException("Transaction not found with id: " + id);
+        }
+
+        Transaction transaction = existingTrx.get();
         if (StringUtils.isNotBlank(req.getDescription())) {
             transaction.setDescription(req.getDescription());
         }
