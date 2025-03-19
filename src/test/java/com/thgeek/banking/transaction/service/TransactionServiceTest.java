@@ -13,6 +13,7 @@ import com.thgeek.banking.transaction.repository.AccountRepository;
 import com.thgeek.banking.transaction.repository.TransactionRepository;
 import com.thgeek.banking.transaction.service.impl.TransactionServiceImpl;
 import jakarta.persistence.EntityManager;
+import jakarta.persistence.LockModeType;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
@@ -94,6 +95,101 @@ class TransactionServiceTest {
                 .accountNo("ACC002")
                 .balance(BigDecimal.valueOf(500))
                 .build();
+    }
+
+    @Test
+    void delete_ShouldSoftDeleteTransaction() {
+        Transaction existingTransaction = Transaction.builder()
+                .id(1L)
+                .deleted(false)
+                .build();
+
+        when(transactionRepository.findById(1L))
+                .thenReturn(Optional.of(existingTransaction));
+        when(transactionRepository.save(any(Transaction.class)))
+                .thenReturn(existingTransaction);
+
+        transactionService.delete(1L);
+
+        verify(transactionRepository).save(argThat(Transaction::isDeleted));
+    }
+
+    @Test
+    void delete_ShouldIgnoreAlreadyDeletedTransaction() {
+        Transaction existingTransaction = Transaction.builder()
+                .id(1L)
+                .deleted(true)
+                .build();
+
+        when(transactionRepository.findById(1L))
+                .thenReturn(Optional.of(existingTransaction));
+
+        transactionService.delete(1L);
+
+        verify(transactionRepository, never()).save(any());
+    }
+
+    @Test
+    void saveWithRequiresNew_ShouldSaveTransaction() {
+        when(transactionRepository.save(any(Transaction.class)))
+                .thenReturn(transaction);
+
+        Transaction result = transactionService.saveWithRequiresNew(transaction);
+
+        assertNotNull(result);
+        verify(transactionRepository).save(transaction);
+    }
+
+    @Test
+    void create_ShouldHandleTransferTransaction() {
+        createReq.setType(TransactionType.TRANSFER);
+        createReq.setFromAccountNo("ACC001");
+        createReq.setToAccountNo("ACC002");
+        createReq.setAmount(BigDecimal.valueOf(100));
+
+        when(transactionRepository.findByTrxReferenceNo(anyString()))
+                .thenReturn(Optional.empty());
+        when(accountRepository.findByAccountNo("ACC001"))
+                .thenReturn(Optional.of(fromAccount));
+        when(accountRepository.findByAccountNo("ACC002"))
+                .thenReturn(Optional.of(toAccount));
+        when(entityManager.find(eq(Account.class), anyLong(), eq(LockModeType.PESSIMISTIC_WRITE)))
+                .thenReturn(fromAccount, toAccount);
+        when(transactionRepository.save(any(Transaction.class)))
+                .thenReturn(transaction);
+        when(accountRepository.save(any(Account.class)))
+                .thenReturn(fromAccount, toAccount);
+
+        Transaction result = transactionService.create(createReq);
+
+        assertNotNull(result);
+        assertEquals(TransactionStatus.COMPLETED, result.getStatus());
+        verify(accountRepository, times(2)).save(any(Account.class));
+    }
+
+    @Test
+    void create_ShouldFailTransferOnInsufficientBalance() {
+        createReq.setType(TransactionType.TRANSFER);
+        createReq.setFromAccountNo("ACC001");
+        createReq.setToAccountNo("ACC002");
+        createReq.setAmount(BigDecimal.valueOf(2000));
+
+        fromAccount.setBalance(BigDecimal.valueOf(100));
+
+        when(transactionRepository.findByTrxReferenceNo(anyString()))
+                .thenReturn(Optional.empty());
+        when(accountRepository.findByAccountNo("ACC001"))
+                .thenReturn(Optional.of(fromAccount));
+        when(accountRepository.findByAccountNo("ACC002"))
+                .thenReturn(Optional.of(toAccount));
+        when(entityManager.find(eq(Account.class), anyLong(), eq(LockModeType.PESSIMISTIC_WRITE)))
+                .thenReturn(fromAccount, toAccount);
+
+        assertThrows(IllegalArgumentException.class,
+                () -> transactionService.create(createReq));
+
+        verify(transactionRepository, times(2)).save(argThat(t ->
+                t.getStatus() == TransactionStatus.FAILED));
     }
 
     @Test

@@ -145,9 +145,9 @@ public class TransactionServiceImpl implements TransactionService {
     private void updateBalanceOnTransfer(Transaction transaction) {
         // Fetch fromAccount and toAccount
         Account fromAccount = accountRepository.findByAccountNo(transaction.getFromAccountNo()).orElseThrow(() ->
-                new ResourceNotFoundException("From account not found"));
+                new ResourceNotFoundException("FromAccount not found"));
         Account toAccount = accountRepository.findByAccountNo(transaction.getToAccountNo()).orElseThrow(() ->
-                new ResourceNotFoundException("To account not found"));
+                new ResourceNotFoundException("ToAccount not found"));
 
         // Lock accounts to prevent concurrent modifications
         Long fromAccountId = fromAccount.getId();

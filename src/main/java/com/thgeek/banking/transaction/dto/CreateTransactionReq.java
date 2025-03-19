@@ -1,6 +1,7 @@
 package com.thgeek.banking.transaction.dto;
 
 import com.thgeek.banking.transaction.constant.TransactionType;
+import com.thgeek.banking.transaction.validation.ValidTransactionAccounts;
 import jakarta.validation.constraints.DecimalMin;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;
@@ -21,6 +22,7 @@ import java.math.BigDecimal;
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
+@ValidTransactionAccounts
 public class CreateTransactionReq {
     /**
      * Transaction Reference Number (TRN) - the unique identifier for each transaction
