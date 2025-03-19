@@ -1,251 +1,1001 @@
 timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
-1742384813171,24,Query Transactions,200,,Scenario 1 1-3,text,true,,778,386,4,4,http://localhost:8080/api/transactions,20,0,14
-1742384813171,24,Query Transactions,200,,Scenario 1 1-1,text,true,,778,386,4,4,http://localhost:8080/api/transactions,20,0,14
-1742384813179,16,Query Transactions,200,,Scenario 1 1-4,text,true,,778,386,4,4,http://localhost:8080/api/transactions,12,0,6
-1742384813171,24,Query Transactions,200,,Scenario 1 1-2,text,true,,778,386,4,4,http://localhost:8080/api/transactions,20,0,14
-1742384813196,2,Query Transactions,200,,Scenario 1 1-3,text,true,,778,386,4,4,http://localhost:8080/api/transactions,2,0,0
-1742384813196,3,Query Transactions,200,,Scenario 1 1-2,text,true,,778,386,5,5,http://localhost:8080/api/transactions,3,0,0
-1742384813196,3,Query Transactions,200,,Scenario 1 1-1,text,true,,778,386,5,5,http://localhost:8080/api/transactions,2,0,0
-1742384813196,3,Query Transactions,200,,Scenario 1 1-4,text,true,,778,386,5,5,http://localhost:8080/api/transactions,3,0,0
-1742384813199,3,Query Transactions,200,,Scenario 1 1-3,text,true,,778,386,5,5,http://localhost:8080/api/transactions,3,0,0
-1742384813199,3,Query Transactions,200,,Scenario 1 1-1,text,true,,778,386,5,5,http://localhost:8080/api/transactions,3,0,0
-1742384813199,3,Query Transactions,200,,Scenario 1 1-2,text,true,,778,386,5,5,http://localhost:8080/api/transactions,3,0,0
-1742384813200,2,Query Transactions,200,,Scenario 1 1-4,text,true,,778,386,5,5,http://localhost:8080/api/transactions,2,0,0
-1742384813199,4,Query Transactions,200,,Scenario 1 1-5,text,true,,778,386,5,5,http://localhost:8080/api/transactions,4,0,0
-1742384813202,1,Query Transactions,200,,Scenario 1 1-3,text,true,,778,386,5,5,http://localhost:8080/api/transactions,1,0,0
-1742384813202,2,Query Transactions,200,,Scenario 1 1-1,text,true,,778,386,5,5,http://localhost:8080/api/transactions,2,0,0
-1742384813203,1,Query Transactions,200,,Scenario 1 1-2,text,true,,778,386,5,5,http://localhost:8080/api/transactions,1,0,0
-1742384813203,1,Query Transactions,200,,Scenario 1 1-5,text,true,,778,386,5,5,http://localhost:8080/api/transactions,1,0,0
-1742384813204,1,Query Transactions,200,,Scenario 1 1-1,text,true,,778,386,5,5,http://localhost:8080/api/transactions,1,0,0
-1742384813203,2,Query Transactions,200,,Scenario 1 1-4,text,true,,778,386,5,5,http://localhost:8080/api/transactions,2,0,0
-1742384813204,1,Query Transactions,200,,Scenario 1 1-3,text,true,,778,386,5,5,http://localhost:8080/api/transactions,1,0,0
-1742384813204,1,Query Transactions,200,,Scenario 1 1-2,text,true,,778,386,5,5,http://localhost:8080/api/transactions,1,0,0
-1742384813204,1,Query Transactions,200,,Scenario 1 1-5,text,true,,778,386,5,5,http://localhost:8080/api/transactions,1,0,0
-1742384813205,1,Query Transactions,200,,Scenario 1 1-4,text,true,,778,386,5,5,http://localhost:8080/api/transactions,1,0,0
-1742384813205,1,Query Transactions,200,,Scenario 1 1-5,text,true,,778,386,5,5,http://localhost:8080/api/transactions,1,0,0
-1742384813206,1,Query Transactions,200,,Scenario 1 1-5,text,true,,778,386,1,1,http://localhost:8080/api/transactions,1,0,0
-1742384813220,2,Query Transactions,200,,Scenario 1 1-6,text,true,,778,386,1,1,http://localhost:8080/api/transactions,2,0,0
-1742384813223,2,Query Transactions,200,,Scenario 1 1-6,text,true,,778,386,1,1,http://localhost:8080/api/transactions,2,0,0
-1742384813225,1,Query Transactions,200,,Scenario 1 1-6,text,true,,778,386,1,1,http://localhost:8080/api/transactions,1,0,0
-1742384813226,1,Query Transactions,200,,Scenario 1 1-6,text,true,,778,386,1,1,http://localhost:8080/api/transactions,1,0,0
-1742384813228,1,Query Transactions,200,,Scenario 1 1-6,text,true,,778,386,1,1,http://localhost:8080/api/transactions,1,0,0
-1742384813241,3,Query Transactions,200,,Scenario 1 1-7,text,true,,778,386,1,1,http://localhost:8080/api/transactions,3,0,0
-1742384813244,2,Query Transactions,200,,Scenario 1 1-7,text,true,,778,386,1,1,http://localhost:8080/api/transactions,2,0,0
-1742384813246,2,Query Transactions,200,,Scenario 1 1-7,text,true,,778,386,1,1,http://localhost:8080/api/transactions,2,0,0
-1742384813248,1,Query Transactions,200,,Scenario 1 1-7,text,true,,778,386,1,1,http://localhost:8080/api/transactions,1,0,0
-1742384813249,1,Query Transactions,200,,Scenario 1 1-7,text,true,,778,386,1,1,http://localhost:8080/api/transactions,1,0,0
-1742384813258,2,Query Transactions,200,,Scenario 1 1-8,text,true,,778,386,1,1,http://localhost:8080/api/transactions,2,0,1
-1742384813260,1,Query Transactions,200,,Scenario 1 1-8,text,true,,778,386,1,1,http://localhost:8080/api/transactions,1,0,0
-1742384813262,1,Query Transactions,200,,Scenario 1 1-8,text,true,,778,386,1,1,http://localhost:8080/api/transactions,1,0,0
-1742384813263,1,Query Transactions,200,,Scenario 1 1-8,text,true,,778,386,1,1,http://localhost:8080/api/transactions,1,0,0
-1742384813265,1,Query Transactions,200,,Scenario 1 1-8,text,true,,778,386,1,1,http://localhost:8080/api/transactions,1,0,0
-1742384813280,2,Query Transactions,200,,Scenario 1 1-9,text,true,,778,386,1,1,http://localhost:8080/api/transactions,2,0,0
-1742384813282,1,Query Transactions,200,,Scenario 1 1-9,text,true,,778,386,1,1,http://localhost:8080/api/transactions,1,0,0
-1742384813283,1,Query Transactions,200,,Scenario 1 1-9,text,true,,778,386,1,1,http://localhost:8080/api/transactions,1,0,0
-1742384813285,1,Query Transactions,200,,Scenario 1 1-9,text,true,,778,386,1,1,http://localhost:8080/api/transactions,1,0,0
-1742384813286,1,Query Transactions,200,,Scenario 1 1-9,text,true,,778,386,1,1,http://localhost:8080/api/transactions,1,0,0
-1742384813298,4,Query Transactions,200,,Scenario 1 1-10,text,true,,778,386,1,1,http://localhost:8080/api/transactions,4,0,0
-1742384813302,1,Query Transactions,200,,Scenario 1 1-10,text,true,,778,386,1,1,http://localhost:8080/api/transactions,1,0,0
-1742384813303,2,Query Transactions,200,,Scenario 1 1-10,text,true,,778,386,1,1,http://localhost:8080/api/transactions,2,0,0
-1742384813305,1,Query Transactions,200,,Scenario 1 1-10,text,true,,778,386,1,1,http://localhost:8080/api/transactions,1,0,0
-1742384813306,3,Query Transactions,200,,Scenario 1 1-10,text,true,,778,386,1,1,http://localhost:8080/api/transactions,2,0,0
-1742384813320,2,Query Transactions,200,,Scenario 1 1-11,text,true,,778,386,1,1,http://localhost:8080/api/transactions,2,0,0
-1742384813322,1,Query Transactions,200,,Scenario 1 1-11,text,true,,778,386,1,1,http://localhost:8080/api/transactions,1,0,0
-1742384813324,0,Query Transactions,200,,Scenario 1 1-11,text,true,,778,386,1,1,http://localhost:8080/api/transactions,0,0,0
-1742384813324,1,Query Transactions,200,,Scenario 1 1-11,text,true,,778,386,1,1,http://localhost:8080/api/transactions,1,0,0
-1742384813325,1,Query Transactions,200,,Scenario 1 1-11,text,true,,778,386,1,1,http://localhost:8080/api/transactions,1,0,0
-1742384813341,3,Query Transactions,200,,Scenario 1 1-12,text,true,,778,386,1,1,http://localhost:8080/api/transactions,2,0,0
-1742384813344,2,Query Transactions,200,,Scenario 1 1-12,text,true,,778,386,1,1,http://localhost:8080/api/transactions,2,0,0
-1742384813346,1,Query Transactions,200,,Scenario 1 1-12,text,true,,778,386,1,1,http://localhost:8080/api/transactions,1,0,0
-1742384813347,1,Query Transactions,200,,Scenario 1 1-12,text,true,,778,386,1,1,http://localhost:8080/api/transactions,1,0,0
-1742384813348,3,Query Transactions,200,,Scenario 1 1-12,text,true,,778,386,1,1,http://localhost:8080/api/transactions,3,0,0
-1742384813361,4,Query Transactions,200,,Scenario 1 1-13,text,true,,778,386,1,1,http://localhost:8080/api/transactions,4,0,0
-1742384813365,2,Query Transactions,200,,Scenario 1 1-13,text,true,,778,386,1,1,http://localhost:8080/api/transactions,2,0,0
-1742384813367,1,Query Transactions,200,,Scenario 1 1-13,text,true,,778,386,1,1,http://localhost:8080/api/transactions,1,0,0
-1742384813368,1,Query Transactions,200,,Scenario 1 1-13,text,true,,778,386,1,1,http://localhost:8080/api/transactions,1,0,0
-1742384813370,4,Query Transactions,200,,Scenario 1 1-13,text,true,,778,386,1,1,http://localhost:8080/api/transactions,4,0,0
-1742384813379,4,Query Transactions,200,,Scenario 1 1-14,text,true,,778,386,1,1,http://localhost:8080/api/transactions,4,0,1
-1742384813383,3,Query Transactions,200,,Scenario 1 1-14,text,true,,778,386,1,1,http://localhost:8080/api/transactions,3,0,0
-1742384813386,1,Query Transactions,200,,Scenario 1 1-14,text,true,,778,386,1,1,http://localhost:8080/api/transactions,1,0,0
-1742384813387,1,Query Transactions,200,,Scenario 1 1-14,text,true,,778,386,1,1,http://localhost:8080/api/transactions,1,0,0
-1742384813388,1,Query Transactions,200,,Scenario 1 1-14,text,true,,778,386,1,1,http://localhost:8080/api/transactions,1,0,0
-1742384813401,2,Query Transactions,200,,Scenario 1 1-15,text,true,,778,386,1,1,http://localhost:8080/api/transactions,2,0,0
-1742384813403,4,Query Transactions,200,,Scenario 1 1-15,text,true,,778,386,1,1,http://localhost:8080/api/transactions,4,0,0
-1742384813408,1,Query Transactions,200,,Scenario 1 1-15,text,true,,778,386,1,1,http://localhost:8080/api/transactions,1,0,0
-1742384813409,3,Query Transactions,200,,Scenario 1 1-15,text,true,,778,386,1,1,http://localhost:8080/api/transactions,3,0,0
-1742384813412,2,Query Transactions,200,,Scenario 1 1-15,text,true,,778,386,1,1,http://localhost:8080/api/transactions,2,0,0
-1742384813418,1,Query Transactions,200,,Scenario 1 1-16,text,true,,778,386,1,1,http://localhost:8080/api/transactions,1,0,0
-1742384813420,2,Query Transactions,200,,Scenario 1 1-16,text,true,,778,386,1,1,http://localhost:8080/api/transactions,2,0,0
-1742384813422,1,Query Transactions,200,,Scenario 1 1-16,text,true,,778,386,1,1,http://localhost:8080/api/transactions,1,0,0
-1742384813423,1,Query Transactions,200,,Scenario 1 1-16,text,true,,778,386,1,1,http://localhost:8080/api/transactions,1,0,0
-1742384813424,1,Query Transactions,200,,Scenario 1 1-16,text,true,,778,386,1,1,http://localhost:8080/api/transactions,1,0,0
-1742384813440,3,Query Transactions,200,,Scenario 1 1-17,text,true,,778,386,1,1,http://localhost:8080/api/transactions,3,0,0
-1742384813443,2,Query Transactions,200,,Scenario 1 1-17,text,true,,778,386,1,1,http://localhost:8080/api/transactions,2,0,0
-1742384813445,3,Query Transactions,200,,Scenario 1 1-17,text,true,,778,386,1,1,http://localhost:8080/api/transactions,3,0,0
-1742384813448,2,Query Transactions,200,,Scenario 1 1-17,text,true,,778,386,1,1,http://localhost:8080/api/transactions,2,0,0
-1742384813450,1,Query Transactions,200,,Scenario 1 1-17,text,true,,778,386,1,1,http://localhost:8080/api/transactions,1,0,0
-1742384813460,2,Query Transactions,200,,Scenario 1 1-18,text,true,,778,386,1,1,http://localhost:8080/api/transactions,2,0,0
-1742384813462,1,Query Transactions,200,,Scenario 1 1-18,text,true,,778,386,1,1,http://localhost:8080/api/transactions,1,0,0
-1742384813463,2,Query Transactions,200,,Scenario 1 1-18,text,true,,778,386,1,1,http://localhost:8080/api/transactions,2,0,0
-1742384813466,1,Query Transactions,200,,Scenario 1 1-18,text,true,,778,386,1,1,http://localhost:8080/api/transactions,1,0,0
-1742384813467,2,Query Transactions,200,,Scenario 1 1-18,text,true,,778,386,1,1,http://localhost:8080/api/transactions,2,0,0
-1742384813478,4,Query Transactions,200,,Scenario 1 1-19,text,true,,778,386,1,1,http://localhost:8080/api/transactions,4,0,0
-1742384813482,2,Query Transactions,200,,Scenario 1 1-19,text,true,,778,386,1,1,http://localhost:8080/api/transactions,1,0,0
-1742384813484,2,Query Transactions,200,,Scenario 1 1-19,text,true,,778,386,1,1,http://localhost:8080/api/transactions,2,0,0
-1742384813487,0,Query Transactions,200,,Scenario 1 1-19,text,true,,778,386,1,1,http://localhost:8080/api/transactions,0,0,0
-1742384813488,1,Query Transactions,200,,Scenario 1 1-19,text,true,,778,386,1,1,http://localhost:8080/api/transactions,1,0,0
-1742384813496,9,Query Transactions,200,,Scenario 1 1-20,text,true,,778,386,1,1,http://localhost:8080/api/transactions,9,0,1
-1742384813505,1,Query Transactions,200,,Scenario 1 1-20,text,true,,778,386,1,1,http://localhost:8080/api/transactions,1,0,0
-1742384813507,1,Query Transactions,200,,Scenario 1 1-20,text,true,,778,386,1,1,http://localhost:8080/api/transactions,1,0,0
-1742384813508,1,Query Transactions,200,,Scenario 1 1-20,text,true,,778,386,1,1,http://localhost:8080/api/transactions,1,0,0
-1742384813509,1,Query Transactions,200,,Scenario 1 1-20,text,true,,778,386,1,1,http://localhost:8080/api/transactions,1,0,0
-1742384813518,2,Query Transactions,200,,Scenario 1 1-21,text,true,,778,386,1,1,http://localhost:8080/api/transactions,2,0,1
-1742384813520,1,Query Transactions,200,,Scenario 1 1-21,text,true,,778,386,1,1,http://localhost:8080/api/transactions,1,0,0
-1742384813522,3,Query Transactions,200,,Scenario 1 1-21,text,true,,778,386,1,1,http://localhost:8080/api/transactions,3,0,0
-1742384813525,1,Query Transactions,200,,Scenario 1 1-21,text,true,,778,386,1,1,http://localhost:8080/api/transactions,1,0,0
-1742384813526,1,Query Transactions,200,,Scenario 1 1-21,text,true,,778,386,1,1,http://localhost:8080/api/transactions,1,0,0
-1742384813539,6,Query Transactions,200,,Scenario 1 1-22,text,true,,778,386,1,1,http://localhost:8080/api/transactions,6,0,0
-1742384813545,3,Query Transactions,200,,Scenario 1 1-22,text,true,,778,386,1,1,http://localhost:8080/api/transactions,3,0,0
-1742384813548,3,Query Transactions,200,,Scenario 1 1-22,text,true,,778,386,1,1,http://localhost:8080/api/transactions,3,0,0
-1742384813551,2,Query Transactions,200,,Scenario 1 1-22,text,true,,778,386,1,1,http://localhost:8080/api/transactions,2,0,0
-1742384813553,1,Query Transactions,200,,Scenario 1 1-22,text,true,,778,386,2,2,http://localhost:8080/api/transactions,1,0,0
-1742384813554,2,Query Transactions,200,,Scenario 1 1-23,text,true,,778,386,1,1,http://localhost:8080/api/transactions,2,0,1
-1742384813556,1,Query Transactions,200,,Scenario 1 1-23,text,true,,778,386,1,1,http://localhost:8080/api/transactions,1,0,0
-1742384813557,1,Query Transactions,200,,Scenario 1 1-23,text,true,,778,386,1,1,http://localhost:8080/api/transactions,1,0,0
-1742384813558,5,Query Transactions,200,,Scenario 1 1-23,text,true,,778,386,1,1,http://localhost:8080/api/transactions,5,0,0
-1742384813563,3,Query Transactions,200,,Scenario 1 1-23,text,true,,778,386,1,1,http://localhost:8080/api/transactions,1,0,0
-1742384813576,2,Query Transactions,200,,Scenario 1 1-24,text,true,,778,386,1,1,http://localhost:8080/api/transactions,2,0,0
-1742384813578,3,Query Transactions,200,,Scenario 1 1-24,text,true,,778,386,1,1,http://localhost:8080/api/transactions,3,0,0
-1742384813581,1,Query Transactions,200,,Scenario 1 1-24,text,true,,778,386,1,1,http://localhost:8080/api/transactions,1,0,0
-1742384813582,3,Query Transactions,200,,Scenario 1 1-24,text,true,,778,386,1,1,http://localhost:8080/api/transactions,3,0,0
-1742384813585,3,Query Transactions,200,,Scenario 1 1-24,text,true,,778,386,1,1,http://localhost:8080/api/transactions,2,0,0
-1742384813599,2,Query Transactions,200,,Scenario 1 1-25,text,true,,778,386,1,1,http://localhost:8080/api/transactions,2,0,0
-1742384813602,1,Query Transactions,200,,Scenario 1 1-25,text,true,,778,386,1,1,http://localhost:8080/api/transactions,1,0,0
-1742384813603,2,Query Transactions,200,,Scenario 1 1-25,text,true,,778,386,1,1,http://localhost:8080/api/transactions,2,0,0
-1742384813605,2,Query Transactions,200,,Scenario 1 1-25,text,true,,778,386,1,1,http://localhost:8080/api/transactions,2,0,0
-1742384813607,4,Query Transactions,200,,Scenario 1 1-25,text,true,,778,386,1,1,http://localhost:8080/api/transactions,4,0,0
-1742384813619,2,Query Transactions,200,,Scenario 1 1-26,text,true,,778,386,1,1,http://localhost:8080/api/transactions,2,0,0
-1742384813621,1,Query Transactions,200,,Scenario 1 1-26,text,true,,778,386,1,1,http://localhost:8080/api/transactions,1,0,0
-1742384813623,2,Query Transactions,200,,Scenario 1 1-26,text,true,,778,386,1,1,http://localhost:8080/api/transactions,2,0,0
-1742384813625,1,Query Transactions,200,,Scenario 1 1-26,text,true,,778,386,1,1,http://localhost:8080/api/transactions,1,0,0
-1742384813627,1,Query Transactions,200,,Scenario 1 1-26,text,true,,778,386,1,1,http://localhost:8080/api/transactions,1,0,0
-1742384813638,4,Query Transactions,200,,Scenario 1 1-27,text,true,,778,386,1,1,http://localhost:8080/api/transactions,4,0,0
-1742384813642,2,Query Transactions,200,,Scenario 1 1-27,text,true,,778,386,1,1,http://localhost:8080/api/transactions,2,0,0
-1742384813644,3,Query Transactions,200,,Scenario 1 1-27,text,true,,778,386,1,1,http://localhost:8080/api/transactions,3,0,0
-1742384813647,1,Query Transactions,200,,Scenario 1 1-27,text,true,,778,386,1,1,http://localhost:8080/api/transactions,1,0,0
-1742384813648,1,Query Transactions,200,,Scenario 1 1-27,text,true,,778,386,1,1,http://localhost:8080/api/transactions,1,0,0
-1742384813655,7,Query Transactions,200,,Scenario 1 1-28,text,true,,778,386,1,1,http://localhost:8080/api/transactions,7,0,1
-1742384813662,1,Query Transactions,200,,Scenario 1 1-28,text,true,,778,386,1,1,http://localhost:8080/api/transactions,1,0,0
-1742384813663,1,Query Transactions,200,,Scenario 1 1-28,text,true,,778,386,1,1,http://localhost:8080/api/transactions,1,0,0
-1742384813664,1,Query Transactions,200,,Scenario 1 1-28,text,true,,778,386,1,1,http://localhost:8080/api/transactions,1,0,0
-1742384813665,1,Query Transactions,200,,Scenario 1 1-28,text,true,,778,386,1,1,http://localhost:8080/api/transactions,1,0,0
-1742384813676,3,Query Transactions,200,,Scenario 1 1-29,text,true,,778,386,1,1,http://localhost:8080/api/transactions,3,0,1
-1742384813679,1,Query Transactions,200,,Scenario 1 1-29,text,true,,778,386,1,1,http://localhost:8080/api/transactions,1,0,0
-1742384813681,14,Query Transactions,200,,Scenario 1 1-29,text,true,,778,386,1,1,http://localhost:8080/api/transactions,14,0,0
-1742384813695,2,Query Transactions,200,,Scenario 1 1-29,text,true,,778,386,2,2,http://localhost:8080/api/transactions,2,0,0
-1742384813697,2,Query Transactions,200,,Scenario 1 1-29,text,true,,778,386,2,2,http://localhost:8080/api/transactions,2,0,0
-1742384813696,3,Query Transactions,200,,Scenario 1 1-30,text,true,,778,386,2,2,http://localhost:8080/api/transactions,3,0,1
-1742384813699,1,Query Transactions,200,,Scenario 1 1-30,text,true,,778,386,1,1,http://localhost:8080/api/transactions,1,0,0
-1742384813700,1,Query Transactions,200,,Scenario 1 1-30,text,true,,778,386,1,1,http://localhost:8080/api/transactions,1,0,0
-1742384813702,1,Query Transactions,200,,Scenario 1 1-30,text,true,,778,386,1,1,http://localhost:8080/api/transactions,1,0,0
-1742384813703,1,Query Transactions,200,,Scenario 1 1-30,text,true,,778,386,1,1,http://localhost:8080/api/transactions,1,0,0
-1742384813716,2,Query Transactions,200,,Scenario 1 1-31,text,true,,778,386,1,1,http://localhost:8080/api/transactions,2,0,1
-1742384813718,1,Query Transactions,200,,Scenario 1 1-31,text,true,,778,386,1,1,http://localhost:8080/api/transactions,1,0,0
-1742384813719,1,Query Transactions,200,,Scenario 1 1-31,text,true,,778,386,1,1,http://localhost:8080/api/transactions,1,0,0
-1742384813720,1,Query Transactions,200,,Scenario 1 1-31,text,true,,778,386,1,1,http://localhost:8080/api/transactions,1,0,0
-1742384813722,0,Query Transactions,200,,Scenario 1 1-31,text,true,,778,386,1,1,http://localhost:8080/api/transactions,0,0,0
-1742384813738,3,Query Transactions,200,,Scenario 1 1-32,text,true,,778,386,1,1,http://localhost:8080/api/transactions,3,0,0
-1742384813741,2,Query Transactions,200,,Scenario 1 1-32,text,true,,778,386,1,1,http://localhost:8080/api/transactions,2,0,0
-1742384813743,4,Query Transactions,200,,Scenario 1 1-32,text,true,,778,386,1,1,http://localhost:8080/api/transactions,4,0,0
-1742384813747,2,Query Transactions,200,,Scenario 1 1-32,text,true,,778,386,1,1,http://localhost:8080/api/transactions,2,0,0
-1742384813749,4,Query Transactions,200,,Scenario 1 1-32,text,true,,778,386,1,1,http://localhost:8080/api/transactions,4,0,0
-1742384813759,3,Query Transactions,200,,Scenario 1 1-33,text,true,,778,386,1,1,http://localhost:8080/api/transactions,3,0,1
-1742384813762,3,Query Transactions,200,,Scenario 1 1-33,text,true,,778,386,1,1,http://localhost:8080/api/transactions,3,0,0
-1742384813765,3,Query Transactions,200,,Scenario 1 1-33,text,true,,778,386,1,1,http://localhost:8080/api/transactions,3,0,0
-1742384813768,4,Query Transactions,200,,Scenario 1 1-33,text,true,,778,386,1,1,http://localhost:8080/api/transactions,4,0,0
-1742384813772,1,Query Transactions,200,,Scenario 1 1-33,text,true,,778,386,1,1,http://localhost:8080/api/transactions,1,0,0
-1742384813779,4,Query Transactions,200,,Scenario 1 1-34,text,true,,778,386,1,1,http://localhost:8080/api/transactions,4,0,1
-1742384813783,2,Query Transactions,200,,Scenario 1 1-34,text,true,,778,386,1,1,http://localhost:8080/api/transactions,2,0,0
-1742384813786,1,Query Transactions,200,,Scenario 1 1-34,text,true,,778,386,1,1,http://localhost:8080/api/transactions,1,0,0
-1742384813787,1,Query Transactions,200,,Scenario 1 1-34,text,true,,778,386,1,1,http://localhost:8080/api/transactions,1,0,0
-1742384813788,1,Query Transactions,200,,Scenario 1 1-34,text,true,,778,386,1,1,http://localhost:8080/api/transactions,1,0,0
-1742384813793,2,Query Transactions,200,,Scenario 1 1-35,text,true,,778,386,1,1,http://localhost:8080/api/transactions,2,0,0
-1742384813795,1,Query Transactions,200,,Scenario 1 1-35,text,true,,778,386,1,1,http://localhost:8080/api/transactions,1,0,0
-1742384813797,1,Query Transactions,200,,Scenario 1 1-35,text,true,,778,386,1,1,http://localhost:8080/api/transactions,1,0,0
-1742384813798,2,Query Transactions,200,,Scenario 1 1-35,text,true,,778,386,1,1,http://localhost:8080/api/transactions,2,0,0
-1742384813801,1,Query Transactions,200,,Scenario 1 1-35,text,true,,778,386,1,1,http://localhost:8080/api/transactions,1,0,0
-1742384813817,3,Query Transactions,200,,Scenario 1 1-36,text,true,,778,386,1,1,http://localhost:8080/api/transactions,3,0,0
-1742384813820,2,Query Transactions,200,,Scenario 1 1-36,text,true,,778,386,1,1,http://localhost:8080/api/transactions,2,0,0
-1742384813822,1,Query Transactions,200,,Scenario 1 1-36,text,true,,778,386,1,1,http://localhost:8080/api/transactions,1,0,0
-1742384813823,1,Query Transactions,200,,Scenario 1 1-36,text,true,,778,386,1,1,http://localhost:8080/api/transactions,1,0,0
-1742384813824,1,Query Transactions,200,,Scenario 1 1-36,text,true,,778,386,1,1,http://localhost:8080/api/transactions,1,0,0
-1742384813834,3,Query Transactions,200,,Scenario 1 1-37,text,true,,778,386,1,1,http://localhost:8080/api/transactions,3,0,1
-1742384813837,2,Query Transactions,200,,Scenario 1 1-37,text,true,,778,386,1,1,http://localhost:8080/api/transactions,2,0,0
-1742384813839,2,Query Transactions,200,,Scenario 1 1-37,text,true,,778,386,1,1,http://localhost:8080/api/transactions,2,0,0
-1742384813841,3,Query Transactions,200,,Scenario 1 1-37,text,true,,778,386,1,1,http://localhost:8080/api/transactions,3,0,0
-1742384813844,2,Query Transactions,200,,Scenario 1 1-37,text,true,,778,386,1,1,http://localhost:8080/api/transactions,2,0,0
-1742384813858,2,Query Transactions,200,,Scenario 1 1-38,text,true,,778,386,1,1,http://localhost:8080/api/transactions,2,0,1
-1742384813861,1,Query Transactions,200,,Scenario 1 1-38,text,true,,778,386,1,1,http://localhost:8080/api/transactions,1,0,0
-1742384813862,1,Query Transactions,200,,Scenario 1 1-38,text,true,,778,386,1,1,http://localhost:8080/api/transactions,1,0,0
-1742384813863,3,Query Transactions,200,,Scenario 1 1-38,text,true,,778,386,1,1,http://localhost:8080/api/transactions,3,0,0
-1742384813866,2,Query Transactions,200,,Scenario 1 1-38,text,true,,778,386,1,1,http://localhost:8080/api/transactions,2,0,0
-1742384813879,3,Query Transactions,200,,Scenario 1 1-39,text,true,,778,386,1,1,http://localhost:8080/api/transactions,3,0,1
-1742384813882,1,Query Transactions,200,,Scenario 1 1-39,text,true,,778,386,1,1,http://localhost:8080/api/transactions,1,0,0
-1742384813884,1,Query Transactions,200,,Scenario 1 1-39,text,true,,778,386,1,1,http://localhost:8080/api/transactions,1,0,0
-1742384813885,1,Query Transactions,200,,Scenario 1 1-39,text,true,,778,386,1,1,http://localhost:8080/api/transactions,1,0,0
-1742384813887,1,Query Transactions,200,,Scenario 1 1-39,text,true,,778,386,1,1,http://localhost:8080/api/transactions,1,0,0
-1742384813896,2,Query Transactions,200,,Scenario 1 1-40,text,true,,778,386,1,1,http://localhost:8080/api/transactions,2,0,1
-1742384813899,4,Query Transactions,200,,Scenario 1 1-40,text,true,,778,386,1,1,http://localhost:8080/api/transactions,4,0,0
-1742384813903,2,Query Transactions,200,,Scenario 1 1-40,text,true,,778,386,1,1,http://localhost:8080/api/transactions,2,0,0
-1742384813905,1,Query Transactions,200,,Scenario 1 1-40,text,true,,778,386,1,1,http://localhost:8080/api/transactions,1,0,0
-1742384813907,1,Query Transactions,200,,Scenario 1 1-40,text,true,,778,386,1,1,http://localhost:8080/api/transactions,0,0,0
-1742384813917,4,Query Transactions,200,,Scenario 1 1-41,text,true,,778,386,1,1,http://localhost:8080/api/transactions,4,0,1
-1742384813922,4,Query Transactions,200,,Scenario 1 1-41,text,true,,778,386,1,1,http://localhost:8080/api/transactions,1,0,0
-1742384813926,9,Query Transactions,200,,Scenario 1 1-41,text,true,,778,386,1,1,http://localhost:8080/api/transactions,9,0,0
-1742384813936,1,Query Transactions,200,,Scenario 1 1-41,text,true,,778,386,1,1,http://localhost:8080/api/transactions,1,0,0
-1742384813938,1,Query Transactions,200,,Scenario 1 1-41,text,true,,778,386,1,1,http://localhost:8080/api/transactions,1,0,0
-1742384813940,1,Query Transactions,200,,Scenario 1 1-42,text,true,,778,386,1,1,http://localhost:8080/api/transactions,1,0,0
-1742384813941,1,Query Transactions,200,,Scenario 1 1-42,text,true,,778,386,1,1,http://localhost:8080/api/transactions,1,0,0
-1742384813943,1,Query Transactions,200,,Scenario 1 1-42,text,true,,778,386,1,1,http://localhost:8080/api/transactions,1,0,0
-1742384813944,1,Query Transactions,200,,Scenario 1 1-42,text,true,,778,386,1,1,http://localhost:8080/api/transactions,1,0,0
-1742384813946,0,Query Transactions,200,,Scenario 1 1-42,text,true,,778,386,1,1,http://localhost:8080/api/transactions,0,0,0
-1742384813956,3,Query Transactions,200,,Scenario 1 1-43,text,true,,778,386,1,1,http://localhost:8080/api/transactions,3,0,0
-1742384813959,2,Query Transactions,200,,Scenario 1 1-43,text,true,,778,386,1,1,http://localhost:8080/api/transactions,2,0,0
-1742384813962,1,Query Transactions,200,,Scenario 1 1-43,text,true,,778,386,1,1,http://localhost:8080/api/transactions,1,0,0
-1742384813963,1,Query Transactions,200,,Scenario 1 1-43,text,true,,778,386,1,1,http://localhost:8080/api/transactions,1,0,0
-1742384813964,2,Query Transactions,200,,Scenario 1 1-43,text,true,,778,386,1,1,http://localhost:8080/api/transactions,2,0,0
-1742384813980,9,Query Transactions,200,,Scenario 1 1-44,text,true,,778,386,1,1,http://localhost:8080/api/transactions,8,0,0
-1742384813989,1,Query Transactions,200,,Scenario 1 1-44,text,true,,778,386,1,1,http://localhost:8080/api/transactions,1,0,0
-1742384813990,1,Query Transactions,200,,Scenario 1 1-44,text,true,,778,386,1,1,http://localhost:8080/api/transactions,1,0,0
-1742384813991,1,Query Transactions,200,,Scenario 1 1-44,text,true,,778,386,1,1,http://localhost:8080/api/transactions,1,0,0
-1742384813992,1,Query Transactions,200,,Scenario 1 1-44,text,true,,778,386,1,1,http://localhost:8080/api/transactions,1,0,0
-1742384813998,3,Query Transactions,200,,Scenario 1 1-45,text,true,,778,386,1,1,http://localhost:8080/api/transactions,3,0,1
-1742384814001,2,Query Transactions,200,,Scenario 1 1-45,text,true,,778,386,1,1,http://localhost:8080/api/transactions,2,0,0
-1742384814003,2,Query Transactions,200,,Scenario 1 1-45,text,true,,778,386,1,1,http://localhost:8080/api/transactions,2,0,0
-1742384814005,2,Query Transactions,200,,Scenario 1 1-45,text,true,,778,386,1,1,http://localhost:8080/api/transactions,2,0,0
-1742384814007,1,Query Transactions,200,,Scenario 1 1-45,text,true,,778,386,1,1,http://localhost:8080/api/transactions,1,0,0
-1742384814015,2,Query Transactions,200,,Scenario 1 1-46,text,true,,778,386,1,1,http://localhost:8080/api/transactions,2,0,1
-1742384814018,0,Query Transactions,200,,Scenario 1 1-46,text,true,,778,386,1,1,http://localhost:8080/api/transactions,0,0,0
-1742384814019,0,Query Transactions,200,,Scenario 1 1-46,text,true,,778,386,1,1,http://localhost:8080/api/transactions,0,0,0
-1742384814020,0,Query Transactions,200,,Scenario 1 1-46,text,true,,778,386,1,1,http://localhost:8080/api/transactions,0,0,0
-1742384814020,1,Query Transactions,200,,Scenario 1 1-46,text,true,,778,386,1,1,http://localhost:8080/api/transactions,1,0,0
-1742384814039,2,Query Transactions,200,,Scenario 1 1-47,text,true,,778,386,1,1,http://localhost:8080/api/transactions,2,0,1
-1742384814041,2,Query Transactions,200,,Scenario 1 1-47,text,true,,778,386,1,1,http://localhost:8080/api/transactions,1,0,0
-1742384814043,1,Query Transactions,200,,Scenario 1 1-47,text,true,,778,386,1,1,http://localhost:8080/api/transactions,1,0,0
-1742384814044,1,Query Transactions,200,,Scenario 1 1-47,text,true,,778,386,1,1,http://localhost:8080/api/transactions,1,0,0
-1742384814045,1,Query Transactions,200,,Scenario 1 1-47,text,true,,778,386,1,1,http://localhost:8080/api/transactions,1,0,0
-1742384814055,5,Query Transactions,200,,Scenario 1 1-48,text,true,,778,386,1,1,http://localhost:8080/api/transactions,5,0,0
-1742384814061,0,Query Transactions,200,,Scenario 1 1-48,text,true,,778,386,1,1,http://localhost:8080/api/transactions,0,0,0
-1742384814062,0,Query Transactions,200,,Scenario 1 1-48,text,true,,778,386,1,1,http://localhost:8080/api/transactions,0,0,0
-1742384814062,1,Query Transactions,200,,Scenario 1 1-48,text,true,,778,386,1,1,http://localhost:8080/api/transactions,1,0,0
-1742384814063,1,Query Transactions,200,,Scenario 1 1-48,text,true,,778,386,1,1,http://localhost:8080/api/transactions,1,0,0
-1742384814080,2,Query Transactions,200,,Scenario 1 1-49,text,true,,778,386,1,1,http://localhost:8080/api/transactions,2,0,0
-1742384814082,4,Query Transactions,200,,Scenario 1 1-49,text,true,,778,386,1,1,http://localhost:8080/api/transactions,4,0,0
-1742384814086,4,Query Transactions,200,,Scenario 1 1-49,text,true,,778,386,1,1,http://localhost:8080/api/transactions,4,0,0
-1742384814090,1,Query Transactions,200,,Scenario 1 1-49,text,true,,778,386,1,1,http://localhost:8080/api/transactions,1,0,0
-1742384814091,0,Query Transactions,200,,Scenario 1 1-49,text,true,,778,386,1,1,http://localhost:8080/api/transactions,0,0,0
-1742384814097,6,Query Transactions,200,,Scenario 1 1-50,text,true,,778,386,1,1,http://localhost:8080/api/transactions,6,0,1
-1742384814103,1,Query Transactions,200,,Scenario 1 1-50,text,true,,778,386,1,1,http://localhost:8080/api/transactions,1,0,0
-1742384814104,1,Query Transactions,200,,Scenario 1 1-50,text,true,,778,386,1,1,http://localhost:8080/api/transactions,1,0,0
-1742384814105,0,Query Transactions,200,,Scenario 1 1-50,text,true,,778,386,1,1,http://localhost:8080/api/transactions,0,0,0
-1742384814106,0,Query Transactions,200,,Scenario 1 1-50,text,true,,778,386,1,1,http://localhost:8080/api/transactions,0,0,0
+1742405091338,29,Query Transactions,200,,CRUD 1-3,text,true,,1413,192,4,4,http://localhost:8080/api/transactions,26,0,13
+1742405091338,29,Query Transactions,200,,CRUD 1-1,text,true,,1413,192,4,4,http://localhost:8080/api/transactions,26,0,13
+1742405091338,29,Query Transactions,200,,CRUD 1-2,text,true,,1413,192,4,4,http://localhost:8080/api/transactions,26,0,13
+1742405091353,14,Query Transactions,200,,CRUD 1-4,text,true,,1413,192,4,4,http://localhost:8080/api/transactions,11,0,0
+1742405091369,4,Create Transaction,409,,CRUD 1-1,text,true,,294,383,5,5,http://localhost:8080/api/transactions,4,0,0
+1742405091369,4,Create Transaction,409,,CRUD 1-3,text,true,,294,383,5,5,http://localhost:8080/api/transactions,4,0,0
+1742405091369,4,Create Transaction,409,,CRUD 1-4,text,true,,294,383,5,5,http://localhost:8080/api/transactions,4,0,0
+1742405091369,5,Create Transaction,409,,CRUD 1-2,text,true,,294,383,5,5,http://localhost:8080/api/transactions,5,0,0
+1742405091373,3,Query Transactions,200,,CRUD 1-5,text,true,,1413,192,5,5,http://localhost:8080/api/transactions,3,0,1
+1742405091374,2,Update Transaction,200,,CRUD 1-1,text,true,,562,300,5,5,http://localhost:8080/api/transactions/1,2,0,0
+1742405091374,2,Update Transaction,200,,CRUD 1-4,text,true,,562,300,5,5,http://localhost:8080/api/transactions/1,2,0,0
+1742405091374,2,Update Transaction,200,,CRUD 1-2,text,true,,562,300,5,5,http://localhost:8080/api/transactions/1,2,0,0
+1742405091374,2,Update Transaction,200,,CRUD 1-3,text,true,,562,300,5,5,http://localhost:8080/api/transactions/1,2,0,0
+1742405091377,1,Delete Transaction,200,,CRUD 1-2,text,true,,254,387,5,5,http://localhost:8080/api/transactions/2,1,0,0
+1742405091377,1,Delete Transaction,200,,CRUD 1-4,text,true,,254,387,5,5,http://localhost:8080/api/transactions/2,1,0,0
+1742405091377,1,Delete Transaction,200,,CRUD 1-3,text,true,,254,387,5,5,http://localhost:8080/api/transactions/2,1,0,0
+1742405091377,1,Delete Transaction,200,,CRUD 1-1,text,true,,254,387,5,5,http://localhost:8080/api/transactions/2,1,0,0
+1742405091376,2,Create Transaction,409,,CRUD 1-5,text,true,,294,383,5,5,http://localhost:8080/api/transactions,2,0,0
+1742405091379,1,Update Transaction,200,,CRUD 1-5,text,true,,562,300,5,5,http://localhost:8080/api/transactions/1,1,0,0
+1742405091379,2,Query Transactions,200,,CRUD 1-1,text,true,,1413,192,5,5,http://localhost:8080/api/transactions,1,0,0
+1742405091379,2,Query Transactions,200,,CRUD 1-4,text,true,,1413,192,5,5,http://localhost:8080/api/transactions,2,0,0
+1742405091379,2,Query Transactions,200,,CRUD 1-3,text,true,,1413,192,5,5,http://localhost:8080/api/transactions,2,0,0
+1742405091378,3,Query Transactions,200,,CRUD 1-2,text,true,,1413,192,5,5,http://localhost:8080/api/transactions,3,0,0
+1742405091381,1,Delete Transaction,200,,CRUD 1-5,text,true,,254,387,5,5,http://localhost:8080/api/transactions/2,1,0,0
+1742405091381,3,Create Transaction,409,,CRUD 1-4,text,true,,294,383,5,5,http://localhost:8080/api/transactions,3,0,0
+1742405091381,3,Create Transaction,409,,CRUD 1-1,text,true,,294,383,5,5,http://localhost:8080/api/transactions,3,0,0
+1742405091381,3,Create Transaction,409,,CRUD 1-3,text,true,,294,383,5,5,http://localhost:8080/api/transactions,3,0,0
+1742405091381,3,Create Transaction,409,,CRUD 1-2,text,true,,294,383,5,5,http://localhost:8080/api/transactions,3,0,0
+1742405091383,2,Query Transactions,200,,CRUD 1-5,text,true,,1413,192,5,5,http://localhost:8080/api/transactions,1,0,0
+1742405091384,2,Update Transaction,200,,CRUD 1-4,text,true,,562,300,5,5,http://localhost:8080/api/transactions/1,2,0,0
+1742405091384,2,Update Transaction,200,,CRUD 1-3,text,true,,562,300,5,5,http://localhost:8080/api/transactions/1,2,0,0
+1742405091384,3,Update Transaction,200,,CRUD 1-1,text,true,,562,300,5,5,http://localhost:8080/api/transactions/1,2,0,0
+1742405091385,3,Update Transaction,200,,CRUD 1-2,text,true,,562,300,5,5,http://localhost:8080/api/transactions/1,3,0,0
+1742405091385,3,Create Transaction,409,,CRUD 1-5,text,true,,294,383,5,5,http://localhost:8080/api/transactions,3,0,0
+1742405091386,2,Delete Transaction,200,,CRUD 1-4,text,true,,254,387,5,5,http://localhost:8080/api/transactions/2,2,0,0
+1742405091387,1,Delete Transaction,200,,CRUD 1-1,text,true,,254,387,5,5,http://localhost:8080/api/transactions/2,1,0,0
+1742405091387,2,Delete Transaction,200,,CRUD 1-3,text,true,,254,387,5,5,http://localhost:8080/api/transactions/2,2,0,0
+1742405091388,2,Delete Transaction,200,,CRUD 1-2,text,true,,254,387,6,6,http://localhost:8080/api/transactions/2,2,0,0
+1742405091389,3,Query Transactions,200,,CRUD 1-1,text,true,,1413,192,6,6,http://localhost:8080/api/transactions,3,0,0
+1742405091389,3,Query Transactions,200,,CRUD 1-4,text,true,,1413,192,6,6,http://localhost:8080/api/transactions,3,0,0
+1742405091388,4,Update Transaction,200,,CRUD 1-5,text,true,,562,300,6,6,http://localhost:8080/api/transactions/1,4,0,0
+1742405091389,3,Query Transactions,200,,CRUD 1-3,text,true,,1413,192,6,6,http://localhost:8080/api/transactions,3,0,0
+1742405091390,2,Query Transactions,200,,CRUD 1-6,text,true,,1413,192,6,6,http://localhost:8080/api/transactions,2,0,0
+1742405091391,2,Query Transactions,200,,CRUD 1-2,text,true,,1413,192,6,6,http://localhost:8080/api/transactions,2,0,0
+1742405091392,2,Delete Transaction,200,,CRUD 1-5,text,true,,254,387,6,6,http://localhost:8080/api/transactions/2,2,0,0
+1742405091393,3,Create Transaction,409,,CRUD 1-3,text,true,,294,383,6,6,http://localhost:8080/api/transactions,2,0,0
+1742405091393,3,Create Transaction,409,,CRUD 1-1,text,true,,294,383,6,6,http://localhost:8080/api/transactions,3,0,0
+1742405091394,3,Query Transactions,200,,CRUD 1-5,text,true,,1413,192,6,6,http://localhost:8080/api/transactions,3,0,0
+1742405091393,4,Create Transaction,409,,CRUD 1-4,text,true,,294,383,6,6,http://localhost:8080/api/transactions,2,0,0
+1742405091393,4,Create Transaction,409,,CRUD 1-2,text,true,,294,383,6,6,http://localhost:8080/api/transactions,4,0,0
+1742405091393,4,Create Transaction,409,,CRUD 1-6,text,true,,294,383,6,6,http://localhost:8080/api/transactions,4,0,0
+1742405091396,2,Update Transaction,200,,CRUD 1-1,text,true,,562,300,6,6,http://localhost:8080/api/transactions/1,2,0,0
+1742405091397,2,Update Transaction,200,,CRUD 1-6,text,true,,562,300,6,6,http://localhost:8080/api/transactions/1,2,0,0
+1742405091397,3,Update Transaction,200,,CRUD 1-2,text,true,,562,300,6,6,http://localhost:8080/api/transactions/1,3,0,0
+1742405091398,2,Delete Transaction,200,,CRUD 1-1,text,true,,254,387,6,6,http://localhost:8080/api/transactions/2,2,0,0
+1742405091397,4,Update Transaction,200,,CRUD 1-4,text,true,,562,300,6,6,http://localhost:8080/api/transactions/1,4,0,0
+1742405091397,4,Create Transaction,409,,CRUD 1-5,text,true,,294,383,6,6,http://localhost:8080/api/transactions,4,0,0
+1742405091396,5,Update Transaction,200,,CRUD 1-3,text,true,,562,300,6,6,http://localhost:8080/api/transactions/1,5,0,0
+1742405091399,2,Delete Transaction,200,,CRUD 1-6,text,true,,254,387,6,6,http://localhost:8080/api/transactions/2,2,0,0
+1742405091400,2,Delete Transaction,200,,CRUD 1-2,text,true,,254,387,6,6,http://localhost:8080/api/transactions/2,1,0,0
+1742405091401,2,Query Transactions,200,,CRUD 1-6,text,true,,1413,192,6,6,http://localhost:8080/api/transactions,2,0,0
+1742405091400,3,Query Transactions,200,,CRUD 1-1,text,true,,1413,192,6,6,http://localhost:8080/api/transactions,3,0,0
+1742405091401,2,Delete Transaction,200,,CRUD 1-4,text,true,,254,387,6,6,http://localhost:8080/api/transactions/2,2,0,0
+1742405091401,2,Delete Transaction,200,,CRUD 1-3,text,true,,254,387,6,6,http://localhost:8080/api/transactions/2,2,0,0
+1742405091401,2,Update Transaction,200,,CRUD 1-5,text,true,,562,300,6,6,http://localhost:8080/api/transactions/1,2,0,0
+1742405091403,2,Query Transactions,200,,CRUD 1-2,text,true,,1413,192,6,6,http://localhost:8080/api/transactions,2,0,0
+1742405091403,2,Query Transactions,200,,CRUD 1-4,text,true,,1413,192,6,6,http://localhost:8080/api/transactions,2,0,0
+1742405091403,2,Create Transaction,409,,CRUD 1-1,text,true,,294,383,6,6,http://localhost:8080/api/transactions,2,0,0
+1742405091404,2,Query Transactions,200,,CRUD 1-3,text,true,,1413,192,6,6,http://localhost:8080/api/transactions,1,0,0
+1742405091403,3,Create Transaction,409,,CRUD 1-6,text,true,,294,383,6,6,http://localhost:8080/api/transactions,3,0,0
+1742405091404,2,Delete Transaction,200,,CRUD 1-5,text,true,,254,387,6,6,http://localhost:8080/api/transactions/2,2,0,0
+1742405091406,1,Update Transaction,200,,CRUD 1-1,text,true,,562,300,6,6,http://localhost:8080/api/transactions/1,1,0,0
+1742405091405,3,Create Transaction,409,,CRUD 1-2,text,true,,294,383,6,6,http://localhost:8080/api/transactions,3,0,0
+1742405091406,3,Create Transaction,409,,CRUD 1-3,text,true,,294,383,6,6,http://localhost:8080/api/transactions,2,0,0
+1742405091406,3,Update Transaction,200,,CRUD 1-6,text,true,,562,300,6,6,http://localhost:8080/api/transactions/1,3,0,0
+1742405091405,4,Create Transaction,409,,CRUD 1-4,text,true,,294,383,6,6,http://localhost:8080/api/transactions,4,0,0
+1742405091407,2,Query Transactions,200,,CRUD 1-5,text,true,,1413,192,6,6,http://localhost:8080/api/transactions,2,0,0
+1742405091408,1,Delete Transaction,200,,CRUD 1-1,text,true,,254,387,6,6,http://localhost:8080/api/transactions/2,1,0,0
+1742405091408,2,Update Transaction,200,,CRUD 1-2,text,true,,562,300,6,6,http://localhost:8080/api/transactions/1,2,0,0
+1742405091409,1,Delete Transaction,200,,CRUD 1-6,text,true,,254,387,6,6,http://localhost:8080/api/transactions/2,1,0,0
+1742405091409,2,Update Transaction,200,,CRUD 1-4,text,true,,562,300,6,6,http://localhost:8080/api/transactions/1,2,0,0
+1742405091409,2,Create Transaction,409,,CRUD 1-5,text,true,,294,383,6,6,http://localhost:8080/api/transactions,2,0,0
+1742405091409,3,Query Transactions,200,,CRUD 1-1,text,true,,1413,192,6,6,http://localhost:8080/api/transactions,3,0,0
+1742405091410,2,Delete Transaction,200,,CRUD 1-2,text,true,,254,387,7,7,http://localhost:8080/api/transactions/2,2,0,0
+1742405091410,2,Update Transaction,200,,CRUD 1-3,text,true,,562,300,7,7,http://localhost:8080/api/transactions/1,2,0,0
+1742405091411,2,Query Transactions,200,,CRUD 1-6,text,true,,1413,192,7,7,http://localhost:8080/api/transactions,2,0,0
+1742405091412,1,Update Transaction,200,,CRUD 1-5,text,true,,562,300,7,7,http://localhost:8080/api/transactions/1,1,0,0
+1742405091411,2,Delete Transaction,200,,CRUD 1-4,text,true,,254,387,7,7,http://localhost:8080/api/transactions/2,2,0,0
+1742405091412,2,Create Transaction,409,,CRUD 1-1,text,true,,294,383,7,7,http://localhost:8080/api/transactions,2,0,0
+1742405091412,2,Delete Transaction,200,,CRUD 1-3,text,true,,254,387,7,7,http://localhost:8080/api/transactions/2,2,0,0
+1742405091412,3,Query Transactions,200,,CRUD 1-7,text,true,,1413,192,7,7,http://localhost:8080/api/transactions,3,0,1
+1742405091414,1,Query Transactions,200,,CRUD 1-3,text,true,,1413,192,7,7,http://localhost:8080/api/transactions,1,0,0
+1742405091412,3,Query Transactions,200,,CRUD 1-2,text,true,,1413,192,7,7,http://localhost:8080/api/transactions,3,0,0
+1742405091413,2,Delete Transaction,200,,CRUD 1-5,text,true,,254,387,7,7,http://localhost:8080/api/transactions/2,2,0,0
+1742405091414,1,Query Transactions,200,,CRUD 1-4,text,true,,1413,192,7,7,http://localhost:8080/api/transactions,1,0,0
+1742405091414,1,Update Transaction,200,,CRUD 1-1,text,true,,562,300,7,7,http://localhost:8080/api/transactions/1,1,0,0
+1742405091413,3,Create Transaction,409,,CRUD 1-6,text,true,,294,383,7,7,http://localhost:8080/api/transactions,3,0,0
+1742405091415,2,Query Transactions,200,,CRUD 1-5,text,true,,1413,192,7,7,http://localhost:8080/api/transactions,2,0,0
+1742405091415,2,Delete Transaction,200,,CRUD 1-1,text,true,,254,387,7,7,http://localhost:8080/api/transactions/2,2,0,0
+1742405091415,2,Create Transaction,409,,CRUD 1-7,text,true,,294,383,7,7,http://localhost:8080/api/transactions,2,0,0
+1742405091416,2,Update Transaction,200,,CRUD 1-6,text,true,,562,300,7,7,http://localhost:8080/api/transactions/1,2,0,0
+1742405091415,3,Create Transaction,409,,CRUD 1-2,text,true,,294,383,7,7,http://localhost:8080/api/transactions,3,0,0
+1742405091415,3,Create Transaction,409,,CRUD 1-4,text,true,,294,383,7,7,http://localhost:8080/api/transactions,3,0,0
+1742405091415,3,Create Transaction,409,,CRUD 1-3,text,true,,294,383,7,7,http://localhost:8080/api/transactions,3,0,0
+1742405091418,1,Update Transaction,200,,CRUD 1-7,text,true,,562,300,6,6,http://localhost:8080/api/transactions/1,1,0,0
+1742405091417,2,Create Transaction,409,,CRUD 1-5,text,true,,294,383,6,6,http://localhost:8080/api/transactions,2,0,0
+1742405091418,1,Update Transaction,200,,CRUD 1-4,text,true,,562,300,6,6,http://localhost:8080/api/transactions/1,1,0,0
+1742405091418,1,Update Transaction,200,,CRUD 1-2,text,true,,562,300,6,6,http://localhost:8080/api/transactions/1,1,0,0
+1742405091418,1,Update Transaction,200,,CRUD 1-3,text,true,,562,300,6,6,http://localhost:8080/api/transactions/1,1,0,0
+1742405091418,1,Delete Transaction,200,,CRUD 1-6,text,true,,254,387,6,6,http://localhost:8080/api/transactions/2,1,0,0
+1742405091419,1,Delete Transaction,200,,CRUD 1-7,text,true,,254,387,6,6,http://localhost:8080/api/transactions/2,1,0,0
+1742405091419,1,Update Transaction,200,,CRUD 1-5,text,true,,562,300,6,6,http://localhost:8080/api/transactions/1,1,0,0
+1742405091419,1,Delete Transaction,200,,CRUD 1-2,text,true,,254,387,6,6,http://localhost:8080/api/transactions/2,1,0,0
+1742405091420,1,Delete Transaction,200,,CRUD 1-4,text,true,,254,387,6,6,http://localhost:8080/api/transactions/2,1,0,0
+1742405091420,1,Query Transactions,200,,CRUD 1-6,text,true,,1413,192,5,5,http://localhost:8080/api/transactions,1,0,0
+1742405091420,1,Delete Transaction,200,,CRUD 1-3,text,true,,254,387,5,5,http://localhost:8080/api/transactions/2,1,0,0
+1742405091420,1,Query Transactions,200,,CRUD 1-7,text,true,,1413,192,4,4,http://localhost:8080/api/transactions,1,0,0
+1742405091421,1,Delete Transaction,200,,CRUD 1-5,text,true,,254,387,3,3,http://localhost:8080/api/transactions/2,1,0,0
+1742405091421,2,Create Transaction,409,,CRUD 1-6,text,true,,294,383,2,2,http://localhost:8080/api/transactions,2,0,0
+1742405091421,2,Create Transaction,409,,CRUD 1-7,text,true,,294,383,2,2,http://localhost:8080/api/transactions,2,0,0
+1742405091423,1,Update Transaction,200,,CRUD 1-6,text,true,,562,300,2,2,http://localhost:8080/api/transactions/1,1,0,0
+1742405091423,2,Update Transaction,200,,CRUD 1-7,text,true,,562,300,2,2,http://localhost:8080/api/transactions/1,2,0,0
+1742405091425,1,Delete Transaction,200,,CRUD 1-6,text,true,,254,387,2,2,http://localhost:8080/api/transactions/2,1,0,0
+1742405091425,1,Delete Transaction,200,,CRUD 1-7,text,true,,254,387,2,2,http://localhost:8080/api/transactions/2,1,0,0
+1742405091426,1,Query Transactions,200,,CRUD 1-6,text,true,,1413,192,2,2,http://localhost:8080/api/transactions,1,0,0
+1742405091426,1,Query Transactions,200,,CRUD 1-7,text,true,,1413,192,2,2,http://localhost:8080/api/transactions,1,0,0
+1742405091428,1,Create Transaction,409,,CRUD 1-6,text,true,,294,383,2,2,http://localhost:8080/api/transactions,1,0,0
+1742405091428,1,Create Transaction,409,,CRUD 1-7,text,true,,294,383,2,2,http://localhost:8080/api/transactions,1,0,0
+1742405091430,1,Update Transaction,200,,CRUD 1-7,text,true,,562,300,2,2,http://localhost:8080/api/transactions/1,1,0,0
+1742405091429,2,Update Transaction,200,,CRUD 1-6,text,true,,562,300,2,2,http://localhost:8080/api/transactions/1,2,0,0
+1742405091431,1,Delete Transaction,200,,CRUD 1-7,text,true,,254,387,2,2,http://localhost:8080/api/transactions/2,1,0,0
+1742405091431,1,Delete Transaction,200,,CRUD 1-6,text,true,,254,387,2,2,http://localhost:8080/api/transactions/2,1,0,0
+1742405091432,2,Query Transactions,200,,CRUD 1-7,text,true,,1413,192,2,2,http://localhost:8080/api/transactions,2,0,0
+1742405091434,1,Query Transactions,200,,CRUD 1-8,text,true,,1413,192,2,2,http://localhost:8080/api/transactions,1,0,1
+1742405091434,2,Create Transaction,409,,CRUD 1-7,text,true,,294,383,2,2,http://localhost:8080/api/transactions,2,0,0
+1742405091435,2,Create Transaction,409,,CRUD 1-8,text,true,,294,383,2,2,http://localhost:8080/api/transactions,2,0,0
+1742405091436,2,Update Transaction,200,,CRUD 1-7,text,true,,562,300,2,2,http://localhost:8080/api/transactions/1,2,0,0
+1742405091437,1,Update Transaction,200,,CRUD 1-8,text,true,,562,300,2,2,http://localhost:8080/api/transactions/1,1,0,0
+1742405091438,1,Delete Transaction,200,,CRUD 1-7,text,true,,254,387,2,2,http://localhost:8080/api/transactions/2,1,0,0
+1742405091439,1,Delete Transaction,200,,CRUD 1-8,text,true,,254,387,2,2,http://localhost:8080/api/transactions/2,1,0,0
+1742405091439,2,Query Transactions,200,,CRUD 1-7,text,true,,1413,192,2,2,http://localhost:8080/api/transactions,2,0,0
+1742405091440,1,Query Transactions,200,,CRUD 1-8,text,true,,1413,192,2,2,http://localhost:8080/api/transactions,1,0,0
+1742405091441,2,Create Transaction,409,,CRUD 1-8,text,true,,294,383,2,2,http://localhost:8080/api/transactions,2,0,0
+1742405091441,2,Create Transaction,409,,CRUD 1-7,text,true,,294,383,2,2,http://localhost:8080/api/transactions,2,0,0
+1742405091443,2,Update Transaction,200,,CRUD 1-7,text,true,,562,300,2,2,http://localhost:8080/api/transactions/1,2,0,0
+1742405091443,2,Update Transaction,200,,CRUD 1-8,text,true,,562,300,2,2,http://localhost:8080/api/transactions/1,2,0,0
+1742405091445,1,Delete Transaction,200,,CRUD 1-8,text,true,,254,387,2,2,http://localhost:8080/api/transactions/2,1,0,0
+1742405091445,1,Delete Transaction,200,,CRUD 1-7,text,true,,254,387,2,2,http://localhost:8080/api/transactions/2,1,0,0
+1742405091446,2,Query Transactions,200,,CRUD 1-8,text,true,,1413,192,1,1,http://localhost:8080/api/transactions,2,0,0
+1742405091448,2,Create Transaction,409,,CRUD 1-8,text,true,,294,383,1,1,http://localhost:8080/api/transactions,2,0,0
+1742405091450,1,Update Transaction,200,,CRUD 1-8,text,true,,562,300,1,1,http://localhost:8080/api/transactions/1,1,0,0
+1742405091452,1,Delete Transaction,200,,CRUD 1-8,text,true,,254,387,1,1,http://localhost:8080/api/transactions/2,1,0,0
+1742405091453,1,Query Transactions,200,,CRUD 1-8,text,true,,1413,192,2,2,http://localhost:8080/api/transactions,1,0,0
+1742405091454,1,Query Transactions,200,,CRUD 1-9,text,true,,1413,192,2,2,http://localhost:8080/api/transactions,1,0,1
+1742405091455,1,Create Transaction,409,,CRUD 1-8,text,true,,294,383,2,2,http://localhost:8080/api/transactions,1,0,0
+1742405091456,1,Create Transaction,409,,CRUD 1-9,text,true,,294,383,2,2,http://localhost:8080/api/transactions,1,0,0
+1742405091457,1,Update Transaction,200,,CRUD 1-8,text,true,,562,300,2,2,http://localhost:8080/api/transactions/1,1,0,0
+1742405091458,1,Update Transaction,200,,CRUD 1-9,text,true,,562,300,2,2,http://localhost:8080/api/transactions/1,1,0,0
+1742405091458,1,Delete Transaction,200,,CRUD 1-8,text,true,,254,387,2,2,http://localhost:8080/api/transactions/2,1,0,0
+1742405091459,1,Delete Transaction,200,,CRUD 1-9,text,true,,254,387,2,2,http://localhost:8080/api/transactions/2,1,0,0
+1742405091459,2,Query Transactions,200,,CRUD 1-8,text,true,,1413,192,2,2,http://localhost:8080/api/transactions,2,0,0
+1742405091460,1,Query Transactions,200,,CRUD 1-9,text,true,,1413,192,2,2,http://localhost:8080/api/transactions,1,0,0
+1742405091461,2,Create Transaction,409,,CRUD 1-8,text,true,,294,383,2,2,http://localhost:8080/api/transactions,2,0,0
+1742405091461,2,Create Transaction,409,,CRUD 1-9,text,true,,294,383,2,2,http://localhost:8080/api/transactions,2,0,0
+1742405091463,1,Update Transaction,200,,CRUD 1-9,text,true,,562,300,2,2,http://localhost:8080/api/transactions/1,1,0,0
+1742405091463,2,Update Transaction,200,,CRUD 1-8,text,true,,562,300,2,2,http://localhost:8080/api/transactions/1,2,0,0
+1742405091465,1,Delete Transaction,200,,CRUD 1-9,text,true,,254,387,2,2,http://localhost:8080/api/transactions/2,1,0,0
+1742405091465,1,Delete Transaction,200,,CRUD 1-8,text,true,,254,387,2,2,http://localhost:8080/api/transactions/2,1,0,0
+1742405091466,2,Query Transactions,200,,CRUD 1-9,text,true,,1413,192,1,1,http://localhost:8080/api/transactions,2,0,0
+1742405091468,2,Create Transaction,409,,CRUD 1-9,text,true,,294,383,1,1,http://localhost:8080/api/transactions,2,0,0
+1742405091470,1,Update Transaction,200,,CRUD 1-9,text,true,,562,300,1,1,http://localhost:8080/api/transactions/1,1,0,0
+1742405091472,1,Delete Transaction,200,,CRUD 1-9,text,true,,254,387,1,1,http://localhost:8080/api/transactions/2,1,0,0
+1742405091473,2,Query Transactions,200,,CRUD 1-9,text,true,,1413,192,2,2,http://localhost:8080/api/transactions,2,0,0
+1742405091474,6,Query Transactions,200,,CRUD 1-10,text,true,,1413,192,2,2,http://localhost:8080/api/transactions,6,0,1
+1742405091475,11,Create Transaction,409,,CRUD 1-9,text,true,,294,383,2,2,http://localhost:8080/api/transactions,11,0,0
+1742405091481,5,Create Transaction,409,,CRUD 1-10,text,true,,294,383,2,2,http://localhost:8080/api/transactions,5,0,0
+1742405091486,2,Update Transaction,200,,CRUD 1-10,text,true,,562,300,2,2,http://localhost:8080/api/transactions/1,2,0,0
+1742405091486,2,Update Transaction,200,,CRUD 1-9,text,true,,562,300,2,2,http://localhost:8080/api/transactions/1,2,0,0
+1742405091488,2,Delete Transaction,200,,CRUD 1-9,text,true,,254,387,2,2,http://localhost:8080/api/transactions/2,2,0,0
+1742405091488,2,Delete Transaction,200,,CRUD 1-10,text,true,,254,387,2,2,http://localhost:8080/api/transactions/2,2,0,0
+1742405091490,2,Query Transactions,200,,CRUD 1-10,text,true,,1413,192,2,2,http://localhost:8080/api/transactions,2,0,0
+1742405091490,2,Query Transactions,200,,CRUD 1-9,text,true,,1413,192,2,2,http://localhost:8080/api/transactions,2,0,0
+1742405091493,3,Create Transaction,409,,CRUD 1-9,text,true,,294,383,3,3,http://localhost:8080/api/transactions,3,0,0
+1742405091493,3,Query Transactions,200,,CRUD 1-11,text,true,,1413,192,3,3,http://localhost:8080/api/transactions,3,0,1
+1742405091493,3,Create Transaction,409,,CRUD 1-10,text,true,,294,383,3,3,http://localhost:8080/api/transactions,3,0,0
+1742405091496,1,Update Transaction,200,,CRUD 1-10,text,true,,562,300,3,3,http://localhost:8080/api/transactions/1,1,0,0
+1742405091496,2,Update Transaction,200,,CRUD 1-9,text,true,,562,300,3,3,http://localhost:8080/api/transactions/1,2,0,0
+1742405091498,9,Delete Transaction,200,,CRUD 1-9,text,true,,254,387,3,3,http://localhost:8080/api/transactions/2,9,0,0
+1742405091497,11,Delete Transaction,200,,CRUD 1-10,text,true,,254,387,3,3,http://localhost:8080/api/transactions/2,11,0,0
+1742405091496,11,Create Transaction,409,,CRUD 1-11,text,true,,294,383,3,3,http://localhost:8080/api/transactions,11,0,0
+1742405091508,2,Update Transaction,200,,CRUD 1-11,text,true,,562,300,2,2,http://localhost:8080/api/transactions/1,2,0,0
+1742405091508,3,Query Transactions,200,,CRUD 1-10,text,true,,1413,192,2,2,http://localhost:8080/api/transactions,3,0,0
+1742405091510,2,Delete Transaction,200,,CRUD 1-11,text,true,,254,387,2,2,http://localhost:8080/api/transactions/2,2,0,0
+1742405091512,2,Query Transactions,200,,CRUD 1-11,text,true,,1413,192,3,3,http://localhost:8080/api/transactions,2,0,0
+1742405091513,2,Query Transactions,200,,CRUD 1-12,text,true,,1413,192,3,3,http://localhost:8080/api/transactions,2,0,1
+1742405091511,4,Create Transaction,409,,CRUD 1-10,text,true,,294,383,3,3,http://localhost:8080/api/transactions,4,0,0
+1742405091515,2,Update Transaction,200,,CRUD 1-10,text,true,,562,300,3,3,http://localhost:8080/api/transactions/1,2,0,0
+1742405091515,3,Create Transaction,409,,CRUD 1-11,text,true,,294,383,3,3,http://localhost:8080/api/transactions,2,0,0
+1742405091515,3,Create Transaction,409,,CRUD 1-12,text,true,,294,383,3,3,http://localhost:8080/api/transactions,3,0,0
+1742405091517,1,Delete Transaction,200,,CRUD 1-10,text,true,,254,387,3,3,http://localhost:8080/api/transactions/2,1,0,0
+1742405091518,1,Update Transaction,200,,CRUD 1-12,text,true,,562,300,3,3,http://localhost:8080/api/transactions/1,1,0,0
+1742405091518,2,Update Transaction,200,,CRUD 1-11,text,true,,562,300,3,3,http://localhost:8080/api/transactions/1,1,0,0
+1742405091519,1,Delete Transaction,200,,CRUD 1-12,text,true,,254,387,3,3,http://localhost:8080/api/transactions/2,1,0,0
+1742405091518,2,Query Transactions,200,,CRUD 1-10,text,true,,1413,192,3,3,http://localhost:8080/api/transactions,2,0,0
+1742405091520,0,Delete Transaction,200,,CRUD 1-11,text,true,,254,387,3,3,http://localhost:8080/api/transactions/2,0,0,0
+1742405091521,1,Query Transactions,200,,CRUD 1-11,text,true,,1413,192,3,3,http://localhost:8080/api/transactions,1,0,0
+1742405091521,1,Query Transactions,200,,CRUD 1-12,text,true,,1413,192,3,3,http://localhost:8080/api/transactions,1,0,0
+1742405091521,3,Create Transaction,409,,CRUD 1-10,text,true,,294,383,3,3,http://localhost:8080/api/transactions,2,0,0
+1742405091522,2,Create Transaction,409,,CRUD 1-11,text,true,,294,383,3,3,http://localhost:8080/api/transactions,2,0,0
+1742405091522,2,Create Transaction,409,,CRUD 1-12,text,true,,294,383,3,3,http://localhost:8080/api/transactions,2,0,0
+1742405091524,1,Update Transaction,200,,CRUD 1-12,text,true,,562,300,3,3,http://localhost:8080/api/transactions/1,1,0,0
+1742405091524,1,Update Transaction,200,,CRUD 1-10,text,true,,562,300,3,3,http://localhost:8080/api/transactions/1,1,0,0
+1742405091524,1,Update Transaction,200,,CRUD 1-11,text,true,,562,300,3,3,http://localhost:8080/api/transactions/1,1,0,0
+1742405091525,1,Delete Transaction,200,,CRUD 1-10,text,true,,254,387,3,3,http://localhost:8080/api/transactions/2,1,0,0
+1742405091525,1,Delete Transaction,200,,CRUD 1-11,text,true,,254,387,3,3,http://localhost:8080/api/transactions/2,1,0,0
+1742405091525,1,Delete Transaction,200,,CRUD 1-12,text,true,,254,387,3,3,http://localhost:8080/api/transactions/2,1,0,0
+1742405091527,3,Query Transactions,200,,CRUD 1-11,text,true,,1413,192,4,4,http://localhost:8080/api/transactions,3,0,0
+1742405091527,3,Query Transactions,200,,CRUD 1-10,text,true,,1413,192,4,4,http://localhost:8080/api/transactions,3,0,0
+1742405091527,3,Query Transactions,200,,CRUD 1-12,text,true,,1413,192,4,4,http://localhost:8080/api/transactions,3,0,0
+1742405091529,2,Query Transactions,200,,CRUD 1-13,text,true,,1413,192,4,4,http://localhost:8080/api/transactions,2,0,1
+1742405091530,2,Create Transaction,409,,CRUD 1-12,text,true,,294,383,4,4,http://localhost:8080/api/transactions,2,0,0
+1742405091530,2,Create Transaction,409,,CRUD 1-11,text,true,,294,383,4,4,http://localhost:8080/api/transactions,2,0,0
+1742405091530,2,Create Transaction,409,,CRUD 1-10,text,true,,294,383,4,4,http://localhost:8080/api/transactions,2,0,0
+1742405091531,1,Create Transaction,409,,CRUD 1-13,text,true,,294,383,4,4,http://localhost:8080/api/transactions,1,0,0
+1742405091532,2,Update Transaction,200,,CRUD 1-11,text,true,,562,300,4,4,http://localhost:8080/api/transactions/1,2,0,0
+1742405091532,2,Update Transaction,200,,CRUD 1-10,text,true,,562,300,4,4,http://localhost:8080/api/transactions/1,2,0,0
+1742405091532,2,Update Transaction,200,,CRUD 1-12,text,true,,562,300,4,4,http://localhost:8080/api/transactions/1,2,0,0
+1742405091532,2,Update Transaction,200,,CRUD 1-13,text,true,,562,300,4,4,http://localhost:8080/api/transactions/1,2,0,0
+1742405091534,1,Delete Transaction,200,,CRUD 1-13,text,true,,254,387,4,4,http://localhost:8080/api/transactions/2,1,0,0
+1742405091534,1,Delete Transaction,200,,CRUD 1-12,text,true,,254,387,4,4,http://localhost:8080/api/transactions/2,1,0,0
+1742405091534,1,Delete Transaction,200,,CRUD 1-11,text,true,,254,387,4,4,http://localhost:8080/api/transactions/2,1,0,0
+1742405091534,1,Delete Transaction,200,,CRUD 1-10,text,true,,254,387,4,4,http://localhost:8080/api/transactions/2,1,0,0
+1742405091535,2,Query Transactions,200,,CRUD 1-11,text,true,,1413,192,3,3,http://localhost:8080/api/transactions,2,0,0
+1742405091535,3,Query Transactions,200,,CRUD 1-13,text,true,,1413,192,3,3,http://localhost:8080/api/transactions,3,0,0
+1742405091535,3,Query Transactions,200,,CRUD 1-12,text,true,,1413,192,3,3,http://localhost:8080/api/transactions,3,0,0
+1742405091537,2,Create Transaction,409,,CRUD 1-11,text,true,,294,383,3,3,http://localhost:8080/api/transactions,2,0,0
+1742405091538,1,Create Transaction,409,,CRUD 1-13,text,true,,294,383,3,3,http://localhost:8080/api/transactions,1,0,0
+1742405091538,2,Create Transaction,409,,CRUD 1-12,text,true,,294,383,3,3,http://localhost:8080/api/transactions,2,0,0
+1742405091540,1,Update Transaction,200,,CRUD 1-11,text,true,,562,300,3,3,http://localhost:8080/api/transactions/1,1,0,0
+1742405091540,1,Update Transaction,200,,CRUD 1-13,text,true,,562,300,3,3,http://localhost:8080/api/transactions/1,1,0,0
+1742405091540,1,Update Transaction,200,,CRUD 1-12,text,true,,562,300,3,3,http://localhost:8080/api/transactions/1,1,0,0
+1742405091541,1,Delete Transaction,200,,CRUD 1-12,text,true,,254,387,3,3,http://localhost:8080/api/transactions/2,1,0,0
+1742405091541,1,Delete Transaction,200,,CRUD 1-13,text,true,,254,387,3,3,http://localhost:8080/api/transactions/2,1,0,0
+1742405091541,1,Delete Transaction,200,,CRUD 1-11,text,true,,254,387,3,3,http://localhost:8080/api/transactions/2,1,0,0
+1742405091542,2,Query Transactions,200,,CRUD 1-13,text,true,,1413,192,2,2,http://localhost:8080/api/transactions,2,0,0
+1742405091542,2,Query Transactions,200,,CRUD 1-12,text,true,,1413,192,2,2,http://localhost:8080/api/transactions,2,0,0
+1742405091544,2,Create Transaction,409,,CRUD 1-12,text,true,,294,383,2,2,http://localhost:8080/api/transactions,2,0,0
+1742405091544,2,Create Transaction,409,,CRUD 1-13,text,true,,294,383,2,2,http://localhost:8080/api/transactions,2,0,0
+1742405091546,1,Update Transaction,200,,CRUD 1-12,text,true,,562,300,2,2,http://localhost:8080/api/transactions/1,1,0,0
+1742405091546,1,Update Transaction,200,,CRUD 1-13,text,true,,562,300,2,2,http://localhost:8080/api/transactions/1,1,0,0
+1742405091547,1,Delete Transaction,200,,CRUD 1-12,text,true,,254,387,2,2,http://localhost:8080/api/transactions/2,1,0,0
+1742405091547,1,Delete Transaction,200,,CRUD 1-13,text,true,,254,387,1,1,http://localhost:8080/api/transactions/2,1,0,0
+1742405091548,2,Query Transactions,200,,CRUD 1-13,text,true,,1413,192,1,1,http://localhost:8080/api/transactions,2,0,0
+1742405091550,1,Create Transaction,409,,CRUD 1-13,text,true,,294,383,1,1,http://localhost:8080/api/transactions,1,0,0
+1742405091552,1,Update Transaction,200,,CRUD 1-13,text,true,,562,300,2,2,http://localhost:8080/api/transactions/1,1,0,0
+1742405091553,1,Delete Transaction,200,,CRUD 1-13,text,true,,254,387,2,2,http://localhost:8080/api/transactions/2,1,0,0
+1742405091552,2,Query Transactions,200,,CRUD 1-14,text,true,,1413,192,2,2,http://localhost:8080/api/transactions,2,0,1
+1742405091554,1,Query Transactions,200,,CRUD 1-13,text,true,,1413,192,2,2,http://localhost:8080/api/transactions,1,0,0
+1742405091554,2,Create Transaction,409,,CRUD 1-14,text,true,,294,383,2,2,http://localhost:8080/api/transactions,2,0,0
+1742405091555,1,Create Transaction,409,,CRUD 1-13,text,true,,294,383,2,2,http://localhost:8080/api/transactions,1,0,0
+1742405091556,1,Update Transaction,200,,CRUD 1-14,text,true,,562,300,2,2,http://localhost:8080/api/transactions/1,1,0,0
+1742405091556,1,Update Transaction,200,,CRUD 1-13,text,true,,562,300,2,2,http://localhost:8080/api/transactions/1,1,0,0
+1742405091558,0,Delete Transaction,200,,CRUD 1-13,text,true,,254,387,2,2,http://localhost:8080/api/transactions/2,0,0,0
+1742405091557,1,Delete Transaction,200,,CRUD 1-14,text,true,,254,387,2,2,http://localhost:8080/api/transactions/2,1,0,0
+1742405091558,2,Query Transactions,200,,CRUD 1-14,text,true,,1413,192,1,1,http://localhost:8080/api/transactions,2,0,0
+1742405091560,2,Create Transaction,409,,CRUD 1-14,text,true,,294,383,1,1,http://localhost:8080/api/transactions,2,0,0
+1742405091562,1,Update Transaction,200,,CRUD 1-14,text,true,,562,300,1,1,http://localhost:8080/api/transactions/1,1,0,0
+1742405091563,1,Delete Transaction,200,,CRUD 1-14,text,true,,254,387,1,1,http://localhost:8080/api/transactions/2,1,0,0
+1742405091564,2,Query Transactions,200,,CRUD 1-14,text,true,,1413,192,1,1,http://localhost:8080/api/transactions,2,0,0
+1742405091566,1,Create Transaction,409,,CRUD 1-14,text,true,,294,383,1,1,http://localhost:8080/api/transactions,1,0,0
+1742405091567,1,Update Transaction,200,,CRUD 1-14,text,true,,562,300,1,1,http://localhost:8080/api/transactions/1,1,0,0
+1742405091569,0,Delete Transaction,200,,CRUD 1-14,text,true,,254,387,1,1,http://localhost:8080/api/transactions/2,0,0,0
+1742405091569,2,Query Transactions,200,,CRUD 1-14,text,true,,1413,192,1,1,http://localhost:8080/api/transactions,1,0,0
+1742405091571,1,Create Transaction,409,,CRUD 1-14,text,true,,294,383,2,2,http://localhost:8080/api/transactions,1,0,0
+1742405091572,1,Update Transaction,200,,CRUD 1-14,text,true,,562,300,2,2,http://localhost:8080/api/transactions/1,1,0,0
+1742405091572,2,Query Transactions,200,,CRUD 1-15,text,true,,1413,192,2,2,http://localhost:8080/api/transactions,2,0,1
+1742405091573,1,Delete Transaction,200,,CRUD 1-14,text,true,,254,387,2,2,http://localhost:8080/api/transactions/2,1,0,0
+1742405091574,1,Query Transactions,200,,CRUD 1-14,text,true,,1413,192,2,2,http://localhost:8080/api/transactions,1,0,0
+1742405091574,1,Create Transaction,409,,CRUD 1-15,text,true,,294,383,2,2,http://localhost:8080/api/transactions,1,0,0
+1742405091576,0,Update Transaction,200,,CRUD 1-15,text,true,,562,300,2,2,http://localhost:8080/api/transactions/1,0,0,0
+1742405091575,2,Create Transaction,409,,CRUD 1-14,text,true,,294,383,2,2,http://localhost:8080/api/transactions,2,0,0
+1742405091577,0,Delete Transaction,200,,CRUD 1-15,text,true,,254,387,2,2,http://localhost:8080/api/transactions/2,0,0,0
+1742405091577,1,Update Transaction,200,,CRUD 1-14,text,true,,562,300,2,2,http://localhost:8080/api/transactions/1,1,0,0
+1742405091577,2,Query Transactions,200,,CRUD 1-15,text,true,,1413,192,2,2,http://localhost:8080/api/transactions,2,0,0
+1742405091578,1,Delete Transaction,200,,CRUD 1-14,text,true,,254,387,2,2,http://localhost:8080/api/transactions/2,1,0,0
+1742405091579,1,Create Transaction,409,,CRUD 1-15,text,true,,294,383,1,1,http://localhost:8080/api/transactions,1,0,0
+1742405091580,2,Update Transaction,200,,CRUD 1-15,text,true,,562,300,1,1,http://localhost:8080/api/transactions/1,2,0,0
+1742405091582,1,Delete Transaction,200,,CRUD 1-15,text,true,,254,387,1,1,http://localhost:8080/api/transactions/2,1,0,0
+1742405091583,1,Query Transactions,200,,CRUD 1-15,text,true,,1413,192,1,1,http://localhost:8080/api/transactions,1,0,0
+1742405091585,1,Create Transaction,409,,CRUD 1-15,text,true,,294,383,1,1,http://localhost:8080/api/transactions,1,0,0
+1742405091586,1,Update Transaction,200,,CRUD 1-15,text,true,,562,300,1,1,http://localhost:8080/api/transactions/1,1,0,0
+1742405091588,1,Delete Transaction,200,,CRUD 1-15,text,true,,254,387,1,1,http://localhost:8080/api/transactions/2,1,0,0
+1742405091589,1,Query Transactions,200,,CRUD 1-15,text,true,,1413,192,1,1,http://localhost:8080/api/transactions,1,0,0
+1742405091590,1,Create Transaction,409,,CRUD 1-15,text,true,,294,383,1,1,http://localhost:8080/api/transactions,1,0,0
+1742405091591,2,Update Transaction,200,,CRUD 1-15,text,true,,562,300,2,2,http://localhost:8080/api/transactions/1,2,0,0
+1742405091593,1,Delete Transaction,200,,CRUD 1-15,text,true,,254,387,2,2,http://localhost:8080/api/transactions/2,1,0,0
+1742405091592,2,Query Transactions,200,,CRUD 1-16,text,true,,1413,192,2,2,http://localhost:8080/api/transactions,2,0,1
+1742405091594,1,Query Transactions,200,,CRUD 1-15,text,true,,1413,192,2,2,http://localhost:8080/api/transactions,0,0,0
+1742405091594,1,Create Transaction,409,,CRUD 1-16,text,true,,294,383,2,2,http://localhost:8080/api/transactions,1,0,0
+1742405091595,1,Create Transaction,409,,CRUD 1-15,text,true,,294,383,2,2,http://localhost:8080/api/transactions,1,0,0
+1742405091596,1,Update Transaction,200,,CRUD 1-16,text,true,,562,300,2,2,http://localhost:8080/api/transactions/1,1,0,0
+1742405091596,1,Update Transaction,200,,CRUD 1-15,text,true,,562,300,2,2,http://localhost:8080/api/transactions/1,1,0,0
+1742405091597,1,Delete Transaction,200,,CRUD 1-16,text,true,,254,387,2,2,http://localhost:8080/api/transactions/2,1,0,0
+1742405091597,1,Delete Transaction,200,,CRUD 1-15,text,true,,254,387,2,2,http://localhost:8080/api/transactions/2,1,0,0
+1742405091598,1,Query Transactions,200,,CRUD 1-16,text,true,,1413,192,1,1,http://localhost:8080/api/transactions,1,0,0
+1742405091599,2,Create Transaction,409,,CRUD 1-16,text,true,,294,383,1,1,http://localhost:8080/api/transactions,2,0,0
+1742405091601,1,Update Transaction,200,,CRUD 1-16,text,true,,562,300,1,1,http://localhost:8080/api/transactions/1,1,0,0
+1742405091602,1,Delete Transaction,200,,CRUD 1-16,text,true,,254,387,1,1,http://localhost:8080/api/transactions/2,1,0,0
+1742405091603,1,Query Transactions,200,,CRUD 1-16,text,true,,1413,192,1,1,http://localhost:8080/api/transactions,1,0,0
+1742405091605,1,Create Transaction,409,,CRUD 1-16,text,true,,294,383,1,1,http://localhost:8080/api/transactions,1,0,0
+1742405091606,4,Update Transaction,200,,CRUD 1-16,text,true,,562,300,1,1,http://localhost:8080/api/transactions/1,4,0,0
+1742405091610,1,Delete Transaction,200,,CRUD 1-16,text,true,,254,387,2,2,http://localhost:8080/api/transactions/2,1,0,0
+1742405091611,1,Query Transactions,200,,CRUD 1-17,text,true,,1413,192,2,2,http://localhost:8080/api/transactions,1,0,1
+1742405091611,1,Query Transactions,200,,CRUD 1-16,text,true,,1413,192,2,2,http://localhost:8080/api/transactions,1,0,0
+1742405091613,1,Create Transaction,409,,CRUD 1-17,text,true,,294,383,2,2,http://localhost:8080/api/transactions,1,0,0
+1742405091613,1,Create Transaction,409,,CRUD 1-16,text,true,,294,383,2,2,http://localhost:8080/api/transactions,1,0,0
+1742405091614,1,Update Transaction,200,,CRUD 1-17,text,true,,562,300,2,2,http://localhost:8080/api/transactions/1,1,0,0
+1742405091614,1,Update Transaction,200,,CRUD 1-16,text,true,,562,300,2,2,http://localhost:8080/api/transactions/1,1,0,0
+1742405091615,1,Delete Transaction,200,,CRUD 1-16,text,true,,254,387,2,2,http://localhost:8080/api/transactions/2,1,0,0
+1742405091616,0,Delete Transaction,200,,CRUD 1-17,text,true,,254,387,2,2,http://localhost:8080/api/transactions/2,0,0,0
+1742405091616,2,Query Transactions,200,,CRUD 1-16,text,true,,1413,192,2,2,http://localhost:8080/api/transactions,2,0,0
+1742405091617,1,Query Transactions,200,,CRUD 1-17,text,true,,1413,192,2,2,http://localhost:8080/api/transactions,1,0,0
+1742405091618,1,Create Transaction,409,,CRUD 1-16,text,true,,294,383,2,2,http://localhost:8080/api/transactions,1,0,0
+1742405091618,1,Create Transaction,409,,CRUD 1-17,text,true,,294,383,2,2,http://localhost:8080/api/transactions,1,0,0
+1742405091620,1,Update Transaction,200,,CRUD 1-17,text,true,,562,300,2,2,http://localhost:8080/api/transactions/1,1,0,0
+1742405091620,1,Update Transaction,200,,CRUD 1-16,text,true,,562,300,2,2,http://localhost:8080/api/transactions/1,1,0,0
+1742405091621,1,Delete Transaction,200,,CRUD 1-17,text,true,,254,387,2,2,http://localhost:8080/api/transactions/2,1,0,0
+1742405091621,1,Delete Transaction,200,,CRUD 1-16,text,true,,254,387,2,2,http://localhost:8080/api/transactions/2,1,0,0
+1742405091622,1,Query Transactions,200,,CRUD 1-17,text,true,,1413,192,1,1,http://localhost:8080/api/transactions,1,0,0
+1742405091624,1,Create Transaction,409,,CRUD 1-17,text,true,,294,383,1,1,http://localhost:8080/api/transactions,1,0,0
+1742405091625,1,Update Transaction,200,,CRUD 1-17,text,true,,562,300,1,1,http://localhost:8080/api/transactions/1,1,0,0
+1742405091626,1,Delete Transaction,200,,CRUD 1-17,text,true,,254,387,1,1,http://localhost:8080/api/transactions/2,1,0,0
+1742405091627,1,Query Transactions,200,,CRUD 1-17,text,true,,1413,192,1,1,http://localhost:8080/api/transactions,1,0,0
+1742405091628,1,Create Transaction,409,,CRUD 1-17,text,true,,294,383,1,1,http://localhost:8080/api/transactions,1,0,0
+1742405091629,1,Update Transaction,200,,CRUD 1-17,text,true,,562,300,1,1,http://localhost:8080/api/transactions/1,1,0,0
+1742405091630,1,Delete Transaction,200,,CRUD 1-17,text,true,,254,387,1,1,http://localhost:8080/api/transactions/2,1,0,0
+1742405091631,1,Query Transactions,200,,CRUD 1-17,text,true,,1413,192,2,2,http://localhost:8080/api/transactions,1,0,0
+1742405091631,1,Query Transactions,200,,CRUD 1-18,text,true,,1413,192,2,2,http://localhost:8080/api/transactions,1,0,1
+1742405091632,1,Create Transaction,409,,CRUD 1-18,text,true,,294,383,2,2,http://localhost:8080/api/transactions,1,0,0
+1742405091632,1,Create Transaction,409,,CRUD 1-17,text,true,,294,383,2,2,http://localhost:8080/api/transactions,1,0,0
+1742405091633,1,Update Transaction,200,,CRUD 1-18,text,true,,562,300,2,2,http://localhost:8080/api/transactions/1,1,0,0
+1742405091633,1,Update Transaction,200,,CRUD 1-17,text,true,,562,300,2,2,http://localhost:8080/api/transactions/1,1,0,0
+1742405091634,1,Delete Transaction,200,,CRUD 1-17,text,true,,254,387,2,2,http://localhost:8080/api/transactions/2,1,0,0
+1742405091634,1,Delete Transaction,200,,CRUD 1-18,text,true,,254,387,2,2,http://localhost:8080/api/transactions/2,1,0,0
+1742405091635,1,Query Transactions,200,,CRUD 1-18,text,true,,1413,192,1,1,http://localhost:8080/api/transactions,1,0,0
+1742405091636,2,Create Transaction,409,,CRUD 1-18,text,true,,294,383,1,1,http://localhost:8080/api/transactions,1,0,0
+1742405091638,0,Update Transaction,200,,CRUD 1-18,text,true,,562,300,1,1,http://localhost:8080/api/transactions/1,0,0,0
+1742405091639,0,Delete Transaction,200,,CRUD 1-18,text,true,,254,387,1,1,http://localhost:8080/api/transactions/2,0,0,0
+1742405091639,2,Query Transactions,200,,CRUD 1-18,text,true,,1413,192,1,1,http://localhost:8080/api/transactions,2,0,0
+1742405091641,3,Create Transaction,409,,CRUD 1-18,text,true,,294,383,1,1,http://localhost:8080/api/transactions,3,0,0
+1742405091644,1,Update Transaction,200,,CRUD 1-18,text,true,,562,300,1,1,http://localhost:8080/api/transactions/1,1,0,0
+1742405091645,1,Delete Transaction,200,,CRUD 1-18,text,true,,254,387,1,1,http://localhost:8080/api/transactions/2,1,0,0
+1742405091646,1,Query Transactions,200,,CRUD 1-18,text,true,,1413,192,1,1,http://localhost:8080/api/transactions,1,0,0
+1742405091647,2,Create Transaction,409,,CRUD 1-18,text,true,,294,383,1,1,http://localhost:8080/api/transactions,2,0,0
+1742405091649,1,Update Transaction,200,,CRUD 1-18,text,true,,562,300,1,1,http://localhost:8080/api/transactions/1,1,0,0
+1742405091650,1,Delete Transaction,200,,CRUD 1-18,text,true,,254,387,1,1,http://localhost:8080/api/transactions/2,1,0,0
+1742405091651,1,Query Transactions,200,,CRUD 1-18,text,true,,1413,192,2,2,http://localhost:8080/api/transactions,1,0,0
+1742405091651,1,Query Transactions,200,,CRUD 1-19,text,true,,1413,192,2,2,http://localhost:8080/api/transactions,1,0,1
+1742405091652,1,Create Transaction,409,,CRUD 1-19,text,true,,294,383,2,2,http://localhost:8080/api/transactions,1,0,0
+1742405091652,1,Create Transaction,409,,CRUD 1-18,text,true,,294,383,2,2,http://localhost:8080/api/transactions,1,0,0
+1742405091654,0,Update Transaction,200,,CRUD 1-19,text,true,,562,300,2,2,http://localhost:8080/api/transactions/1,0,0,0
+1742405091654,0,Update Transaction,200,,CRUD 1-18,text,true,,562,300,2,2,http://localhost:8080/api/transactions/1,0,0,0
+1742405091654,1,Delete Transaction,200,,CRUD 1-19,text,true,,254,387,2,2,http://localhost:8080/api/transactions/2,1,0,0
+1742405091654,1,Delete Transaction,200,,CRUD 1-18,text,true,,254,387,2,2,http://localhost:8080/api/transactions/2,1,0,0
+1742405091655,1,Query Transactions,200,,CRUD 1-19,text,true,,1413,192,1,1,http://localhost:8080/api/transactions,1,0,0
+1742405091656,2,Create Transaction,409,,CRUD 1-19,text,true,,294,383,1,1,http://localhost:8080/api/transactions,2,0,0
+1742405091658,1,Update Transaction,200,,CRUD 1-19,text,true,,562,300,1,1,http://localhost:8080/api/transactions/1,1,0,0
+1742405091659,1,Delete Transaction,200,,CRUD 1-19,text,true,,254,387,1,1,http://localhost:8080/api/transactions/2,1,0,0
+1742405091660,1,Query Transactions,200,,CRUD 1-19,text,true,,1413,192,1,1,http://localhost:8080/api/transactions,1,0,0
+1742405091661,1,Create Transaction,409,,CRUD 1-19,text,true,,294,383,1,1,http://localhost:8080/api/transactions,1,0,0
+1742405091662,1,Update Transaction,200,,CRUD 1-19,text,true,,562,300,1,1,http://localhost:8080/api/transactions/1,1,0,0
+1742405091663,1,Delete Transaction,200,,CRUD 1-19,text,true,,254,387,1,1,http://localhost:8080/api/transactions/2,1,0,0
+1742405091664,1,Query Transactions,200,,CRUD 1-19,text,true,,1413,192,1,1,http://localhost:8080/api/transactions,1,0,0
+1742405091665,1,Create Transaction,409,,CRUD 1-19,text,true,,294,383,1,1,http://localhost:8080/api/transactions,1,0,0
+1742405091666,1,Update Transaction,200,,CRUD 1-19,text,true,,562,300,1,1,http://localhost:8080/api/transactions/1,1,0,0
+1742405091667,1,Delete Transaction,200,,CRUD 1-19,text,true,,254,387,1,1,http://localhost:8080/api/transactions/2,1,0,0
+1742405091668,1,Query Transactions,200,,CRUD 1-19,text,true,,1413,192,1,1,http://localhost:8080/api/transactions,1,0,0
+1742405091669,1,Create Transaction,409,,CRUD 1-19,text,true,,294,383,2,2,http://localhost:8080/api/transactions,1,0,0
+1742405091670,1,Query Transactions,200,,CRUD 1-20,text,true,,1413,192,2,2,http://localhost:8080/api/transactions,1,0,0
+1742405091670,1,Update Transaction,200,,CRUD 1-19,text,true,,562,300,2,2,http://localhost:8080/api/transactions/1,1,0,0
+1742405091671,1,Delete Transaction,200,,CRUD 1-19,text,true,,254,387,2,2,http://localhost:8080/api/transactions/2,1,0,0
+1742405091671,1,Create Transaction,409,,CRUD 1-20,text,true,,294,383,1,1,http://localhost:8080/api/transactions,1,0,0
+1742405091673,0,Update Transaction,200,,CRUD 1-20,text,true,,562,300,1,1,http://localhost:8080/api/transactions/1,0,0,0
+1742405091673,1,Delete Transaction,200,,CRUD 1-20,text,true,,254,387,1,1,http://localhost:8080/api/transactions/2,1,0,0
+1742405091674,1,Query Transactions,200,,CRUD 1-20,text,true,,1413,192,1,1,http://localhost:8080/api/transactions,1,0,0
+1742405091675,2,Create Transaction,409,,CRUD 1-20,text,true,,294,383,1,1,http://localhost:8080/api/transactions,2,0,0
+1742405091677,1,Update Transaction,200,,CRUD 1-20,text,true,,562,300,1,1,http://localhost:8080/api/transactions/1,1,0,0
+1742405091678,0,Delete Transaction,200,,CRUD 1-20,text,true,,254,387,1,1,http://localhost:8080/api/transactions/2,0,0,0
+1742405091678,2,Query Transactions,200,,CRUD 1-20,text,true,,1413,192,1,1,http://localhost:8080/api/transactions,2,0,0
+1742405091680,1,Create Transaction,409,,CRUD 1-20,text,true,,294,383,1,1,http://localhost:8080/api/transactions,1,0,0
+1742405091681,1,Update Transaction,200,,CRUD 1-20,text,true,,562,300,1,1,http://localhost:8080/api/transactions/1,1,0,0
+1742405091682,1,Delete Transaction,200,,CRUD 1-20,text,true,,254,387,1,1,http://localhost:8080/api/transactions/2,1,0,0
+1742405091683,1,Query Transactions,200,,CRUD 1-20,text,true,,1413,192,1,1,http://localhost:8080/api/transactions,1,0,0
+1742405091685,1,Create Transaction,409,,CRUD 1-20,text,true,,294,383,1,1,http://localhost:8080/api/transactions,1,0,0
+1742405091686,0,Update Transaction,200,,CRUD 1-20,text,true,,562,300,1,1,http://localhost:8080/api/transactions/1,0,0,0
+1742405091686,1,Delete Transaction,200,,CRUD 1-20,text,true,,254,387,1,1,http://localhost:8080/api/transactions/2,1,0,0
+1742405091687,2,Query Transactions,200,,CRUD 1-20,text,true,,1413,192,1,1,http://localhost:8080/api/transactions,2,0,0
+1742405091689,2,Create Transaction,409,,CRUD 1-20,text,true,,294,383,2,2,http://localhost:8080/api/transactions,2,0,0
+1742405091690,2,Query Transactions,200,,CRUD 1-21,text,true,,1413,192,2,2,http://localhost:8080/api/transactions,2,0,1
+1742405091692,1,Update Transaction,200,,CRUD 1-20,text,true,,562,300,2,2,http://localhost:8080/api/transactions/1,1,0,0
+1742405091692,1,Create Transaction,409,,CRUD 1-21,text,true,,294,383,2,2,http://localhost:8080/api/transactions,1,0,0
+1742405091693,1,Delete Transaction,200,,CRUD 1-20,text,true,,254,387,2,2,http://localhost:8080/api/transactions/2,1,0,0
+1742405091693,2,Update Transaction,200,,CRUD 1-21,text,true,,562,300,1,1,http://localhost:8080/api/transactions/1,2,0,0
+1742405091695,0,Delete Transaction,200,,CRUD 1-21,text,true,,254,387,1,1,http://localhost:8080/api/transactions/2,0,0,0
+1742405091695,2,Query Transactions,200,,CRUD 1-21,text,true,,1413,192,1,1,http://localhost:8080/api/transactions,2,0,0
+1742405091698,1,Create Transaction,409,,CRUD 1-21,text,true,,294,383,1,1,http://localhost:8080/api/transactions,1,0,0
+1742405091700,0,Update Transaction,200,,CRUD 1-21,text,true,,562,300,1,1,http://localhost:8080/api/transactions/1,0,0,0
+1742405091700,1,Delete Transaction,200,,CRUD 1-21,text,true,,254,387,1,1,http://localhost:8080/api/transactions/2,1,0,0
+1742405091701,2,Query Transactions,200,,CRUD 1-21,text,true,,1413,192,1,1,http://localhost:8080/api/transactions,2,0,0
+1742405091703,1,Create Transaction,409,,CRUD 1-21,text,true,,294,383,1,1,http://localhost:8080/api/transactions,1,0,0
+1742405091704,1,Update Transaction,200,,CRUD 1-21,text,true,,562,300,1,1,http://localhost:8080/api/transactions/1,1,0,0
+1742405091705,0,Delete Transaction,200,,CRUD 1-21,text,true,,254,387,1,1,http://localhost:8080/api/transactions/2,0,0,0
+1742405091705,2,Query Transactions,200,,CRUD 1-21,text,true,,1413,192,1,1,http://localhost:8080/api/transactions,2,0,0
+1742405091707,1,Create Transaction,409,,CRUD 1-21,text,true,,294,383,1,1,http://localhost:8080/api/transactions,1,0,0
+1742405091708,1,Update Transaction,200,,CRUD 1-21,text,true,,562,300,1,1,http://localhost:8080/api/transactions/1,1,0,0
+1742405091710,0,Delete Transaction,200,,CRUD 1-21,text,true,,254,387,2,2,http://localhost:8080/api/transactions/2,0,0,0
+1742405091710,2,Query Transactions,200,,CRUD 1-22,text,true,,1413,192,2,2,http://localhost:8080/api/transactions,2,0,1
+1742405091711,1,Query Transactions,200,,CRUD 1-21,text,true,,1413,192,2,2,http://localhost:8080/api/transactions,1,0,0
+1742405091712,2,Create Transaction,409,,CRUD 1-21,text,true,,294,383,2,2,http://localhost:8080/api/transactions,2,0,0
+1742405091712,2,Create Transaction,409,,CRUD 1-22,text,true,,294,383,2,2,http://localhost:8080/api/transactions,2,0,0
+1742405091714,1,Update Transaction,200,,CRUD 1-22,text,true,,562,300,2,2,http://localhost:8080/api/transactions/1,1,0,0
+1742405091714,1,Update Transaction,200,,CRUD 1-21,text,true,,562,300,2,2,http://localhost:8080/api/transactions/1,1,0,0
+1742405091715,1,Delete Transaction,200,,CRUD 1-21,text,true,,254,387,2,2,http://localhost:8080/api/transactions/2,1,0,0
+1742405091715,1,Delete Transaction,200,,CRUD 1-22,text,true,,254,387,2,2,http://localhost:8080/api/transactions/2,1,0,0
+1742405091716,2,Query Transactions,200,,CRUD 1-22,text,true,,1413,192,1,1,http://localhost:8080/api/transactions,2,0,0
+1742405091718,2,Create Transaction,409,,CRUD 1-22,text,true,,294,383,1,1,http://localhost:8080/api/transactions,2,0,0
+1742405091720,1,Update Transaction,200,,CRUD 1-22,text,true,,562,300,1,1,http://localhost:8080/api/transactions/1,1,0,0
+1742405091721,1,Delete Transaction,200,,CRUD 1-22,text,true,,254,387,1,1,http://localhost:8080/api/transactions/2,1,0,0
+1742405091722,2,Query Transactions,200,,CRUD 1-22,text,true,,1413,192,1,1,http://localhost:8080/api/transactions,2,0,0
+1742405091724,2,Create Transaction,409,,CRUD 1-22,text,true,,294,383,1,1,http://localhost:8080/api/transactions,2,0,0
+1742405091726,1,Update Transaction,200,,CRUD 1-22,text,true,,562,300,1,1,http://localhost:8080/api/transactions/1,1,0,0
+1742405091727,1,Delete Transaction,200,,CRUD 1-22,text,true,,254,387,1,1,http://localhost:8080/api/transactions/2,1,0,0
+1742405091728,2,Query Transactions,200,,CRUD 1-22,text,true,,1413,192,1,1,http://localhost:8080/api/transactions,2,0,0
+1742405091730,2,Create Transaction,409,,CRUD 1-22,text,true,,294,383,1,1,http://localhost:8080/api/transactions,2,0,0
+1742405091732,1,Update Transaction,200,,CRUD 1-22,text,true,,562,300,1,1,http://localhost:8080/api/transactions/1,1,0,0
+1742405091733,1,Delete Transaction,200,,CRUD 1-22,text,true,,254,387,2,2,http://localhost:8080/api/transactions/2,1,0,0
+1742405091734,2,Query Transactions,200,,CRUD 1-22,text,true,,1413,192,2,2,http://localhost:8080/api/transactions,2,0,0
+1742405091735,2,Query Transactions,200,,CRUD 1-23,text,true,,1413,192,2,2,http://localhost:8080/api/transactions,2,0,0
+1742405091737,1,Create Transaction,409,,CRUD 1-22,text,true,,294,383,2,2,http://localhost:8080/api/transactions,1,0,0
+1742405091737,1,Create Transaction,409,,CRUD 1-23,text,true,,294,383,2,2,http://localhost:8080/api/transactions,1,0,0
+1742405091738,1,Update Transaction,200,,CRUD 1-22,text,true,,562,300,2,2,http://localhost:8080/api/transactions/1,1,0,0
+1742405091738,2,Update Transaction,200,,CRUD 1-23,text,true,,562,300,2,2,http://localhost:8080/api/transactions/1,2,0,0
+1742405091740,1,Delete Transaction,200,,CRUD 1-22,text,true,,254,387,2,2,http://localhost:8080/api/transactions/2,1,0,0
+1742405091740,1,Delete Transaction,200,,CRUD 1-23,text,true,,254,387,2,2,http://localhost:8080/api/transactions/2,1,0,0
+1742405091741,1,Query Transactions,200,,CRUD 1-23,text,true,,1413,192,1,1,http://localhost:8080/api/transactions,1,0,0
+1742405091743,2,Create Transaction,409,,CRUD 1-23,text,true,,294,383,1,1,http://localhost:8080/api/transactions,2,0,0
+1742405091745,1,Update Transaction,200,,CRUD 1-23,text,true,,562,300,1,1,http://localhost:8080/api/transactions/1,1,0,0
+1742405091746,1,Delete Transaction,200,,CRUD 1-23,text,true,,254,387,1,1,http://localhost:8080/api/transactions/2,1,0,0
+1742405091747,2,Query Transactions,200,,CRUD 1-23,text,true,,1413,192,1,1,http://localhost:8080/api/transactions,2,0,0
+1742405091749,2,Create Transaction,409,,CRUD 1-23,text,true,,294,383,2,2,http://localhost:8080/api/transactions,2,0,0
+1742405091751,1,Update Transaction,200,,CRUD 1-23,text,true,,562,300,2,2,http://localhost:8080/api/transactions/1,1,0,0
+1742405091751,1,Query Transactions,200,,CRUD 1-24,text,true,,1413,192,2,2,http://localhost:8080/api/transactions,1,0,1
+1742405091752,1,Delete Transaction,200,,CRUD 1-23,text,true,,254,387,2,2,http://localhost:8080/api/transactions/2,1,0,0
+1742405091752,2,Create Transaction,409,,CRUD 1-24,text,true,,294,383,2,2,http://localhost:8080/api/transactions,2,0,0
+1742405091753,1,Query Transactions,200,,CRUD 1-23,text,true,,1413,192,2,2,http://localhost:8080/api/transactions,1,0,0
+1742405091754,1,Update Transaction,200,,CRUD 1-24,text,true,,562,300,2,2,http://localhost:8080/api/transactions/1,1,0,0
+1742405091754,2,Create Transaction,409,,CRUD 1-23,text,true,,294,383,2,2,http://localhost:8080/api/transactions,2,0,0
+1742405091755,1,Delete Transaction,200,,CRUD 1-24,text,true,,254,387,2,2,http://localhost:8080/api/transactions/2,1,0,0
+1742405091756,1,Update Transaction,200,,CRUD 1-23,text,true,,562,300,2,2,http://localhost:8080/api/transactions/1,1,0,0
+1742405091756,1,Query Transactions,200,,CRUD 1-24,text,true,,1413,192,2,2,http://localhost:8080/api/transactions,1,0,0
+1742405091757,1,Delete Transaction,200,,CRUD 1-23,text,true,,254,387,2,2,http://localhost:8080/api/transactions/2,1,0,0
+1742405091757,2,Create Transaction,409,,CRUD 1-24,text,true,,294,383,2,2,http://localhost:8080/api/transactions,2,0,0
+1742405091758,1,Query Transactions,200,,CRUD 1-23,text,true,,1413,192,2,2,http://localhost:8080/api/transactions,1,0,0
+1742405091759,1,Update Transaction,200,,CRUD 1-24,text,true,,562,300,2,2,http://localhost:8080/api/transactions/1,1,0,0
+1742405091760,1,Delete Transaction,200,,CRUD 1-24,text,true,,254,387,2,2,http://localhost:8080/api/transactions/2,1,0,0
+1742405091759,2,Create Transaction,409,,CRUD 1-23,text,true,,294,383,2,2,http://localhost:8080/api/transactions,2,0,0
+1742405091761,1,Update Transaction,200,,CRUD 1-23,text,true,,562,300,2,2,http://localhost:8080/api/transactions/1,1,0,0
+1742405091761,1,Query Transactions,200,,CRUD 1-24,text,true,,1413,192,2,2,http://localhost:8080/api/transactions,1,0,0
+1742405091762,1,Delete Transaction,200,,CRUD 1-23,text,true,,254,387,2,2,http://localhost:8080/api/transactions/2,1,0,0
+1742405091762,2,Create Transaction,409,,CRUD 1-24,text,true,,294,383,1,1,http://localhost:8080/api/transactions,2,0,0
+1742405091765,1,Update Transaction,200,,CRUD 1-24,text,true,,562,300,1,1,http://localhost:8080/api/transactions/1,1,0,0
+1742405091767,1,Delete Transaction,200,,CRUD 1-24,text,true,,254,387,1,1,http://localhost:8080/api/transactions/2,1,0,0
+1742405091768,3,Query Transactions,200,,CRUD 1-24,text,true,,1413,192,1,1,http://localhost:8080/api/transactions,3,0,0
+1742405091774,1,Query Transactions,200,,CRUD 1-25,text,true,,1413,192,2,2,http://localhost:8080/api/transactions,1,0,0
+1742405091771,5,Create Transaction,409,,CRUD 1-24,text,true,,294,383,2,2,http://localhost:8080/api/transactions,4,0,0
+1742405091776,1,Update Transaction,200,,CRUD 1-24,text,true,,562,300,2,2,http://localhost:8080/api/transactions/1,1,0,0
+1742405091777,1,Delete Transaction,200,,CRUD 1-24,text,true,,254,387,2,2,http://localhost:8080/api/transactions/2,1,0,0
+1742405091776,3,Create Transaction,409,,CRUD 1-25,text,true,,294,383,2,2,http://localhost:8080/api/transactions,3,0,0
+1742405091778,2,Query Transactions,200,,CRUD 1-24,text,true,,1413,192,2,2,http://localhost:8080/api/transactions,2,0,0
+1742405091779,1,Update Transaction,200,,CRUD 1-25,text,true,,562,300,2,2,http://localhost:8080/api/transactions/1,1,0,0
+1742405091780,1,Delete Transaction,200,,CRUD 1-25,text,true,,254,387,2,2,http://localhost:8080/api/transactions/2,1,0,0
+1742405091780,3,Create Transaction,409,,CRUD 1-24,text,true,,294,383,2,2,http://localhost:8080/api/transactions,3,0,0
+1742405091781,2,Query Transactions,200,,CRUD 1-25,text,true,,1413,192,2,2,http://localhost:8080/api/transactions,2,0,0
+1742405091783,1,Update Transaction,200,,CRUD 1-24,text,true,,562,300,2,2,http://localhost:8080/api/transactions/1,1,0,0
+1742405091783,2,Create Transaction,409,,CRUD 1-25,text,true,,294,383,2,2,http://localhost:8080/api/transactions,2,0,0
+1742405091784,1,Delete Transaction,200,,CRUD 1-24,text,true,,254,387,2,2,http://localhost:8080/api/transactions/2,1,0,0
+1742405091785,1,Update Transaction,200,,CRUD 1-25,text,true,,562,300,1,1,http://localhost:8080/api/transactions/1,1,0,0
+1742405091786,1,Delete Transaction,200,,CRUD 1-25,text,true,,254,387,1,1,http://localhost:8080/api/transactions/2,1,0,0
+1742405091787,2,Query Transactions,200,,CRUD 1-25,text,true,,1413,192,1,1,http://localhost:8080/api/transactions,2,0,0
+1742405091789,2,Create Transaction,409,,CRUD 1-25,text,true,,294,383,1,1,http://localhost:8080/api/transactions,2,0,0
+1742405091791,2,Update Transaction,200,,CRUD 1-25,text,true,,562,300,1,1,http://localhost:8080/api/transactions/1,2,0,0
+1742405091793,1,Delete Transaction,200,,CRUD 1-25,text,true,,254,387,2,2,http://localhost:8080/api/transactions/2,1,0,0
+1742405091794,2,Query Transactions,200,,CRUD 1-25,text,true,,1413,192,2,2,http://localhost:8080/api/transactions,2,0,0
+1742405091793,3,Query Transactions,200,,CRUD 1-26,text,true,,1413,192,2,2,http://localhost:8080/api/transactions,3,0,1
+1742405091796,1,Create Transaction,409,,CRUD 1-26,text,true,,294,383,2,2,http://localhost:8080/api/transactions,1,0,0
+1742405091796,2,Create Transaction,409,,CRUD 1-25,text,true,,294,383,2,2,http://localhost:8080/api/transactions,1,0,0
+1742405091798,1,Update Transaction,200,,CRUD 1-26,text,true,,562,300,2,2,http://localhost:8080/api/transactions/1,1,0,0
+1742405091798,1,Update Transaction,200,,CRUD 1-25,text,true,,562,300,2,2,http://localhost:8080/api/transactions/1,1,0,0
+1742405091799,0,Delete Transaction,200,,CRUD 1-26,text,true,,254,387,2,2,http://localhost:8080/api/transactions/2,0,0,0
+1742405091799,1,Delete Transaction,200,,CRUD 1-25,text,true,,254,387,2,2,http://localhost:8080/api/transactions/2,0,0,0
+1742405091800,1,Query Transactions,200,,CRUD 1-25,text,true,,1413,192,2,2,http://localhost:8080/api/transactions,1,0,0
+1742405091799,2,Query Transactions,200,,CRUD 1-26,text,true,,1413,192,2,2,http://localhost:8080/api/transactions,2,0,0
+1742405091801,1,Create Transaction,409,,CRUD 1-26,text,true,,294,383,2,2,http://localhost:8080/api/transactions,1,0,0
+1742405091801,1,Create Transaction,409,,CRUD 1-25,text,true,,294,383,2,2,http://localhost:8080/api/transactions,1,0,0
+1742405091803,0,Update Transaction,200,,CRUD 1-26,text,true,,562,300,2,2,http://localhost:8080/api/transactions/1,0,0,0
+1742405091803,0,Update Transaction,200,,CRUD 1-25,text,true,,562,300,2,2,http://localhost:8080/api/transactions/1,0,0,0
+1742405091804,0,Delete Transaction,200,,CRUD 1-26,text,true,,254,387,2,2,http://localhost:8080/api/transactions/2,0,0,0
+1742405091804,0,Delete Transaction,200,,CRUD 1-25,text,true,,254,387,2,2,http://localhost:8080/api/transactions/2,0,0,0
+1742405091804,1,Query Transactions,200,,CRUD 1-26,text,true,,1413,192,1,1,http://localhost:8080/api/transactions,1,0,0
+1742405091806,1,Create Transaction,409,,CRUD 1-26,text,true,,294,383,1,1,http://localhost:8080/api/transactions,1,0,0
+1742405091807,1,Update Transaction,200,,CRUD 1-26,text,true,,562,300,1,1,http://localhost:8080/api/transactions/1,1,0,0
+1742405091808,1,Delete Transaction,200,,CRUD 1-26,text,true,,254,387,1,1,http://localhost:8080/api/transactions/2,1,0,0
+1742405091809,1,Query Transactions,200,,CRUD 1-26,text,true,,1413,192,1,1,http://localhost:8080/api/transactions,1,0,0
+1742405091811,2,Create Transaction,409,,CRUD 1-26,text,true,,294,383,2,2,http://localhost:8080/api/transactions,2,0,0
+1742405091813,1,Query Transactions,200,,CRUD 1-27,text,true,,1413,192,2,2,http://localhost:8080/api/transactions,1,0,0
+1742405091813,1,Update Transaction,200,,CRUD 1-26,text,true,,562,300,2,2,http://localhost:8080/api/transactions/1,1,0,0
+1742405091814,1,Delete Transaction,200,,CRUD 1-26,text,true,,254,387,2,2,http://localhost:8080/api/transactions/2,1,0,0
+1742405091814,2,Create Transaction,409,,CRUD 1-27,text,true,,294,383,2,2,http://localhost:8080/api/transactions,2,0,0
+1742405091816,1,Update Transaction,200,,CRUD 1-27,text,true,,562,300,2,2,http://localhost:8080/api/transactions/1,1,0,0
+1742405091815,2,Query Transactions,200,,CRUD 1-26,text,true,,1413,192,2,2,http://localhost:8080/api/transactions,2,0,0
+1742405091817,2,Delete Transaction,200,,CRUD 1-27,text,true,,254,387,2,2,http://localhost:8080/api/transactions/2,2,0,0
+1742405091817,2,Create Transaction,409,,CRUD 1-26,text,true,,294,383,2,2,http://localhost:8080/api/transactions,2,0,0
+1742405091819,1,Query Transactions,200,,CRUD 1-27,text,true,,1413,192,2,2,http://localhost:8080/api/transactions,1,0,0
+1742405091819,1,Update Transaction,200,,CRUD 1-26,text,true,,562,300,2,2,http://localhost:8080/api/transactions/1,1,0,0
+1742405091820,1,Delete Transaction,200,,CRUD 1-26,text,true,,254,387,2,2,http://localhost:8080/api/transactions/2,1,0,0
+1742405091820,2,Create Transaction,409,,CRUD 1-27,text,true,,294,383,1,1,http://localhost:8080/api/transactions,2,0,0
+1742405091822,1,Update Transaction,200,,CRUD 1-27,text,true,,562,300,1,1,http://localhost:8080/api/transactions/1,1,0,0
+1742405091824,1,Delete Transaction,200,,CRUD 1-27,text,true,,254,387,1,1,http://localhost:8080/api/transactions/2,1,0,0
+1742405091825,2,Query Transactions,200,,CRUD 1-27,text,true,,1413,192,1,1,http://localhost:8080/api/transactions,2,0,0
+1742405091827,5,Create Transaction,409,,CRUD 1-27,text,true,,294,383,1,1,http://localhost:8080/api/transactions,5,0,0
+1742405091832,10,Update Transaction,200,,CRUD 1-27,text,true,,562,300,2,2,http://localhost:8080/api/transactions/1,6,0,0
+1742405091835,9,Query Transactions,200,,CRUD 1-28,text,true,,1413,192,2,2,http://localhost:8080/api/transactions,9,0,1
+1742405091843,2,Delete Transaction,200,,CRUD 1-27,text,true,,254,387,2,2,http://localhost:8080/api/transactions/2,2,0,0
+1742405091844,5,Create Transaction,409,,CRUD 1-28,text,true,,294,383,2,2,http://localhost:8080/api/transactions,5,0,0
+1742405091845,5,Query Transactions,200,,CRUD 1-27,text,true,,1413,192,2,2,http://localhost:8080/api/transactions,5,0,0
+1742405091849,1,Update Transaction,200,,CRUD 1-28,text,true,,562,300,2,2,http://localhost:8080/api/transactions/1,1,0,0
+1742405091851,1,Delete Transaction,200,,CRUD 1-28,text,true,,254,387,2,2,http://localhost:8080/api/transactions/2,1,0,0
+1742405091850,3,Create Transaction,409,,CRUD 1-27,text,true,,294,383,2,2,http://localhost:8080/api/transactions,3,0,0
+1742405091852,1,Query Transactions,200,,CRUD 1-28,text,true,,1413,192,2,2,http://localhost:8080/api/transactions,1,0,0
+1742405091853,2,Update Transaction,200,,CRUD 1-27,text,true,,562,300,3,3,http://localhost:8080/api/transactions/1,2,0,0
+1742405091855,7,Delete Transaction,200,,CRUD 1-27,text,true,,254,387,3,3,http://localhost:8080/api/transactions/2,7,0,0
+1742405091854,8,Query Transactions,200,,CRUD 1-29,text,true,,1413,192,3,3,http://localhost:8080/api/transactions,8,0,0
+1742405091854,8,Create Transaction,409,,CRUD 1-28,text,true,,294,383,3,3,http://localhost:8080/api/transactions,8,0,0
+1742405091862,2,Query Transactions,200,,CRUD 1-27,text,true,,1413,192,3,3,http://localhost:8080/api/transactions,1,0,0
+1742405091862,2,Update Transaction,200,,CRUD 1-28,text,true,,562,300,3,3,http://localhost:8080/api/transactions/1,2,0,0
+1742405091864,2,Delete Transaction,200,,CRUD 1-28,text,true,,254,387,3,3,http://localhost:8080/api/transactions/2,2,0,0
+1742405091862,4,Create Transaction,409,,CRUD 1-29,text,true,,294,383,3,3,http://localhost:8080/api/transactions,4,0,0
+1742405091864,3,Create Transaction,409,,CRUD 1-27,text,true,,294,383,3,3,http://localhost:8080/api/transactions,3,0,0
+1742405091866,2,Update Transaction,200,,CRUD 1-29,text,true,,562,300,3,3,http://localhost:8080/api/transactions/1,2,0,0
+1742405091867,2,Update Transaction,200,,CRUD 1-27,text,true,,562,300,3,3,http://localhost:8080/api/transactions/1,2,0,0
+1742405091869,1,Delete Transaction,200,,CRUD 1-27,text,true,,254,387,3,3,http://localhost:8080/api/transactions/2,1,0,0
+1742405091869,1,Delete Transaction,200,,CRUD 1-29,text,true,,254,387,3,3,http://localhost:8080/api/transactions/2,1,0,0
+1742405091866,4,Query Transactions,200,,CRUD 1-28,text,true,,1413,192,3,3,http://localhost:8080/api/transactions,4,0,0
+1742405091870,2,Create Transaction,409,,CRUD 1-28,text,true,,294,383,2,2,http://localhost:8080/api/transactions,2,0,0
+1742405091870,2,Query Transactions,200,,CRUD 1-29,text,true,,1413,192,2,2,http://localhost:8080/api/transactions,2,0,0
+1742405091872,2,Update Transaction,200,,CRUD 1-28,text,true,,562,300,3,3,http://localhost:8080/api/transactions/1,2,0,0
+1742405091875,1,Delete Transaction,200,,CRUD 1-28,text,true,,254,387,3,3,http://localhost:8080/api/transactions/2,1,0,0
+1742405091873,4,Create Transaction,409,,CRUD 1-29,text,true,,294,383,3,3,http://localhost:8080/api/transactions,3,0,0
+1742405091874,3,Query Transactions,200,,CRUD 1-30,text,true,,1413,192,3,3,http://localhost:8080/api/transactions,3,0,1
+1742405091876,2,Query Transactions,200,,CRUD 1-28,text,true,,1413,192,3,3,http://localhost:8080/api/transactions,2,0,0
+1742405091877,1,Update Transaction,200,,CRUD 1-29,text,true,,562,300,3,3,http://localhost:8080/api/transactions/1,1,0,0
+1742405091878,1,Delete Transaction,200,,CRUD 1-29,text,true,,254,387,3,3,http://localhost:8080/api/transactions/2,1,0,0
+1742405091877,2,Create Transaction,409,,CRUD 1-30,text,true,,294,383,3,3,http://localhost:8080/api/transactions,2,0,0
+1742405091878,2,Create Transaction,409,,CRUD 1-28,text,true,,294,383,3,3,http://localhost:8080/api/transactions,2,0,0
+1742405091879,1,Update Transaction,200,,CRUD 1-30,text,true,,562,300,3,3,http://localhost:8080/api/transactions/1,1,0,0
+1742405091879,1,Query Transactions,200,,CRUD 1-29,text,true,,1413,192,3,3,http://localhost:8080/api/transactions,1,0,0
+1742405091880,0,Update Transaction,200,,CRUD 1-28,text,true,,562,300,3,3,http://localhost:8080/api/transactions/1,0,0,0
+1742405091880,1,Delete Transaction,200,,CRUD 1-30,text,true,,254,387,3,3,http://localhost:8080/api/transactions/2,1,0,0
+1742405091881,0,Delete Transaction,200,,CRUD 1-28,text,true,,254,387,3,3,http://localhost:8080/api/transactions/2,0,0,0
+1742405091880,2,Create Transaction,409,,CRUD 1-29,text,true,,294,383,3,3,http://localhost:8080/api/transactions,2,0,0
+1742405091881,1,Query Transactions,200,,CRUD 1-30,text,true,,1413,192,3,3,http://localhost:8080/api/transactions,1,0,0
+1742405091881,1,Query Transactions,200,,CRUD 1-28,text,true,,1413,192,3,3,http://localhost:8080/api/transactions,1,0,0
+1742405091882,1,Update Transaction,200,,CRUD 1-29,text,true,,562,300,3,3,http://localhost:8080/api/transactions/1,1,0,0
+1742405091882,2,Create Transaction,409,,CRUD 1-28,text,true,,294,383,3,3,http://localhost:8080/api/transactions,1,0,0
+1742405091882,17,Create Transaction,409,,CRUD 1-30,text,true,,294,383,4,4,http://localhost:8080/api/transactions,17,0,0
+1742405091883,16,Delete Transaction,200,,CRUD 1-29,text,true,,254,387,4,4,http://localhost:8080/api/transactions/2,16,0,0
+1742405091884,16,Update Transaction,200,,CRUD 1-28,text,true,,562,300,4,4,http://localhost:8080/api/transactions/1,16,0,0
+1742405091887,14,Query Transactions,200,,CRUD 1-31,text,true,,1413,192,4,4,http://localhost:8080/api/transactions,14,0,0
+1742405091899,3,Query Transactions,200,,CRUD 1-29,text,true,,1413,192,4,4,http://localhost:8080/api/transactions,3,0,0
+1742405091901,1,Delete Transaction,200,,CRUD 1-28,text,true,,254,387,4,4,http://localhost:8080/api/transactions/2,1,0,0
+1742405091899,4,Update Transaction,200,,CRUD 1-30,text,true,,562,300,3,3,http://localhost:8080/api/transactions/1,4,0,0
+1742405091902,2,Create Transaction,409,,CRUD 1-31,text,true,,294,383,3,3,http://localhost:8080/api/transactions,2,0,0
+1742405091903,1,Delete Transaction,200,,CRUD 1-30,text,true,,254,387,3,3,http://localhost:8080/api/transactions/2,1,0,0
+1742405091904,1,Update Transaction,200,,CRUD 1-31,text,true,,562,300,3,3,http://localhost:8080/api/transactions/1,1,0,0
+1742405091904,1,Query Transactions,200,,CRUD 1-30,text,true,,1413,192,3,3,http://localhost:8080/api/transactions,1,0,0
+1742405091902,3,Create Transaction,409,,CRUD 1-29,text,true,,294,383,3,3,http://localhost:8080/api/transactions,3,0,0
+1742405091905,1,Delete Transaction,200,,CRUD 1-31,text,true,,254,387,3,3,http://localhost:8080/api/transactions/2,1,0,0
+1742405091905,1,Update Transaction,200,,CRUD 1-29,text,true,,562,300,3,3,http://localhost:8080/api/transactions/1,1,0,0
+1742405091905,2,Create Transaction,409,,CRUD 1-30,text,true,,294,383,3,3,http://localhost:8080/api/transactions,2,0,0
+1742405091906,1,Query Transactions,200,,CRUD 1-31,text,true,,1413,192,3,3,http://localhost:8080/api/transactions,1,0,0
+1742405091906,1,Delete Transaction,200,,CRUD 1-29,text,true,,254,387,3,3,http://localhost:8080/api/transactions/2,1,0,0
+1742405091907,1,Update Transaction,200,,CRUD 1-30,text,true,,562,300,3,3,http://localhost:8080/api/transactions/1,1,0,0
+1742405091907,1,Query Transactions,200,,CRUD 1-29,text,true,,1413,192,3,3,http://localhost:8080/api/transactions,1,0,0
+1742405091908,0,Delete Transaction,200,,CRUD 1-30,text,true,,254,387,3,3,http://localhost:8080/api/transactions/2,0,0,0
+1742405091907,2,Create Transaction,409,,CRUD 1-31,text,true,,294,383,3,3,http://localhost:8080/api/transactions,2,0,0
+1742405091908,1,Create Transaction,409,,CRUD 1-29,text,true,,294,383,3,3,http://localhost:8080/api/transactions,1,0,0
+1742405091908,1,Query Transactions,200,,CRUD 1-30,text,true,,1413,192,3,3,http://localhost:8080/api/transactions,1,0,0
+1742405091909,1,Update Transaction,200,,CRUD 1-31,text,true,,562,300,3,3,http://localhost:8080/api/transactions/1,0,0,0
+1742405091910,0,Delete Transaction,200,,CRUD 1-31,text,true,,254,387,3,3,http://localhost:8080/api/transactions/2,0,0,0
+1742405091909,1,Update Transaction,200,,CRUD 1-29,text,true,,562,300,3,3,http://localhost:8080/api/transactions/1,1,0,0
+1742405091909,2,Create Transaction,409,,CRUD 1-30,text,true,,294,383,3,3,http://localhost:8080/api/transactions,2,0,0
+1742405091910,1,Delete Transaction,200,,CRUD 1-29,text,true,,254,387,3,3,http://localhost:8080/api/transactions/2,1,0,0
+1742405091911,0,Update Transaction,200,,CRUD 1-30,text,true,,562,300,3,3,http://localhost:8080/api/transactions/1,0,0,0
+1742405091910,1,Query Transactions,200,,CRUD 1-31,text,true,,1413,192,3,3,http://localhost:8080/api/transactions,1,0,0
+1742405091912,0,Delete Transaction,200,,CRUD 1-30,text,true,,254,387,3,3,http://localhost:8080/api/transactions/2,0,0,0
+1742405091912,1,Create Transaction,409,,CRUD 1-31,text,true,,294,383,3,3,http://localhost:8080/api/transactions,1,0,0
+1742405091912,1,Query Transactions,200,,CRUD 1-32,text,true,,1413,192,3,3,http://localhost:8080/api/transactions,1,0,0
+1742405091912,1,Query Transactions,200,,CRUD 1-30,text,true,,1413,192,3,3,http://localhost:8080/api/transactions,1,0,0
+1742405091913,1,Update Transaction,200,,CRUD 1-31,text,true,,562,300,3,3,http://localhost:8080/api/transactions/1,1,0,0
+1742405091913,1,Create Transaction,409,,CRUD 1-30,text,true,,294,383,3,3,http://localhost:8080/api/transactions,1,0,0
+1742405091913,1,Create Transaction,409,,CRUD 1-32,text,true,,294,383,3,3,http://localhost:8080/api/transactions,1,0,0
+1742405091914,0,Delete Transaction,200,,CRUD 1-31,text,true,,254,387,3,3,http://localhost:8080/api/transactions/2,0,0,0
+1742405091914,1,Update Transaction,200,,CRUD 1-32,text,true,,562,300,3,3,http://localhost:8080/api/transactions/1,1,0,0
+1742405091914,1,Query Transactions,200,,CRUD 1-31,text,true,,1413,192,3,3,http://localhost:8080/api/transactions,1,0,0
+1742405091914,1,Update Transaction,200,,CRUD 1-30,text,true,,562,300,3,3,http://localhost:8080/api/transactions/1,1,0,0
+1742405091915,1,Delete Transaction,200,,CRUD 1-32,text,true,,254,387,3,3,http://localhost:8080/api/transactions/2,1,0,0
+1742405091915,1,Delete Transaction,200,,CRUD 1-30,text,true,,254,387,3,3,http://localhost:8080/api/transactions/2,1,0,0
+1742405091915,1,Create Transaction,409,,CRUD 1-31,text,true,,294,383,3,3,http://localhost:8080/api/transactions,1,0,0
+1742405091916,1,Query Transactions,200,,CRUD 1-32,text,true,,1413,192,2,2,http://localhost:8080/api/transactions,1,0,0
+1742405091917,0,Update Transaction,200,,CRUD 1-31,text,true,,562,300,2,2,http://localhost:8080/api/transactions/1,0,0,0
+1742405091917,1,Create Transaction,409,,CRUD 1-32,text,true,,294,383,2,2,http://localhost:8080/api/transactions,1,0,0
+1742405091917,1,Delete Transaction,200,,CRUD 1-31,text,true,,254,387,2,2,http://localhost:8080/api/transactions/2,1,0,0
+1742405091918,1,Update Transaction,200,,CRUD 1-32,text,true,,562,300,2,2,http://localhost:8080/api/transactions/1,1,0,0
+1742405091918,1,Query Transactions,200,,CRUD 1-31,text,true,,1413,192,2,2,http://localhost:8080/api/transactions,1,0,0
+1742405091919,0,Delete Transaction,200,,CRUD 1-32,text,true,,254,387,2,2,http://localhost:8080/api/transactions/2,0,0,0
+1742405091919,1,Create Transaction,409,,CRUD 1-31,text,true,,294,383,2,2,http://localhost:8080/api/transactions,1,0,0
+1742405091920,0,Update Transaction,200,,CRUD 1-31,text,true,,562,300,2,2,http://localhost:8080/api/transactions/1,0,0,0
+1742405091919,1,Query Transactions,200,,CRUD 1-32,text,true,,1413,192,2,2,http://localhost:8080/api/transactions,1,0,0
+1742405091920,1,Delete Transaction,200,,CRUD 1-31,text,true,,254,387,2,2,http://localhost:8080/api/transactions/2,1,0,0
+1742405091920,1,Create Transaction,409,,CRUD 1-32,text,true,,294,383,1,1,http://localhost:8080/api/transactions,1,0,0
+1742405091921,1,Update Transaction,200,,CRUD 1-32,text,true,,562,300,1,1,http://localhost:8080/api/transactions/1,1,0,0
+1742405091922,0,Delete Transaction,200,,CRUD 1-32,text,true,,254,387,1,1,http://localhost:8080/api/transactions/2,0,0,0
+1742405091923,0,Query Transactions,200,,CRUD 1-32,text,true,,1413,192,1,1,http://localhost:8080/api/transactions,0,0,0
+1742405091924,1,Create Transaction,409,,CRUD 1-32,text,true,,294,383,1,1,http://localhost:8080/api/transactions,1,0,0
+1742405091925,1,Update Transaction,200,,CRUD 1-32,text,true,,562,300,2,2,http://localhost:8080/api/transactions/1,1,0,0
+1742405091927,0,Delete Transaction,200,,CRUD 1-32,text,true,,254,387,2,2,http://localhost:8080/api/transactions/2,0,0,0
+1742405091927,1,Query Transactions,200,,CRUD 1-33,text,true,,1413,192,2,2,http://localhost:8080/api/transactions,0,0,0
+1742405091927,1,Query Transactions,200,,CRUD 1-32,text,true,,1413,192,2,2,http://localhost:8080/api/transactions,1,0,0
+1742405091928,1,Create Transaction,409,,CRUD 1-33,text,true,,294,383,2,2,http://localhost:8080/api/transactions,1,0,0
+1742405091928,1,Create Transaction,409,,CRUD 1-32,text,true,,294,383,2,2,http://localhost:8080/api/transactions,1,0,0
+1742405091929,0,Update Transaction,200,,CRUD 1-33,text,true,,562,300,2,2,http://localhost:8080/api/transactions/1,0,0,0
+1742405091929,1,Update Transaction,200,,CRUD 1-32,text,true,,562,300,2,2,http://localhost:8080/api/transactions/1,1,0,0
+1742405091930,0,Delete Transaction,200,,CRUD 1-33,text,true,,254,387,2,2,http://localhost:8080/api/transactions/2,0,0,0
+1742405091930,1,Delete Transaction,200,,CRUD 1-32,text,true,,254,387,2,2,http://localhost:8080/api/transactions/2,0,0,0
+1742405091930,1,Query Transactions,200,,CRUD 1-33,text,true,,1413,192,2,2,http://localhost:8080/api/transactions,1,0,0
+1742405091931,2,Create Transaction,409,,CRUD 1-33,text,true,,294,383,2,2,http://localhost:8080/api/transactions,2,0,0
+1742405091933,1,Update Transaction,200,,CRUD 1-33,text,true,,562,300,1,1,http://localhost:8080/api/transactions/1,1,0,0
+1742405091934,1,Delete Transaction,200,,CRUD 1-33,text,true,,254,387,1,1,http://localhost:8080/api/transactions/2,1,0,0
+1742405091935,1,Query Transactions,200,,CRUD 1-33,text,true,,1413,192,1,1,http://localhost:8080/api/transactions,1,0,0
+1742405091936,1,Create Transaction,409,,CRUD 1-33,text,true,,294,383,1,1,http://localhost:8080/api/transactions,1,0,0
+1742405091937,1,Update Transaction,200,,CRUD 1-33,text,true,,562,300,1,1,http://localhost:8080/api/transactions/1,1,0,0
+1742405091938,1,Delete Transaction,200,,CRUD 1-33,text,true,,254,387,1,1,http://localhost:8080/api/transactions/2,1,0,0
+1742405091939,1,Query Transactions,200,,CRUD 1-33,text,true,,1413,192,1,1,http://localhost:8080/api/transactions,1,0,0
+1742405091941,1,Create Transaction,409,,CRUD 1-33,text,true,,294,383,1,1,http://localhost:8080/api/transactions,1,0,0
+1742405091942,1,Update Transaction,200,,CRUD 1-33,text,true,,562,300,1,1,http://localhost:8080/api/transactions/1,1,0,0
+1742405091943,0,Delete Transaction,200,,CRUD 1-33,text,true,,254,387,1,1,http://localhost:8080/api/transactions/2,0,0,0
+1742405091944,0,Query Transactions,200,,CRUD 1-33,text,true,,1413,192,1,1,http://localhost:8080/api/transactions,0,0,0
+1742405091945,1,Create Transaction,409,,CRUD 1-33,text,true,,294,383,1,1,http://localhost:8080/api/transactions,1,0,0
+1742405091946,1,Update Transaction,200,,CRUD 1-33,text,true,,562,300,1,1,http://localhost:8080/api/transactions/1,1,0,0
+1742405091947,0,Delete Transaction,200,,CRUD 1-33,text,true,,254,387,1,1,http://localhost:8080/api/transactions/2,0,0,0
+1742405091951,3,Query Transactions,200,,CRUD 1-34,text,true,,1413,192,1,1,http://localhost:8080/api/transactions,3,0,1
+1742405091954,1,Create Transaction,409,,CRUD 1-34,text,true,,294,383,1,1,http://localhost:8080/api/transactions,1,0,0
+1742405091956,0,Update Transaction,200,,CRUD 1-34,text,true,,562,300,1,1,http://localhost:8080/api/transactions/1,0,0,0
+1742405091957,0,Delete Transaction,200,,CRUD 1-34,text,true,,254,387,1,1,http://localhost:8080/api/transactions/2,0,0,0
+1742405091957,2,Query Transactions,200,,CRUD 1-34,text,true,,1413,192,1,1,http://localhost:8080/api/transactions,2,0,0
+1742405091959,1,Create Transaction,409,,CRUD 1-34,text,true,,294,383,1,1,http://localhost:8080/api/transactions,1,0,0
+1742405091960,1,Update Transaction,200,,CRUD 1-34,text,true,,562,300,1,1,http://localhost:8080/api/transactions/1,1,0,0
+1742405091961,1,Delete Transaction,200,,CRUD 1-34,text,true,,254,387,1,1,http://localhost:8080/api/transactions/2,1,0,0
+1742405091962,1,Query Transactions,200,,CRUD 1-34,text,true,,1413,192,1,1,http://localhost:8080/api/transactions,1,0,0
+1742405091963,1,Create Transaction,409,,CRUD 1-34,text,true,,294,383,1,1,http://localhost:8080/api/transactions,1,0,0
+1742405091964,1,Update Transaction,200,,CRUD 1-34,text,true,,562,300,1,1,http://localhost:8080/api/transactions/1,1,0,0
+1742405091965,1,Delete Transaction,200,,CRUD 1-34,text,true,,254,387,1,1,http://localhost:8080/api/transactions/2,1,0,0
+1742405091966,1,Query Transactions,200,,CRUD 1-34,text,true,,1413,192,1,1,http://localhost:8080/api/transactions,1,0,0
+1742405091967,1,Create Transaction,409,,CRUD 1-34,text,true,,294,383,1,1,http://localhost:8080/api/transactions,1,0,0
+1742405091968,1,Update Transaction,200,,CRUD 1-34,text,true,,562,300,1,1,http://localhost:8080/api/transactions/1,1,0,0
+1742405091969,1,Delete Transaction,200,,CRUD 1-34,text,true,,254,387,1,1,http://localhost:8080/api/transactions/2,1,0,0
+1742405091970,1,Query Transactions,200,,CRUD 1-34,text,true,,1413,192,1,1,http://localhost:8080/api/transactions,1,0,0
+1742405091971,1,Create Transaction,409,,CRUD 1-34,text,true,,294,383,1,1,http://localhost:8080/api/transactions,1,0,0
+1742405091972,1,Update Transaction,200,,CRUD 1-34,text,true,,562,300,1,1,http://localhost:8080/api/transactions/1,1,0,0
+1742405091973,1,Delete Transaction,200,,CRUD 1-34,text,true,,254,387,2,2,http://localhost:8080/api/transactions/2,1,0,0
+1742405091974,1,Query Transactions,200,,CRUD 1-35,text,true,,1413,192,1,1,http://localhost:8080/api/transactions,1,0,0
+1742405091975,2,Create Transaction,409,,CRUD 1-35,text,true,,294,383,1,1,http://localhost:8080/api/transactions,2,0,0
+1742405091977,1,Update Transaction,200,,CRUD 1-35,text,true,,562,300,1,1,http://localhost:8080/api/transactions/1,1,0,0
+1742405091978,0,Delete Transaction,200,,CRUD 1-35,text,true,,254,387,1,1,http://localhost:8080/api/transactions/2,0,0,0
+1742405091978,1,Query Transactions,200,,CRUD 1-35,text,true,,1413,192,1,1,http://localhost:8080/api/transactions,1,0,0
+1742405091979,1,Create Transaction,409,,CRUD 1-35,text,true,,294,383,1,1,http://localhost:8080/api/transactions,1,0,0
+1742405091980,1,Update Transaction,200,,CRUD 1-35,text,true,,562,300,1,1,http://localhost:8080/api/transactions/1,1,0,0
+1742405091981,0,Delete Transaction,200,,CRUD 1-35,text,true,,254,387,1,1,http://localhost:8080/api/transactions/2,0,0,0
+1742405091982,0,Query Transactions,200,,CRUD 1-35,text,true,,1413,192,1,1,http://localhost:8080/api/transactions,0,0,0
+1742405091982,1,Create Transaction,409,,CRUD 1-35,text,true,,294,383,1,1,http://localhost:8080/api/transactions,1,0,0
+1742405091983,1,Update Transaction,200,,CRUD 1-35,text,true,,562,300,1,1,http://localhost:8080/api/transactions/1,1,0,0
+1742405091984,0,Delete Transaction,200,,CRUD 1-35,text,true,,254,387,1,1,http://localhost:8080/api/transactions/2,0,0,0
+1742405091985,0,Query Transactions,200,,CRUD 1-35,text,true,,1413,192,1,1,http://localhost:8080/api/transactions,0,0,0
+1742405091985,2,Create Transaction,409,,CRUD 1-35,text,true,,294,383,1,1,http://localhost:8080/api/transactions,2,0,0
+1742405091987,0,Update Transaction,200,,CRUD 1-35,text,true,,562,300,1,1,http://localhost:8080/api/transactions/1,0,0,0
+1742405091987,1,Delete Transaction,200,,CRUD 1-35,text,true,,254,387,1,1,http://localhost:8080/api/transactions/2,1,0,0
+1742405091988,1,Query Transactions,200,,CRUD 1-35,text,true,,1413,192,1,1,http://localhost:8080/api/transactions,1,0,0
+1742405091989,1,Create Transaction,409,,CRUD 1-35,text,true,,294,383,1,1,http://localhost:8080/api/transactions,1,0,0
+1742405091990,0,Update Transaction,200,,CRUD 1-35,text,true,,562,300,1,1,http://localhost:8080/api/transactions/1,0,0,0
+1742405091990,1,Delete Transaction,200,,CRUD 1-35,text,true,,254,387,1,1,http://localhost:8080/api/transactions/2,1,0,0
+1742405091991,2,Query Transactions,200,,CRUD 1-36,text,true,,1413,192,1,1,http://localhost:8080/api/transactions,2,0,1
+1742405091993,1,Create Transaction,409,,CRUD 1-36,text,true,,294,383,1,1,http://localhost:8080/api/transactions,1,0,0
+1742405091994,1,Update Transaction,200,,CRUD 1-36,text,true,,562,300,1,1,http://localhost:8080/api/transactions/1,1,0,0
+1742405091995,0,Delete Transaction,200,,CRUD 1-36,text,true,,254,387,1,1,http://localhost:8080/api/transactions/2,0,0,0
+1742405091995,1,Query Transactions,200,,CRUD 1-36,text,true,,1413,192,1,1,http://localhost:8080/api/transactions,1,0,0
+1742405091996,1,Create Transaction,409,,CRUD 1-36,text,true,,294,383,1,1,http://localhost:8080/api/transactions,1,0,0
+1742405091997,1,Update Transaction,200,,CRUD 1-36,text,true,,562,300,1,1,http://localhost:8080/api/transactions/1,1,0,0
+1742405091998,2,Delete Transaction,200,,CRUD 1-36,text,true,,254,387,1,1,http://localhost:8080/api/transactions/2,2,0,0
+1742405092000,1,Query Transactions,200,,CRUD 1-36,text,true,,1413,192,1,1,http://localhost:8080/api/transactions,1,0,0
+1742405092001,1,Create Transaction,409,,CRUD 1-36,text,true,,294,383,1,1,http://localhost:8080/api/transactions,1,0,0
+1742405092002,1,Update Transaction,200,,CRUD 1-36,text,true,,562,300,1,1,http://localhost:8080/api/transactions/1,1,0,0
+1742405092003,1,Delete Transaction,200,,CRUD 1-36,text,true,,254,387,1,1,http://localhost:8080/api/transactions/2,1,0,0
+1742405092004,0,Query Transactions,200,,CRUD 1-36,text,true,,1413,192,1,1,http://localhost:8080/api/transactions,0,0,0
+1742405092005,0,Create Transaction,409,,CRUD 1-36,text,true,,294,383,1,1,http://localhost:8080/api/transactions,0,0,0
+1742405092006,0,Update Transaction,200,,CRUD 1-36,text,true,,562,300,1,1,http://localhost:8080/api/transactions/1,0,0,0
+1742405092006,1,Delete Transaction,200,,CRUD 1-36,text,true,,254,387,1,1,http://localhost:8080/api/transactions/2,1,0,0
+1742405092007,1,Query Transactions,200,,CRUD 1-36,text,true,,1413,192,1,1,http://localhost:8080/api/transactions,1,0,0
+1742405092008,1,Create Transaction,409,,CRUD 1-36,text,true,,294,383,2,2,http://localhost:8080/api/transactions,1,0,0
+1742405092009,0,Query Transactions,200,,CRUD 1-37,text,true,,1413,192,2,2,http://localhost:8080/api/transactions,0,0,0
+1742405092009,1,Update Transaction,200,,CRUD 1-36,text,true,,562,300,2,2,http://localhost:8080/api/transactions/1,1,0,0
+1742405092010,1,Create Transaction,409,,CRUD 1-37,text,true,,294,383,2,2,http://localhost:8080/api/transactions,1,0,0
+1742405092010,1,Delete Transaction,200,,CRUD 1-36,text,true,,254,387,2,2,http://localhost:8080/api/transactions/2,1,0,0
+1742405092011,1,Update Transaction,200,,CRUD 1-37,text,true,,562,300,1,1,http://localhost:8080/api/transactions/1,1,0,0
+1742405092012,0,Delete Transaction,200,,CRUD 1-37,text,true,,254,387,1,1,http://localhost:8080/api/transactions/2,0,0,0
+1742405092013,1,Query Transactions,200,,CRUD 1-37,text,true,,1413,192,1,1,http://localhost:8080/api/transactions,1,0,0
+1742405092014,1,Create Transaction,409,,CRUD 1-37,text,true,,294,383,1,1,http://localhost:8080/api/transactions,1,0,0
+1742405092015,1,Update Transaction,200,,CRUD 1-37,text,true,,562,300,1,1,http://localhost:8080/api/transactions/1,1,0,0
+1742405092016,1,Delete Transaction,200,,CRUD 1-37,text,true,,254,387,1,1,http://localhost:8080/api/transactions/2,1,0,0
+1742405092017,1,Query Transactions,200,,CRUD 1-37,text,true,,1413,192,1,1,http://localhost:8080/api/transactions,1,0,0
+1742405092018,3,Create Transaction,409,,CRUD 1-37,text,true,,294,383,1,1,http://localhost:8080/api/transactions,3,0,0
+1742405092021,4,Update Transaction,200,,CRUD 1-37,text,true,,562,300,1,1,http://localhost:8080/api/transactions/1,4,0,0
+1742405092025,2,Delete Transaction,200,,CRUD 1-37,text,true,,254,387,1,1,http://localhost:8080/api/transactions/2,2,0,0
+1742405092027,5,Query Transactions,200,,CRUD 1-37,text,true,,1413,192,1,1,http://localhost:8080/api/transactions,5,0,0
+1742405092033,3,Create Transaction,409,,CRUD 1-37,text,true,,294,383,2,2,http://localhost:8080/api/transactions,3,0,0
+1742405092035,1,Query Transactions,200,,CRUD 1-38,text,true,,1413,192,2,2,http://localhost:8080/api/transactions,1,0,0
+1742405092037,1,Update Transaction,200,,CRUD 1-37,text,true,,562,300,2,2,http://localhost:8080/api/transactions/1,1,0,0
+1742405092037,2,Create Transaction,409,,CRUD 1-38,text,true,,294,383,2,2,http://localhost:8080/api/transactions,2,0,0
+1742405092038,1,Delete Transaction,200,,CRUD 1-37,text,true,,254,387,2,2,http://localhost:8080/api/transactions/2,1,0,0
+1742405092039,1,Query Transactions,200,,CRUD 1-37,text,true,,1413,192,2,2,http://localhost:8080/api/transactions,1,0,0
+1742405092039,1,Update Transaction,200,,CRUD 1-38,text,true,,562,300,2,2,http://localhost:8080/api/transactions/1,1,0,0
+1742405092040,0,Delete Transaction,200,,CRUD 1-38,text,true,,254,387,2,2,http://localhost:8080/api/transactions/2,0,0,0
+1742405092040,1,Create Transaction,409,,CRUD 1-37,text,true,,294,383,2,2,http://localhost:8080/api/transactions,1,0,0
+1742405092041,0,Query Transactions,200,,CRUD 1-38,text,true,,1413,192,2,2,http://localhost:8080/api/transactions,0,0,0
+1742405092041,1,Update Transaction,200,,CRUD 1-37,text,true,,562,300,2,2,http://localhost:8080/api/transactions/1,1,0,0
+1742405092042,1,Delete Transaction,200,,CRUD 1-37,text,true,,254,387,2,2,http://localhost:8080/api/transactions/2,1,0,0
+1742405092042,1,Create Transaction,409,,CRUD 1-38,text,true,,294,383,2,2,http://localhost:8080/api/transactions,1,0,0
+1742405092043,1,Update Transaction,200,,CRUD 1-38,text,true,,562,300,1,1,http://localhost:8080/api/transactions/1,1,0,0
+1742405092044,0,Delete Transaction,200,,CRUD 1-38,text,true,,254,387,1,1,http://localhost:8080/api/transactions/2,0,0,0
+1742405092044,1,Query Transactions,200,,CRUD 1-38,text,true,,1413,192,1,1,http://localhost:8080/api/transactions,1,0,0
+1742405092045,1,Create Transaction,409,,CRUD 1-38,text,true,,294,383,1,1,http://localhost:8080/api/transactions,1,0,0
+1742405092046,1,Update Transaction,200,,CRUD 1-38,text,true,,562,300,1,1,http://localhost:8080/api/transactions/1,1,0,0
+1742405092047,1,Delete Transaction,200,,CRUD 1-38,text,true,,254,387,1,1,http://localhost:8080/api/transactions/2,1,0,0
+1742405092048,1,Query Transactions,200,,CRUD 1-38,text,true,,1413,192,1,1,http://localhost:8080/api/transactions,1,0,0
+1742405092049,0,Create Transaction,409,,CRUD 1-38,text,true,,294,383,1,1,http://localhost:8080/api/transactions,0,0,0
+1742405092050,0,Update Transaction,200,,CRUD 1-38,text,true,,562,300,1,1,http://localhost:8080/api/transactions/1,0,0,0
+1742405092050,1,Delete Transaction,200,,CRUD 1-38,text,true,,254,387,1,1,http://localhost:8080/api/transactions/2,1,0,0
+1742405092051,1,Query Transactions,200,,CRUD 1-38,text,true,,1413,192,1,1,http://localhost:8080/api/transactions,1,0,0
+1742405092052,1,Create Transaction,409,,CRUD 1-38,text,true,,294,383,1,1,http://localhost:8080/api/transactions,1,0,0
+1742405092053,1,Update Transaction,200,,CRUD 1-38,text,true,,562,300,2,2,http://localhost:8080/api/transactions/1,1,0,0
+1742405092054,1,Delete Transaction,200,,CRUD 1-38,text,true,,254,387,2,2,http://localhost:8080/api/transactions/2,1,0,0
+1742405092054,1,Query Transactions,200,,CRUD 1-39,text,true,,1413,192,2,2,http://localhost:8080/api/transactions,1,0,0
+1742405092055,1,Create Transaction,409,,CRUD 1-39,text,true,,294,383,1,1,http://localhost:8080/api/transactions,1,0,0
+1742405092056,2,Update Transaction,200,,CRUD 1-39,text,true,,562,300,1,1,http://localhost:8080/api/transactions/1,2,0,0
+1742405092058,1,Delete Transaction,200,,CRUD 1-39,text,true,,254,387,1,1,http://localhost:8080/api/transactions/2,1,0,0
+1742405092059,1,Query Transactions,200,,CRUD 1-39,text,true,,1413,192,1,1,http://localhost:8080/api/transactions,1,0,0
+1742405092060,1,Create Transaction,409,,CRUD 1-39,text,true,,294,383,1,1,http://localhost:8080/api/transactions,1,0,0
+1742405092061,1,Update Transaction,200,,CRUD 1-39,text,true,,562,300,1,1,http://localhost:8080/api/transactions/1,1,0,0
+1742405092062,1,Delete Transaction,200,,CRUD 1-39,text,true,,254,387,1,1,http://localhost:8080/api/transactions/2,1,0,0
+1742405092063,1,Query Transactions,200,,CRUD 1-39,text,true,,1413,192,1,1,http://localhost:8080/api/transactions,1,0,0
+1742405092064,1,Create Transaction,409,,CRUD 1-39,text,true,,294,383,1,1,http://localhost:8080/api/transactions,1,0,0
+1742405092065,1,Update Transaction,200,,CRUD 1-39,text,true,,562,300,1,1,http://localhost:8080/api/transactions/1,1,0,0
+1742405092067,0,Delete Transaction,200,,CRUD 1-39,text,true,,254,387,1,1,http://localhost:8080/api/transactions/2,0,0,0
+1742405092068,1,Query Transactions,200,,CRUD 1-39,text,true,,1413,192,2,2,http://localhost:8080/api/transactions,1,0,0
+1742405092068,1,Query Transactions,200,,CRUD 1-40,text,true,,1413,192,2,2,http://localhost:8080/api/transactions,1,0,1
+1742405092069,1,Create Transaction,409,,CRUD 1-39,text,true,,294,383,2,2,http://localhost:8080/api/transactions,1,0,0
+1742405092069,1,Create Transaction,409,,CRUD 1-40,text,true,,294,383,2,2,http://localhost:8080/api/transactions,1,0,0
+1742405092070,1,Update Transaction,200,,CRUD 1-40,text,true,,562,300,2,2,http://localhost:8080/api/transactions/1,1,0,0
+1742405092070,1,Update Transaction,200,,CRUD 1-39,text,true,,562,300,2,2,http://localhost:8080/api/transactions/1,1,0,0
+1742405092071,1,Delete Transaction,200,,CRUD 1-40,text,true,,254,387,2,2,http://localhost:8080/api/transactions/2,1,0,0
+1742405092071,1,Delete Transaction,200,,CRUD 1-39,text,true,,254,387,2,2,http://localhost:8080/api/transactions/2,1,0,0
+1742405092072,1,Query Transactions,200,,CRUD 1-39,text,true,,1413,192,2,2,http://localhost:8080/api/transactions,1,0,0
+1742405092072,1,Query Transactions,200,,CRUD 1-40,text,true,,1413,192,2,2,http://localhost:8080/api/transactions,1,0,0
+1742405092073,2,Create Transaction,409,,CRUD 1-39,text,true,,294,383,2,2,http://localhost:8080/api/transactions,2,0,0
+1742405092074,1,Create Transaction,409,,CRUD 1-40,text,true,,294,383,2,2,http://localhost:8080/api/transactions,1,0,0
+1742405092075,1,Update Transaction,200,,CRUD 1-40,text,true,,562,300,2,2,http://localhost:8080/api/transactions/1,1,0,0
+1742405092075,1,Update Transaction,200,,CRUD 1-39,text,true,,562,300,2,2,http://localhost:8080/api/transactions/1,1,0,0
+1742405092076,0,Delete Transaction,200,,CRUD 1-39,text,true,,254,387,2,2,http://localhost:8080/api/transactions/2,0,0,0
+1742405092076,0,Delete Transaction,200,,CRUD 1-40,text,true,,254,387,2,2,http://localhost:8080/api/transactions/2,0,0,0
+1742405092077,1,Query Transactions,200,,CRUD 1-40,text,true,,1413,192,1,1,http://localhost:8080/api/transactions,1,0,0
+1742405092078,1,Create Transaction,409,,CRUD 1-40,text,true,,294,383,1,1,http://localhost:8080/api/transactions,1,0,0
+1742405092079,1,Update Transaction,200,,CRUD 1-40,text,true,,562,300,1,1,http://localhost:8080/api/transactions/1,1,0,0
+1742405092080,1,Delete Transaction,200,,CRUD 1-40,text,true,,254,387,1,1,http://localhost:8080/api/transactions/2,1,0,0
+1742405092082,1,Query Transactions,200,,CRUD 1-40,text,true,,1413,192,1,1,http://localhost:8080/api/transactions,1,0,0
+1742405092083,2,Create Transaction,409,,CRUD 1-40,text,true,,294,383,1,1,http://localhost:8080/api/transactions,2,0,0
+1742405092085,1,Update Transaction,200,,CRUD 1-40,text,true,,562,300,1,1,http://localhost:8080/api/transactions/1,1,0,0
+1742405092086,1,Delete Transaction,200,,CRUD 1-40,text,true,,254,387,1,1,http://localhost:8080/api/transactions/2,1,0,0
+1742405092087,1,Query Transactions,200,,CRUD 1-40,text,true,,1413,192,1,1,http://localhost:8080/api/transactions,1,0,0
+1742405092088,1,Create Transaction,409,,CRUD 1-40,text,true,,294,383,1,1,http://localhost:8080/api/transactions,1,0,0
+1742405092090,1,Update Transaction,200,,CRUD 1-40,text,true,,562,300,1,1,http://localhost:8080/api/transactions/1,1,0,0
+1742405092091,1,Delete Transaction,200,,CRUD 1-40,text,true,,254,387,1,1,http://localhost:8080/api/transactions/2,1,0,0
+1742405092092,2,Query Transactions,200,,CRUD 1-41,text,true,,1413,192,1,1,http://localhost:8080/api/transactions,2,0,1
+1742405092094,2,Create Transaction,409,,CRUD 1-41,text,true,,294,383,1,1,http://localhost:8080/api/transactions,2,0,0
+1742405092096,1,Update Transaction,200,,CRUD 1-41,text,true,,562,300,1,1,http://localhost:8080/api/transactions/1,1,0,0
+1742405092097,0,Delete Transaction,200,,CRUD 1-41,text,true,,254,387,1,1,http://localhost:8080/api/transactions/2,0,0,0
+1742405092098,1,Query Transactions,200,,CRUD 1-41,text,true,,1413,192,1,1,http://localhost:8080/api/transactions,1,0,0
+1742405092099,1,Create Transaction,409,,CRUD 1-41,text,true,,294,383,1,1,http://localhost:8080/api/transactions,1,0,0
+1742405092101,1,Update Transaction,200,,CRUD 1-41,text,true,,562,300,1,1,http://localhost:8080/api/transactions/1,1,0,0
+1742405092102,1,Delete Transaction,200,,CRUD 1-41,text,true,,254,387,1,1,http://localhost:8080/api/transactions/2,1,0,0
+1742405092103,1,Query Transactions,200,,CRUD 1-41,text,true,,1413,192,1,1,http://localhost:8080/api/transactions,1,0,0
+1742405092104,2,Create Transaction,409,,CRUD 1-41,text,true,,294,383,1,1,http://localhost:8080/api/transactions,2,0,0
+1742405092106,1,Update Transaction,200,,CRUD 1-41,text,true,,562,300,1,1,http://localhost:8080/api/transactions/1,1,0,0
+1742405092107,1,Delete Transaction,200,,CRUD 1-41,text,true,,254,387,1,1,http://localhost:8080/api/transactions/2,1,0,0
+1742405092108,2,Query Transactions,200,,CRUD 1-41,text,true,,1413,192,1,1,http://localhost:8080/api/transactions,2,0,0
+1742405092110,1,Create Transaction,409,,CRUD 1-41,text,true,,294,383,1,1,http://localhost:8080/api/transactions,1,0,0
+1742405092111,1,Update Transaction,200,,CRUD 1-41,text,true,,562,300,1,1,http://localhost:8080/api/transactions/1,1,0,0
+1742405092113,0,Delete Transaction,200,,CRUD 1-41,text,true,,254,387,2,2,http://localhost:8080/api/transactions/2,0,0,0
+1742405092114,1,Query Transactions,200,,CRUD 1-42,text,true,,1413,192,2,2,http://localhost:8080/api/transactions,1,0,0
+1742405092114,1,Query Transactions,200,,CRUD 1-41,text,true,,1413,192,2,2,http://localhost:8080/api/transactions,1,0,0
+1742405092115,1,Create Transaction,409,,CRUD 1-41,text,true,,294,383,2,2,http://localhost:8080/api/transactions,1,0,0
+1742405092115,1,Create Transaction,409,,CRUD 1-42,text,true,,294,383,2,2,http://localhost:8080/api/transactions,1,0,0
+1742405092116,1,Update Transaction,200,,CRUD 1-41,text,true,,562,300,2,2,http://localhost:8080/api/transactions/1,1,0,0
+1742405092116,1,Update Transaction,200,,CRUD 1-42,text,true,,562,300,2,2,http://localhost:8080/api/transactions/1,1,0,0
+1742405092117,1,Delete Transaction,200,,CRUD 1-42,text,true,,254,387,2,2,http://localhost:8080/api/transactions/2,1,0,0
+1742405092117,1,Delete Transaction,200,,CRUD 1-41,text,true,,254,387,2,2,http://localhost:8080/api/transactions/2,1,0,0
+1742405092118,1,Query Transactions,200,,CRUD 1-42,text,true,,1413,192,1,1,http://localhost:8080/api/transactions,1,0,0
+1742405092119,1,Create Transaction,409,,CRUD 1-42,text,true,,294,383,1,1,http://localhost:8080/api/transactions,1,0,0
+1742405092120,1,Update Transaction,200,,CRUD 1-42,text,true,,562,300,1,1,http://localhost:8080/api/transactions/1,1,0,0
+1742405092121,1,Delete Transaction,200,,CRUD 1-42,text,true,,254,387,1,1,http://localhost:8080/api/transactions/2,1,0,0
+1742405092122,1,Query Transactions,200,,CRUD 1-42,text,true,,1413,192,1,1,http://localhost:8080/api/transactions,1,0,0
+1742405092123,1,Create Transaction,409,,CRUD 1-42,text,true,,294,383,1,1,http://localhost:8080/api/transactions,1,0,0
+1742405092124,0,Update Transaction,200,,CRUD 1-42,text,true,,562,300,1,1,http://localhost:8080/api/transactions/1,0,0,0
+1742405092124,1,Delete Transaction,200,,CRUD 1-42,text,true,,254,387,1,1,http://localhost:8080/api/transactions/2,1,0,0
+1742405092125,0,Query Transactions,200,,CRUD 1-42,text,true,,1413,192,1,1,http://localhost:8080/api/transactions,0,0,0
+1742405092125,1,Create Transaction,409,,CRUD 1-42,text,true,,294,383,1,1,http://localhost:8080/api/transactions,1,0,0
+1742405092126,1,Update Transaction,200,,CRUD 1-42,text,true,,562,300,1,1,http://localhost:8080/api/transactions/1,1,0,0
+1742405092127,0,Delete Transaction,200,,CRUD 1-42,text,true,,254,387,1,1,http://localhost:8080/api/transactions/2,0,0,0
+1742405092127,1,Query Transactions,200,,CRUD 1-42,text,true,,1413,192,1,1,http://localhost:8080/api/transactions,1,0,0
+1742405092128,1,Create Transaction,409,,CRUD 1-42,text,true,,294,383,1,1,http://localhost:8080/api/transactions,1,0,0
+1742405092129,0,Update Transaction,200,,CRUD 1-42,text,true,,562,300,1,1,http://localhost:8080/api/transactions/1,0,0,0
+1742405092129,1,Delete Transaction,200,,CRUD 1-42,text,true,,254,387,1,1,http://localhost:8080/api/transactions/2,1,0,0
+1742405092133,2,Query Transactions,200,,CRUD 1-43,text,true,,1413,192,1,1,http://localhost:8080/api/transactions,2,0,0
+1742405092135,1,Create Transaction,409,,CRUD 1-43,text,true,,294,383,1,1,http://localhost:8080/api/transactions,1,0,0
+1742405092136,0,Update Transaction,200,,CRUD 1-43,text,true,,562,300,1,1,http://localhost:8080/api/transactions/1,0,0,0
+1742405092136,1,Delete Transaction,200,,CRUD 1-43,text,true,,254,387,1,1,http://localhost:8080/api/transactions/2,1,0,0
+1742405092137,1,Query Transactions,200,,CRUD 1-43,text,true,,1413,192,1,1,http://localhost:8080/api/transactions,1,0,0
+1742405092138,0,Create Transaction,409,,CRUD 1-43,text,true,,294,383,1,1,http://localhost:8080/api/transactions,0,0,0
+1742405092138,1,Update Transaction,200,,CRUD 1-43,text,true,,562,300,1,1,http://localhost:8080/api/transactions/1,1,0,0
+1742405092139,0,Delete Transaction,200,,CRUD 1-43,text,true,,254,387,1,1,http://localhost:8080/api/transactions/2,0,0,0
+1742405092139,1,Query Transactions,200,,CRUD 1-43,text,true,,1413,192,1,1,http://localhost:8080/api/transactions,1,0,0
+1742405092140,1,Create Transaction,409,,CRUD 1-43,text,true,,294,383,1,1,http://localhost:8080/api/transactions,1,0,0
+1742405092141,0,Update Transaction,200,,CRUD 1-43,text,true,,562,300,1,1,http://localhost:8080/api/transactions/1,0,0,0
+1742405092141,0,Delete Transaction,200,,CRUD 1-43,text,true,,254,387,1,1,http://localhost:8080/api/transactions/2,0,0,0
+1742405092142,0,Query Transactions,200,,CRUD 1-43,text,true,,1413,192,1,1,http://localhost:8080/api/transactions,0,0,0
+1742405092142,1,Create Transaction,409,,CRUD 1-43,text,true,,294,383,1,1,http://localhost:8080/api/transactions,1,0,0
+1742405092143,1,Update Transaction,200,,CRUD 1-43,text,true,,562,300,1,1,http://localhost:8080/api/transactions/1,1,0,0
+1742405092144,0,Delete Transaction,200,,CRUD 1-43,text,true,,254,387,1,1,http://localhost:8080/api/transactions/2,0,0,0
+1742405092144,0,Query Transactions,200,,CRUD 1-43,text,true,,1413,192,1,1,http://localhost:8080/api/transactions,0,0,0
+1742405092144,1,Create Transaction,409,,CRUD 1-43,text,true,,294,383,1,1,http://localhost:8080/api/transactions,1,0,0
+1742405092145,1,Update Transaction,200,,CRUD 1-43,text,true,,562,300,1,1,http://localhost:8080/api/transactions/1,1,0,0
+1742405092146,0,Delete Transaction,200,,CRUD 1-43,text,true,,254,387,1,1,http://localhost:8080/api/transactions/2,0,0,0
+1742405092154,2,Query Transactions,200,,CRUD 1-44,text,true,,1413,192,1,1,http://localhost:8080/api/transactions,2,0,1
+1742405092156,1,Create Transaction,409,,CRUD 1-44,text,true,,294,383,1,1,http://localhost:8080/api/transactions,1,0,0
+1742405092157,1,Update Transaction,200,,CRUD 1-44,text,true,,562,300,1,1,http://localhost:8080/api/transactions/1,1,0,0
+1742405092158,1,Delete Transaction,200,,CRUD 1-44,text,true,,254,387,1,1,http://localhost:8080/api/transactions/2,1,0,0
+1742405092159,1,Query Transactions,200,,CRUD 1-44,text,true,,1413,192,1,1,http://localhost:8080/api/transactions,1,0,0
+1742405092160,1,Create Transaction,409,,CRUD 1-44,text,true,,294,383,1,1,http://localhost:8080/api/transactions,1,0,0
+1742405092161,0,Update Transaction,200,,CRUD 1-44,text,true,,562,300,1,1,http://localhost:8080/api/transactions/1,0,0,0
+1742405092161,1,Delete Transaction,200,,CRUD 1-44,text,true,,254,387,1,1,http://localhost:8080/api/transactions/2,1,0,0
+1742405092162,1,Query Transactions,200,,CRUD 1-44,text,true,,1413,192,1,1,http://localhost:8080/api/transactions,1,0,0
+1742405092163,0,Create Transaction,409,,CRUD 1-44,text,true,,294,383,1,1,http://localhost:8080/api/transactions,0,0,0
+1742405092163,1,Update Transaction,200,,CRUD 1-44,text,true,,562,300,1,1,http://localhost:8080/api/transactions/1,1,0,0
+1742405092164,0,Delete Transaction,200,,CRUD 1-44,text,true,,254,387,1,1,http://localhost:8080/api/transactions/2,0,0,0
+1742405092164,1,Query Transactions,200,,CRUD 1-44,text,true,,1413,192,1,1,http://localhost:8080/api/transactions,1,0,0
+1742405092165,0,Create Transaction,409,,CRUD 1-44,text,true,,294,383,1,1,http://localhost:8080/api/transactions,0,0,0
+1742405092165,1,Update Transaction,200,,CRUD 1-44,text,true,,562,300,1,1,http://localhost:8080/api/transactions/1,1,0,0
+1742405092166,0,Delete Transaction,200,,CRUD 1-44,text,true,,254,387,1,1,http://localhost:8080/api/transactions/2,0,0,0
+1742405092166,1,Query Transactions,200,,CRUD 1-44,text,true,,1413,192,1,1,http://localhost:8080/api/transactions,1,0,0
+1742405092167,1,Create Transaction,409,,CRUD 1-44,text,true,,294,383,1,1,http://localhost:8080/api/transactions,1,0,0
+1742405092168,0,Update Transaction,200,,CRUD 1-44,text,true,,562,300,1,1,http://localhost:8080/api/transactions/1,0,0,0
+1742405092168,1,Delete Transaction,200,,CRUD 1-44,text,true,,254,387,1,1,http://localhost:8080/api/transactions/2,1,0,0
+1742405092173,1,Query Transactions,200,,CRUD 1-45,text,true,,1413,192,1,1,http://localhost:8080/api/transactions,1,0,0
+1742405092174,2,Create Transaction,409,,CRUD 1-45,text,true,,294,383,1,1,http://localhost:8080/api/transactions,2,0,0
+1742405092176,0,Update Transaction,200,,CRUD 1-45,text,true,,562,300,1,1,http://localhost:8080/api/transactions/1,0,0,0
+1742405092176,1,Delete Transaction,200,,CRUD 1-45,text,true,,254,387,1,1,http://localhost:8080/api/transactions/2,1,0,0
+1742405092177,0,Query Transactions,200,,CRUD 1-45,text,true,,1413,192,1,1,http://localhost:8080/api/transactions,0,0,0
+1742405092177,1,Create Transaction,409,,CRUD 1-45,text,true,,294,383,1,1,http://localhost:8080/api/transactions,1,0,0
+1742405092178,1,Update Transaction,200,,CRUD 1-45,text,true,,562,300,1,1,http://localhost:8080/api/transactions/1,1,0,0
+1742405092179,0,Delete Transaction,200,,CRUD 1-45,text,true,,254,387,1,1,http://localhost:8080/api/transactions/2,0,0,0
+1742405092179,1,Query Transactions,200,,CRUD 1-45,text,true,,1413,192,1,1,http://localhost:8080/api/transactions,1,0,0
+1742405092180,0,Create Transaction,409,,CRUD 1-45,text,true,,294,383,1,1,http://localhost:8080/api/transactions,0,0,0
+1742405092180,1,Update Transaction,200,,CRUD 1-45,text,true,,562,300,1,1,http://localhost:8080/api/transactions/1,1,0,0
+1742405092181,0,Delete Transaction,200,,CRUD 1-45,text,true,,254,387,1,1,http://localhost:8080/api/transactions/2,0,0,0
+1742405092181,1,Query Transactions,200,,CRUD 1-45,text,true,,1413,192,1,1,http://localhost:8080/api/transactions,1,0,0
+1742405092182,0,Create Transaction,409,,CRUD 1-45,text,true,,294,383,1,1,http://localhost:8080/api/transactions,0,0,0
+1742405092183,0,Update Transaction,200,,CRUD 1-45,text,true,,562,300,1,1,http://localhost:8080/api/transactions/1,0,0,0
+1742405092183,0,Delete Transaction,200,,CRUD 1-45,text,true,,254,387,1,1,http://localhost:8080/api/transactions/2,0,0,0
+1742405092183,1,Query Transactions,200,,CRUD 1-45,text,true,,1413,192,1,1,http://localhost:8080/api/transactions,1,0,0
+1742405092184,1,Create Transaction,409,,CRUD 1-45,text,true,,294,383,1,1,http://localhost:8080/api/transactions,1,0,0
+1742405092185,0,Update Transaction,200,,CRUD 1-45,text,true,,562,300,1,1,http://localhost:8080/api/transactions/1,0,0,0
+1742405092185,0,Delete Transaction,200,,CRUD 1-45,text,true,,254,387,1,1,http://localhost:8080/api/transactions/2,0,0,0
+1742405092190,1,Query Transactions,200,,CRUD 1-46,text,true,,1413,192,1,1,http://localhost:8080/api/transactions,1,0,0
+1742405092191,1,Create Transaction,409,,CRUD 1-46,text,true,,294,383,1,1,http://localhost:8080/api/transactions,1,0,0
+1742405092192,1,Update Transaction,200,,CRUD 1-46,text,true,,562,300,1,1,http://localhost:8080/api/transactions/1,1,0,0
+1742405092193,0,Delete Transaction,200,,CRUD 1-46,text,true,,254,387,1,1,http://localhost:8080/api/transactions/2,0,0,0
+1742405092193,1,Query Transactions,200,,CRUD 1-46,text,true,,1413,192,1,1,http://localhost:8080/api/transactions,1,0,0
+1742405092194,1,Create Transaction,409,,CRUD 1-46,text,true,,294,383,1,1,http://localhost:8080/api/transactions,1,0,0
+1742405092195,0,Update Transaction,200,,CRUD 1-46,text,true,,562,300,1,1,http://localhost:8080/api/transactions/1,0,0,0
+1742405092195,1,Delete Transaction,200,,CRUD 1-46,text,true,,254,387,1,1,http://localhost:8080/api/transactions/2,1,0,0
+1742405092196,0,Query Transactions,200,,CRUD 1-46,text,true,,1413,192,1,1,http://localhost:8080/api/transactions,0,0,0
+1742405092196,1,Create Transaction,409,,CRUD 1-46,text,true,,294,383,1,1,http://localhost:8080/api/transactions,1,0,0
+1742405092197,1,Update Transaction,200,,CRUD 1-46,text,true,,562,300,1,1,http://localhost:8080/api/transactions/1,1,0,0
+1742405092198,1,Delete Transaction,200,,CRUD 1-46,text,true,,254,387,1,1,http://localhost:8080/api/transactions/2,1,0,0
+1742405092199,1,Query Transactions,200,,CRUD 1-46,text,true,,1413,192,1,1,http://localhost:8080/api/transactions,1,0,0
+1742405092200,1,Create Transaction,409,,CRUD 1-46,text,true,,294,383,1,1,http://localhost:8080/api/transactions,1,0,0
+1742405092201,0,Update Transaction,200,,CRUD 1-46,text,true,,562,300,1,1,http://localhost:8080/api/transactions/1,0,0,0
+1742405092201,1,Delete Transaction,200,,CRUD 1-46,text,true,,254,387,1,1,http://localhost:8080/api/transactions/2,1,0,0
+1742405092202,0,Query Transactions,200,,CRUD 1-46,text,true,,1413,192,1,1,http://localhost:8080/api/transactions,0,0,0
+1742405092203,0,Create Transaction,409,,CRUD 1-46,text,true,,294,383,1,1,http://localhost:8080/api/transactions,0,0,0
+1742405092203,1,Update Transaction,200,,CRUD 1-46,text,true,,562,300,1,1,http://localhost:8080/api/transactions/1,1,0,0
+1742405092204,0,Delete Transaction,200,,CRUD 1-46,text,true,,254,387,1,1,http://localhost:8080/api/transactions/2,0,0,0
+1742405092213,2,Query Transactions,200,,CRUD 1-47,text,true,,1413,192,1,1,http://localhost:8080/api/transactions,2,0,1
+1742405092215,2,Create Transaction,409,,CRUD 1-47,text,true,,294,383,1,1,http://localhost:8080/api/transactions,2,0,0
+1742405092217,1,Update Transaction,200,,CRUD 1-47,text,true,,562,300,1,1,http://localhost:8080/api/transactions/1,1,0,0
+1742405092218,0,Delete Transaction,200,,CRUD 1-47,text,true,,254,387,1,1,http://localhost:8080/api/transactions/2,0,0,0
+1742405092218,1,Query Transactions,200,,CRUD 1-47,text,true,,1413,192,1,1,http://localhost:8080/api/transactions,1,0,0
+1742405092219,1,Create Transaction,409,,CRUD 1-47,text,true,,294,383,1,1,http://localhost:8080/api/transactions,1,0,0
+1742405092220,1,Update Transaction,200,,CRUD 1-47,text,true,,562,300,1,1,http://localhost:8080/api/transactions/1,1,0,0
+1742405092221,1,Delete Transaction,200,,CRUD 1-47,text,true,,254,387,1,1,http://localhost:8080/api/transactions/2,1,0,0
+1742405092222,1,Query Transactions,200,,CRUD 1-47,text,true,,1413,192,1,1,http://localhost:8080/api/transactions,1,0,0
+1742405092223,1,Create Transaction,409,,CRUD 1-47,text,true,,294,383,1,1,http://localhost:8080/api/transactions,1,0,0
+1742405092225,0,Update Transaction,200,,CRUD 1-47,text,true,,562,300,1,1,http://localhost:8080/api/transactions/1,0,0,0
+1742405092225,1,Delete Transaction,200,,CRUD 1-47,text,true,,254,387,1,1,http://localhost:8080/api/transactions/2,1,0,0
+1742405092226,1,Query Transactions,200,,CRUD 1-47,text,true,,1413,192,1,1,http://localhost:8080/api/transactions,1,0,0
+1742405092227,1,Create Transaction,409,,CRUD 1-47,text,true,,294,383,1,1,http://localhost:8080/api/transactions,1,0,0
+1742405092228,1,Update Transaction,200,,CRUD 1-47,text,true,,562,300,1,1,http://localhost:8080/api/transactions/1,1,0,0
+1742405092229,0,Delete Transaction,200,,CRUD 1-47,text,true,,254,387,1,1,http://localhost:8080/api/transactions/2,0,0,0
+1742405092229,1,Query Transactions,200,,CRUD 1-47,text,true,,1413,192,2,2,http://localhost:8080/api/transactions,1,0,0
+1742405092230,1,Query Transactions,200,,CRUD 1-48,text,true,,1413,192,2,2,http://localhost:8080/api/transactions,1,0,1
+1742405092230,1,Create Transaction,409,,CRUD 1-47,text,true,,294,383,2,2,http://localhost:8080/api/transactions,1,0,0
+1742405092231,1,Update Transaction,200,,CRUD 1-47,text,true,,562,300,2,2,http://localhost:8080/api/transactions/1,1,0,0
+1742405092231,2,Create Transaction,409,,CRUD 1-48,text,true,,294,383,2,2,http://localhost:8080/api/transactions,2,0,0
+1742405092232,1,Delete Transaction,200,,CRUD 1-47,text,true,,254,387,2,2,http://localhost:8080/api/transactions/2,1,0,0
+1742405092233,1,Update Transaction,200,,CRUD 1-48,text,true,,562,300,1,1,http://localhost:8080/api/transactions/1,1,0,0
+1742405092234,1,Delete Transaction,200,,CRUD 1-48,text,true,,254,387,1,1,http://localhost:8080/api/transactions/2,1,0,0
+1742405092235,1,Query Transactions,200,,CRUD 1-48,text,true,,1413,192,1,1,http://localhost:8080/api/transactions,1,0,0
+1742405092236,1,Create Transaction,409,,CRUD 1-48,text,true,,294,383,1,1,http://localhost:8080/api/transactions,1,0,0
+1742405092237,1,Update Transaction,200,,CRUD 1-48,text,true,,562,300,1,1,http://localhost:8080/api/transactions/1,1,0,0
+1742405092238,1,Delete Transaction,200,,CRUD 1-48,text,true,,254,387,1,1,http://localhost:8080/api/transactions/2,1,0,0
+1742405092239,1,Query Transactions,200,,CRUD 1-48,text,true,,1413,192,1,1,http://localhost:8080/api/transactions,1,0,0
+1742405092240,1,Create Transaction,409,,CRUD 1-48,text,true,,294,383,1,1,http://localhost:8080/api/transactions,1,0,0
+1742405092241,1,Update Transaction,200,,CRUD 1-48,text,true,,562,300,1,1,http://localhost:8080/api/transactions/1,1,0,0
+1742405092242,1,Delete Transaction,200,,CRUD 1-48,text,true,,254,387,1,1,http://localhost:8080/api/transactions/2,1,0,0
+1742405092243,1,Query Transactions,200,,CRUD 1-48,text,true,,1413,192,1,1,http://localhost:8080/api/transactions,1,0,0
+1742405092244,1,Create Transaction,409,,CRUD 1-48,text,true,,294,383,1,1,http://localhost:8080/api/transactions,1,0,0
+1742405092245,0,Update Transaction,200,,CRUD 1-48,text,true,,562,300,1,1,http://localhost:8080/api/transactions/1,0,0,0
+1742405092245,1,Delete Transaction,200,,CRUD 1-48,text,true,,254,387,1,1,http://localhost:8080/api/transactions/2,1,0,0
+1742405092246,1,Query Transactions,200,,CRUD 1-48,text,true,,1413,192,1,1,http://localhost:8080/api/transactions,1,0,0
+1742405092247,1,Create Transaction,409,,CRUD 1-48,text,true,,294,383,1,1,http://localhost:8080/api/transactions,1,0,0
+1742405092248,1,Update Transaction,200,,CRUD 1-48,text,true,,562,300,1,1,http://localhost:8080/api/transactions/1,1,0,0
+1742405092249,0,Delete Transaction,200,,CRUD 1-48,text,true,,254,387,1,1,http://localhost:8080/api/transactions/2,0,0,0
+1742405092253,2,Query Transactions,200,,CRUD 1-49,text,true,,1413,192,1,1,http://localhost:8080/api/transactions,2,0,1
+1742405092255,2,Create Transaction,409,,CRUD 1-49,text,true,,294,383,1,1,http://localhost:8080/api/transactions,2,0,0
+1742405092257,1,Update Transaction,200,,CRUD 1-49,text,true,,562,300,1,1,http://localhost:8080/api/transactions/1,1,0,0
+1742405092258,1,Delete Transaction,200,,CRUD 1-49,text,true,,254,387,1,1,http://localhost:8080/api/transactions/2,1,0,0
+1742405092259,1,Query Transactions,200,,CRUD 1-49,text,true,,1413,192,1,1,http://localhost:8080/api/transactions,1,0,0
+1742405092260,1,Create Transaction,409,,CRUD 1-49,text,true,,294,383,1,1,http://localhost:8080/api/transactions,1,0,0
+1742405092261,1,Update Transaction,200,,CRUD 1-49,text,true,,562,300,1,1,http://localhost:8080/api/transactions/1,1,0,0
+1742405092262,0,Delete Transaction,200,,CRUD 1-49,text,true,,254,387,1,1,http://localhost:8080/api/transactions/2,0,0,0
+1742405092262,1,Query Transactions,200,,CRUD 1-49,text,true,,1413,192,1,1,http://localhost:8080/api/transactions,1,0,0
+1742405092263,2,Create Transaction,409,,CRUD 1-49,text,true,,294,383,1,1,http://localhost:8080/api/transactions,2,0,0
+1742405092265,1,Update Transaction,200,,CRUD 1-49,text,true,,562,300,1,1,http://localhost:8080/api/transactions/1,1,0,0
+1742405092266,1,Delete Transaction,200,,CRUD 1-49,text,true,,254,387,1,1,http://localhost:8080/api/transactions/2,1,0,0
+1742405092267,1,Query Transactions,200,,CRUD 1-49,text,true,,1413,192,1,1,http://localhost:8080/api/transactions,1,0,0
+1742405092268,1,Create Transaction,409,,CRUD 1-49,text,true,,294,383,1,1,http://localhost:8080/api/transactions,1,0,0
+1742405092269,1,Update Transaction,200,,CRUD 1-49,text,true,,562,300,1,1,http://localhost:8080/api/transactions/1,1,0,0
+1742405092270,1,Delete Transaction,200,,CRUD 1-49,text,true,,254,387,1,1,http://localhost:8080/api/transactions/2,1,0,0
+1742405092271,1,Query Transactions,200,,CRUD 1-49,text,true,,1413,192,1,1,http://localhost:8080/api/transactions,1,0,0
+1742405092272,1,Create Transaction,409,,CRUD 1-49,text,true,,294,383,2,2,http://localhost:8080/api/transactions,1,0,0
+1742405092272,1,Query Transactions,200,,CRUD 1-50,text,true,,1413,192,2,2,http://localhost:8080/api/transactions,1,0,1
+1742405092273,1,Update Transaction,200,,CRUD 1-49,text,true,,562,300,2,2,http://localhost:8080/api/transactions/1,1,0,0
+1742405092273,2,Create Transaction,409,,CRUD 1-50,text,true,,294,383,2,2,http://localhost:8080/api/transactions,2,0,0
+1742405092274,1,Delete Transaction,200,,CRUD 1-49,text,true,,254,387,2,2,http://localhost:8080/api/transactions/2,1,0,0
+1742405092275,0,Update Transaction,200,,CRUD 1-50,text,true,,562,300,1,1,http://localhost:8080/api/transactions/1,0,0,0
+1742405092276,0,Delete Transaction,200,,CRUD 1-50,text,true,,254,387,1,1,http://localhost:8080/api/transactions/2,0,0,0
+1742405092276,2,Query Transactions,200,,CRUD 1-50,text,true,,1413,192,1,1,http://localhost:8080/api/transactions,2,0,0
+1742405092278,1,Create Transaction,409,,CRUD 1-50,text,true,,294,383,1,1,http://localhost:8080/api/transactions,1,0,0
+1742405092279,1,Update Transaction,200,,CRUD 1-50,text,true,,562,300,1,1,http://localhost:8080/api/transactions/1,1,0,0
+1742405092280,0,Delete Transaction,200,,CRUD 1-50,text,true,,254,387,1,1,http://localhost:8080/api/transactions/2,0,0,0
+1742405092280,2,Query Transactions,200,,CRUD 1-50,text,true,,1413,192,1,1,http://localhost:8080/api/transactions,2,0,0
+1742405092282,1,Create Transaction,409,,CRUD 1-50,text,true,,294,383,1,1,http://localhost:8080/api/transactions,1,0,0
+1742405092283,1,Update Transaction,200,,CRUD 1-50,text,true,,562,300,1,1,http://localhost:8080/api/transactions/1,1,0,0
+1742405092284,1,Delete Transaction,200,,CRUD 1-50,text,true,,254,387,1,1,http://localhost:8080/api/transactions/2,1,0,0
+1742405092285,1,Query Transactions,200,,CRUD 1-50,text,true,,1413,192,1,1,http://localhost:8080/api/transactions,1,0,0
+1742405092286,1,Create Transaction,409,,CRUD 1-50,text,true,,294,383,1,1,http://localhost:8080/api/transactions,1,0,0
+1742405092287,1,Update Transaction,200,,CRUD 1-50,text,true,,562,300,1,1,http://localhost:8080/api/transactions/1,1,0,0
+1742405092288,1,Delete Transaction,200,,CRUD 1-50,text,true,,254,387,1,1,http://localhost:8080/api/transactions/2,1,0,0
+1742405092289,1,Query Transactions,200,,CRUD 1-50,text,true,,1413,192,1,1,http://localhost:8080/api/transactions,1,0,0
+1742405092290,2,Create Transaction,409,,CRUD 1-50,text,true,,294,383,1,1,http://localhost:8080/api/transactions,2,0,0
+1742405092292,1,Update Transaction,200,,CRUD 1-50,text,true,,562,300,1,1,http://localhost:8080/api/transactions/1,1,0,0
+1742405092293,0,Delete Transaction,200,,CRUD 1-50,text,true,,254,387,1,1,http://localhost:8080/api/transactions/2,0,0,0
