@@ -88,9 +88,11 @@ mvn test -Dtest=TransactionServiceImplTest
 
 ## API Usage Guide
 
-### Endpoint: POST /api/transactions
+### 1. Create Transaction
 
-### Example Request:
+#### Endpoint: POST /api/transactions
+
+#### Example Request:
 ```json
 {
   "trxReferenceNo": "trx111",
@@ -102,7 +104,7 @@ mvn test -Dtest=TransactionServiceImplTest
 }
 ```
 
-### Example Response:
+#### Example Response:
 ```json
 {
   "id": 1,
@@ -118,6 +120,118 @@ mvn test -Dtest=TransactionServiceImplTest
   "createdAt": "2025-03-19T17:37:46.168815",
   "updatedAt": "2025-03-19T17:37:46.209181"
 }
-
 ```
+
+### 2. Query Transaction
+
+#### Endpoint: GET /api/transactions
+
+#### Query Parameters:
+- page (optional, default: 0): page number
+- size (optional, default: 20): page size
+- trxReferenceNo (optional): transaction reference number
+- fromAccountNo (optional): from account number
+- toAccountNo: (optional): to account number
+
+#### Example Request:
+```
+curl -X GET 'http://localhost:8080/api/transactions?trxReferenceNo=TRX001'
+```
+
+#### Example Response:
+```json
+{
+    "code": 0,
+    "msg": "Operation successful",
+    "content": {
+        "count": 1,
+        "limit": 1,
+        "data": [
+            {
+                "id": 1,
+                "trxReferenceNo": "TRX001",
+                "amount": 100.00,
+                "fromAccountNo": "ACC001",
+                "toAccountNo": "ACC002",
+                "status": "COMPLETED",
+                "type": "TRANSFER",
+                "description": "First transfer",
+                "failedReason": null,
+                "deleted": false,
+                "createdAt": "2025-03-19T23:58:39.768842",
+                "updatedAt": "2025-03-19T23:58:39.768842"
+            }
+        ]
+    }
+}
+```
+
+### 3. Update Transaction
+
+#### Endpoint: PUT /api/transactions/{id}
+
+#### Path Variables:
+- id (required): transaction id
+
+#### Example Request:
+```json
+{
+   "description": "Sample description",
+   "failedReason": "Sample failed reason"
+}
+```
+
+#### Example Response:
+```json
+{
+   "code": 0,
+   "msg": "Operation successful",
+   "content": {
+      "count": 1,
+      "limit": 1,
+      "data": [
+         {
+            "id": 1,
+            "trxReferenceNo": "TRX001",
+            "amount": 100.00,
+            "fromAccountNo": "ACC001",
+            "toAccountNo": "ACC002",
+            "status": "FAILED",
+            "type": "TRANSFER",
+            "description": "Sample description",
+            "failedReason": "Sample failed reason",
+            "deleted": false,
+            "createdAt": "2025-03-19T23:58:39.768842",
+            "updatedAt": "2025-03-20T00:12:47.894439"
+         }
+      ]
+   }
+}
+```
+
+### 4. Delete Transaction
+
+#### Endpoint: DELETE /api/transactions/{id}
+
+#### Path Variables:
+- id (required): transaction id
+
+#### Example Request:
+```
+curl -X DELETE 'http://localhost:8080/api/transactions/1'
+```
+
+#### Example Response:
+```json
+{
+    "code": 0,
+    "msg": "Operation successful",
+    "content": {
+        "count": 0,
+        "limit": 0,
+        "data": []
+    }
+}
+```
+
 🔜 Updates Coming Soon
