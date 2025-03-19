@@ -1,10 +1,11 @@
 package com.thgeek.banking.transaction.controller;
 
+import com.thgeek.banking.transaction.domain.Account;
 import com.thgeek.banking.transaction.dto.AccountQuery;
 import com.thgeek.banking.transaction.service.AccountService;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.ResponseEntity;
+import org.springframework.data.domain.Page;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -27,7 +28,7 @@ public class AccountController {
     }
 
     @GetMapping
-    public ResponseEntity<?> query(@Valid AccountQuery query) {
-        return ResponseEntity.ok(accountService.query(query));
+    public Page<Account> query(@Valid AccountQuery query) {
+        return accountService.query(query);
     }
 }

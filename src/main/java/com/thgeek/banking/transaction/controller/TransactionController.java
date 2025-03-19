@@ -1,12 +1,13 @@
 package com.thgeek.banking.transaction.controller;
 
+import com.thgeek.banking.transaction.domain.Transaction;
 import com.thgeek.banking.transaction.dto.CreateTransactionReq;
 import com.thgeek.banking.transaction.dto.TransactionQuery;
 import com.thgeek.banking.transaction.dto.UpdateTransactionReq;
 import com.thgeek.banking.transaction.service.TransactionService;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.ResponseEntity;
+import org.springframework.data.domain.Page;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -34,23 +35,22 @@ public class TransactionController {
     }
 
     @GetMapping
-    public ResponseEntity<?> query(@Valid TransactionQuery query) {
-        return ResponseEntity.ok(transactionService.query(query));
+    public Page<Transaction> query(@Valid TransactionQuery query) {
+        return transactionService.query(query);
     }
 
     @PostMapping
-    public ResponseEntity<?> create(@RequestBody @Valid CreateTransactionReq req) {
-        return ResponseEntity.ok(transactionService.create(req));
+    public Transaction create(@RequestBody @Valid CreateTransactionReq req) {
+        return transactionService.create(req);
     }
 
     @PutMapping("/{id}")
-    public ResponseEntity<?> update(@PathVariable Long id, @RequestBody @Valid UpdateTransactionReq req) {
-        return ResponseEntity.ok(transactionService.update(id, req));
+    public Transaction update(@PathVariable Long id, @RequestBody @Valid UpdateTransactionReq req) {
+        return transactionService.update(id, req);
     }
 
     @DeleteMapping("/{id}")
-    public ResponseEntity<?> delete(@PathVariable Long id) {
+    public void delete(@PathVariable Long id) {
         transactionService.delete(id);
-        return ResponseEntity.ok().build();
     }
 }
