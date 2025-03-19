@@ -63,14 +63,13 @@ class TransactionServiceTest {
         createReq = CreateTransactionReq.builder()
                 .trxReferenceNo("TRX123")
                 .amount(BigDecimal.valueOf(100))
-                .status("PENDING")
-                .type("DEPOSIT")
+                .type(TransactionType.DEPOSIT)
                 .description("Test transaction")
                 .build();
 
         updateReq = UpdateTransactionReq.builder()
-                .status("COMPLETED")
                 .description("Updated description")
+                .failedReason("Updated failed reason")
                 .build();
     }
 
