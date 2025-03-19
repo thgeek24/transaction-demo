@@ -19,9 +19,9 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 public class UpdateTransactionReq {
-    @NotBlank
-    private String status;
-
     @Size(max = 255)
     private String description;
+
+    @Size(max = 255)
+    private String failedReason;
 }

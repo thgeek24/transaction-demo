@@ -1,5 +1,6 @@
 package com.thgeek.banking.transaction.dto;
 
+import com.thgeek.banking.transaction.constant.TransactionType;
 import jakarta.validation.constraints.DecimalMin;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;
@@ -31,11 +32,12 @@ public class CreateTransactionReq {
     @DecimalMin("0.01")
     private BigDecimal amount;
 
-    @NotBlank
-    private String status;
+    private String fromAccountNo;
 
-    @NotBlank
-    private String type;
+    private String toAccountNo;
+
+    @NotNull
+    private TransactionType type;
 
     @Size(max = 255)
     private String description;

@@ -48,6 +48,10 @@ public class Transaction {
     @Column(nullable = false)
     private BigDecimal amount;
 
+    private String fromAccountNo;
+
+    private String toAccountNo;
+
     @Column(nullable = false)
     @Enumerated(EnumType.STRING)
     private TransactionStatus status;
@@ -58,6 +62,12 @@ public class Transaction {
 
     @Column
     private String description;
+
+    @Column
+    private String failedReason;
+
+    @Column(nullable = false)
+    private boolean deleted = false;
 
     @Column(nullable = false, updatable = false)
     @CreatedDate
