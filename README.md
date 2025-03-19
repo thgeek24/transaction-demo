@@ -60,7 +60,7 @@ The application will start on http://localhost:8080
     docker run -p 8080:8080 banking-transaction:1.0
    ```
    
-### Kubernetes Deployment
+### Kubernetes Deployment (Minikube)
 
 1. Apply the Kubernetes configuration:
     ```bash
@@ -68,7 +68,10 @@ The application will start on http://localhost:8080
    ```
 2. Access the service:
     ```bash
-    curl http://localhost:30100/api/v1/transactions
+    # Get Minikube IP
+    minikube ip
+    # Access the service using Minikube IP
+    curl http://$(minikube ip):30100/api/transactions
    ```
 
 ## Running Tests
