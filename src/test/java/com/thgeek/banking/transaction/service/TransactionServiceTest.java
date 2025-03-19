@@ -2,14 +2,17 @@ package com.thgeek.banking.transaction.service;
 
 import com.thgeek.banking.transaction.constant.TransactionStatus;
 import com.thgeek.banking.transaction.constant.TransactionType;
+import com.thgeek.banking.transaction.domain.Account;
 import com.thgeek.banking.transaction.domain.Transaction;
 import com.thgeek.banking.transaction.dto.CreateTransactionReq;
 import com.thgeek.banking.transaction.dto.TransactionQuery;
 import com.thgeek.banking.transaction.dto.UpdateTransactionReq;
 import com.thgeek.banking.transaction.exception.DuplicateTransactionException;
 import com.thgeek.banking.transaction.exception.ResourceNotFoundException;
+import com.thgeek.banking.transaction.repository.AccountRepository;
 import com.thgeek.banking.transaction.repository.TransactionRepository;
 import com.thgeek.banking.transaction.service.impl.TransactionServiceImpl;
+import jakarta.persistence.EntityManager;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
@@ -42,12 +45,20 @@ class TransactionServiceTest {
     @Mock
     private TransactionRepository transactionRepository;
 
+    @Mock
+    private AccountRepository accountRepository;
+
+    @Mock
+    private EntityManager entityManager;
+
     @InjectMocks
     private TransactionServiceImpl transactionService;
 
     private Transaction transaction;
     private CreateTransactionReq createReq;
     private UpdateTransactionReq updateReq;
+    private Account fromAccount;
+    private Account toAccount;
 
     @BeforeEach
     void setUp() {
@@ -70,6 +81,18 @@ class TransactionServiceTest {
         updateReq = UpdateTransactionReq.builder()
                 .description("Updated description")
                 .failedReason("Updated failed reason")
+                .build();
+
+        fromAccount = Account.builder()
+                .id(1L)
+                .accountNo("ACC001")
+                .balance(BigDecimal.valueOf(1000))
+                .build();
+
+        toAccount = Account.builder()
+                .id(2L)
+                .accountNo("ACC002")
+                .balance(BigDecimal.valueOf(500))
                 .build();
     }
 
