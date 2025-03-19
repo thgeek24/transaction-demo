@@ -1,6 +1,7 @@
 package com.thgeek.banking.transaction.exception.handler;
 
 import com.thgeek.banking.transaction.exception.DuplicateTransactionException;
+import com.thgeek.banking.transaction.exception.InsufficientBalanceException;
 import com.thgeek.banking.transaction.exception.ResourceNotFoundException;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -43,6 +44,16 @@ public class GlobalExceptionHandler {
                 LocalDateTime.now()
         );
         return new ResponseEntity<>(errorResponse, HttpStatus.CONFLICT);
+    }
+
+    @ExceptionHandler(InsufficientBalanceException.class)
+    public ResponseEntity<ErrorResponse> handleInsufficientBalanceException(InsufficientBalanceException ex) {
+        ErrorResponse errorResponse = new ErrorResponse(
+                HttpStatus.UNPROCESSABLE_ENTITY.value(),
+                ex.getMessage(),
+                LocalDateTime.now()
+        );
+        return new ResponseEntity<>(errorResponse, HttpStatus.UNPROCESSABLE_ENTITY);
     }
 
     @ExceptionHandler(MethodArgumentNotValidException.class)

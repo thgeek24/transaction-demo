@@ -7,6 +7,7 @@ import com.thgeek.banking.transaction.dto.CreateTransactionReq;
 import com.thgeek.banking.transaction.dto.TransactionQuery;
 import com.thgeek.banking.transaction.dto.UpdateTransactionReq;
 import com.thgeek.banking.transaction.exception.DuplicateTransactionException;
+import com.thgeek.banking.transaction.exception.InsufficientBalanceException;
 import com.thgeek.banking.transaction.exception.ResourceNotFoundException;
 import com.thgeek.banking.transaction.repository.AccountRepository;
 import com.thgeek.banking.transaction.repository.TransactionRepository;
@@ -17,6 +18,8 @@ import jakarta.persistence.LockModeType;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.cache.annotation.CacheConfig;
+import org.springframework.cache.annotation.CacheEvict;
 import org.springframework.cache.annotation.Cacheable;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
@@ -35,6 +38,7 @@ import java.util.Optional;
  */
 @Service
 @Slf4j
+@CacheConfig(cacheNames = "transactions")
 public class TransactionServiceImpl implements TransactionService {
     private final TransactionRepository transactionRepository;
     private final AccountRepository accountRepository;
@@ -53,7 +57,7 @@ public class TransactionServiceImpl implements TransactionService {
     }
 
     @Override
-    @Cacheable("transactions")
+    @Cacheable
     public Page<Transaction> query(TransactionQuery query) {
         int page = query.getPage() == null ? 0 : query.getPage();
         int size = query.getSize() == null ? 20 : query.getSize();
@@ -62,6 +66,7 @@ public class TransactionServiceImpl implements TransactionService {
     }
 
     @Override
+    @CacheEvict(allEntries = true)
     @Transactional(rollbackFor = Exception.class)
     public Transaction create(CreateTransactionReq req) {
         log.info("Creating transaction with reference number: {}", req.getTrxReferenceNo());
@@ -105,6 +110,7 @@ public class TransactionServiceImpl implements TransactionService {
 
     @Override
     @Transactional(rollbackFor = Exception.class)
+    @CacheEvict(allEntries = true)
     public Transaction update(Long id, UpdateTransactionReq req) {
         log.info("Updating transaction with id: {}", id);
         Transaction transaction = transactionRepository.findById(id).orElseThrow(() ->
@@ -120,6 +126,7 @@ public class TransactionServiceImpl implements TransactionService {
 
     @Override
     @Transactional(rollbackFor = Exception.class)
+    @CacheEvict(allEntries = true)
     public void delete(Long id) {
         log.info("Deleting transaction with id: {}", id);
         Optional<Transaction> existingTrx = transactionRepository.findById(id);
@@ -158,7 +165,7 @@ public class TransactionServiceImpl implements TransactionService {
 
         // Check balance
         if (lockedFromAccount.getBalance().compareTo(transaction.getAmount()) < 0) {
-            throw new IllegalArgumentException("Insufficient balance");
+            throw new InsufficientBalanceException("Balance is not sufficient for transfer");
         }
         // Update balances
         lockedFromAccount.setBalance(lockedFromAccount.getBalance().subtract(transaction.getAmount()));
@@ -177,7 +184,7 @@ public class TransactionServiceImpl implements TransactionService {
 
         // Check if the account has sufficient balance
         if (lockedFromAccount.getBalance().compareTo(transaction.getAmount()) < 0) {
-            throw new IllegalArgumentException("Insufficient balance");
+            throw new InsufficientBalanceException("Balance is not sufficient for withdraw");
         }
 
         // Update the balance by subtracting the transaction amount

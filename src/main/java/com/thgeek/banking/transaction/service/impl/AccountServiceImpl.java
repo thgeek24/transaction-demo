@@ -6,7 +6,6 @@ import com.thgeek.banking.transaction.repository.AccountRepository;
 import com.thgeek.banking.transaction.service.AccountService;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.cache.annotation.Cacheable;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
@@ -29,7 +28,7 @@ public class AccountServiceImpl implements AccountService {
         this.accountRepository = accountRepository;
     }
 
-    @Cacheable("accounts")
+    @Override
     public Page<Account> query(AccountQuery query) {
         int page = query.getPage() == null ? 0 : query.getPage();
         int size = query.getSize() == null ? 20 : query.getSize();
