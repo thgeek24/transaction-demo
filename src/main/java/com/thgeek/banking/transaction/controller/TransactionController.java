@@ -34,7 +34,7 @@ public class TransactionController {
     }
 
     @GetMapping
-    public ResponseEntity<?> query(TransactionQuery query) {
+    public ResponseEntity<?> query(@Valid TransactionQuery query) {
         return ResponseEntity.ok(transactionService.query(query));
     }
 

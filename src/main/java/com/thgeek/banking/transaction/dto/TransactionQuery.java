@@ -1,5 +1,7 @@
 package com.thgeek.banking.transaction.dto;
 
+import jakarta.validation.constraints.Max;
+import jakarta.validation.constraints.Min;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -15,5 +17,10 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 public class TransactionQuery {
-    private String trxReferenceNo;
+    @Min(0)
+    private Integer page;
+
+    @Min(1)
+    @Max(5000)
+    private Integer size;
 }

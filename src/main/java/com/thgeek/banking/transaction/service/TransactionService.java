@@ -45,13 +45,4 @@ public interface TransactionService {
      * @param id the transaction ID
      */
     void delete(Long id);
-
-    /**
-     * Saves a transaction record in a separate database transaction context
-     *
-     * @param transaction the transaction to save
-     * @return the saved transaction
-     * @apiNote uses {@link org.springframework.transaction.annotation.Propagation#REQUIRES_NEW}
-     */
-    Transaction saveWithRequiresNew(Transaction transaction);
 }

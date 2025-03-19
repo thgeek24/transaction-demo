@@ -10,6 +10,7 @@ import com.thgeek.banking.transaction.exception.DuplicateTransactionException;
 import com.thgeek.banking.transaction.exception.ResourceNotFoundException;
 import com.thgeek.banking.transaction.repository.AccountRepository;
 import com.thgeek.banking.transaction.repository.TransactionRepository;
+import com.thgeek.banking.transaction.service.TransactionAuditService;
 import com.thgeek.banking.transaction.service.TransactionService;
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.LockModeType;
@@ -17,13 +18,10 @@ import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cache.annotation.Cacheable;
-import org.springframework.data.domain.Example;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
-import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
-import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.util.Optional;
@@ -41,23 +39,26 @@ public class TransactionServiceImpl implements TransactionService {
     private final TransactionRepository transactionRepository;
     private final AccountRepository accountRepository;
     private final EntityManager entityManager;
+    private final TransactionAuditService transactionAuditService;
 
     @Autowired
     public TransactionServiceImpl(TransactionRepository transactionRepository,
                                   AccountRepository accountRepository,
-                                  EntityManager entityManager) {
+                                  EntityManager entityManager,
+                                  TransactionAuditServiceImpl transactionAuditService) {
         this.transactionRepository = transactionRepository;
         this.accountRepository = accountRepository;
         this.entityManager = entityManager;
+        this.transactionAuditService = transactionAuditService;
     }
 
     @Override
     @Cacheable("transactions")
     public Page<Transaction> query(TransactionQuery query) {
-        Transaction probe = Transaction.builder().trxReferenceNo(query.getTrxReferenceNo()).build();
-        Example<Transaction> example = Example.of(probe);
-        Pageable pageable = PageRequest.of(0, 10, Sort.by("id"));
-        return transactionRepository.findAll(example, pageable);
+        int page = query.getPage() == null ? 0 : query.getPage();
+        int size = query.getSize() == null ? 20 : query.getSize();
+        Pageable pageable = PageRequest.of(page, size);
+        return transactionRepository.findAll(pageable);
     }
 
     @Override
@@ -80,7 +81,7 @@ public class TransactionServiceImpl implements TransactionService {
                 .type(req.getType())
                 .description(req.getDescription())
                 .build();
-        saveWithRequiresNew(transaction);
+        transactionAuditService.recordTransaction(transaction);
 
         try {
             // Handle different transaction types
@@ -96,7 +97,7 @@ public class TransactionServiceImpl implements TransactionService {
         } catch (Exception e) {
             transaction.setStatus(TransactionStatus.FAILED);
             transaction.setFailedReason(e.getMessage());
-            saveWithRequiresNew(transaction);
+            transactionAuditService.recordTransaction(transaction);
             log.error("Transaction with reference number {} failed: {}", req.getTrxReferenceNo(), e.getMessage());
             throw e;
         }
@@ -136,12 +137,6 @@ public class TransactionServiceImpl implements TransactionService {
         }
     }
 
-    @Override
-    @Transactional(propagation = Propagation.REQUIRES_NEW)
-    public Transaction saveWithRequiresNew(Transaction transaction) {
-        return transactionRepository.save(transaction);
-    }
-
     private void updateBalanceOnTransfer(Transaction transaction) {
         // Fetch fromAccount and toAccount
         Account fromAccount = accountRepository.findByAccountNo(transaction.getFromAccountNo()).orElseThrow(() ->
@@ -175,7 +170,7 @@ public class TransactionServiceImpl implements TransactionService {
     private void updateBalanceOnWithdraw(Transaction transaction) {
         // Fetch the fromAccount
         Account fromAccount = accountRepository.findByAccountNo(transaction.getFromAccountNo()).orElseThrow(() ->
-                new ResourceNotFoundException("From account not found"));
+                new ResourceNotFoundException("FromAccount not found"));
 
         // Lock the account using pessimistic locking
         Account lockedFromAccount = entityManager.find(Account.class, fromAccount.getId(), LockModeType.PESSIMISTIC_WRITE);
@@ -193,7 +188,7 @@ public class TransactionServiceImpl implements TransactionService {
     private void updateBalanceOnDeposit(Transaction transaction) {
         // Fetch the toAccount
         Account toAccount = accountRepository.findByAccountNo(transaction.getToAccountNo()).orElseThrow(() ->
-                new ResourceNotFoundException("To account not found"));
+                new ResourceNotFoundException("ToAccount not found"));
 
         // Lock the account using pessimistic locking
         Account lockedToAccount = entityManager.find(Account.class, toAccount.getId(), LockModeType.PESSIMISTIC_WRITE);
