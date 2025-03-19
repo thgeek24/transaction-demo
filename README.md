@@ -36,8 +36,8 @@ A Spring Boot microservice that handles banking transactions with support for tr
 
 1. Clone the repository:
     ```bash
-    git clone <repository-url>
-    cd banking-transaction
+    git clone https://github.com/thgeek24/transaction-demo.git
+    cd transaction-demo
     ```
 2. Build the application:
     ```bash
